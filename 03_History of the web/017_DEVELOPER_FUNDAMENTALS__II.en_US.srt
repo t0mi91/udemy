@@ -1,0 +1,154 @@
+1
+00:00:00,680 --> 00:00:05,960
+And welcome back to the second
+'Web-developer Fundamentals'.
+
+2
+00:00:06,020 --> 00:00:09,599
+Another very important aspect
+of being a web developer
+
+3
+00:00:09,600 --> 00:00:14,710
+and that is the fact that we
+have multiple web browsers.
+
+4
+00:00:14,830 --> 00:00:20,289
+Now if you remember Tim Berners-Lee the inventor of
+the worldwide web created it because we needed a
+
+5
+00:00:20,290 --> 00:00:28,569
+standard way to share documents amongst each other,
+and through HTML, CSS and Javascript we're able
+
+6
+00:00:28,570 --> 00:00:33,840
+to read these files and actually
+have beautiful websites.
+
+7
+00:00:33,870 --> 00:00:37,170
+Now, when we send these files over
+
+8
+00:00:38,290 --> 00:00:39,580
+Each of these browsers
+
+9
+00:00:40,480 --> 00:00:46,560
+read the HTML, CSS, and Javascript,
+and layout the web-page for us.
+
+10
+00:00:46,880 --> 00:00:53,420
+But as you can see each one of them is owned
+by a company, and is a different browser.
+
+11
+00:00:53,480 --> 00:01:01,130
+So that means they all have to agree on how they're
+going to read the HTML, CSS, and Javascript, because
+
+12
+00:01:01,370 --> 00:01:09,200
+if they don't all agree, then well, we need to create
+different files specific for each browser, because
+
+13
+00:01:09,230 --> 00:01:14,210
+each one of them has a different idea
+of what HTML, CSS, and Javascript is.
+
+14
+00:01:14,320 --> 00:01:15,320
+And you know what?
+
+15
+00:01:15,370 --> 00:01:21,709
+When the World Wide Web got started we had something
+called, 'the browser wars' where each browser was
+
+16
+00:01:21,710 --> 00:01:24,799
+kind of doing its own thing
+implementing different things.
+
+17
+00:01:24,800 --> 00:01:32,459
+And we still have that to this day, to some extent,
+there is a governing body which kind of creates
+
+18
+00:01:32,460 --> 00:01:39,270
+the standards now. But it is still a pain point
+for developers, where we need to figure out that
+
+19
+00:01:39,330 --> 00:01:47,349
+whenever we send our files to the web browser, it all
+looks the same. And that is one of the biggest problems
+
+20
+00:01:47,350 --> 00:01:52,870
+we have as developers and you'll see tools later
+on in this course that try to solve that issue.
+
+21
+00:01:53,020 --> 00:01:58,239
+But you'll always encounter this problem, where we
+want to make sure that wherever your browser gets
+
+22
+00:01:58,240 --> 00:02:07,059
+rendered, anybody can see your website, and not only
+that we also have mobile phones now that access
+
+23
+00:02:07,060 --> 00:02:07,540
+the Internet.
+
+24
+00:02:07,570 --> 00:02:08,620
+We have iPads.
+
+25
+00:02:08,920 --> 00:02:16,969
+So now, not only do we have to worry about different
+browsers, and whether they agree on what code works
+
+26
+00:02:16,970 --> 00:02:18,160
+in each of these files.
+
+27
+00:02:18,170 --> 00:02:24,229
+We also have to make sure that our web sites look
+good on small screens on big screens on all sorts
+
+28
+00:02:24,230 --> 00:02:30,199
+of different screens, and that is a very important
+concept something that, when you get to become a web
+
+29
+00:02:30,200 --> 00:02:37,099
+-developer you'll encounter this problem where you
+have to test on each device, each browser to make
+
+30
+00:02:37,100 --> 00:02:42,650
+sure everything works. And we'll use some tools that
+have developed over the years to solve these problems
+
+31
+00:02:42,980 --> 00:02:48,710
+so that it's not as much as a pain
+point as it is or as it was. All right,
+
+32
+00:02:48,740 --> 00:02:54,320
+one more lesson to go and then we're going
+to get coding. See you on the other side.
+

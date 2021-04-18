@@ -1,0 +1,535 @@
+1
+00:00:00,980 --> 00:00:01,670
+Welcome back.
+
+2
+00:00:01,671 --> 00:00:08,149
+In this video we're going to expand on our knowledge
+and introduce you to a few more HTML tags and
+
+3
+00:00:08,150 --> 00:00:11,270
+make this website look a little bit
+prettier than just, "Hellooooooooo there."
+
+4
+00:00:12,200 --> 00:00:16,070
+To get started I'm just going to move
+the screens around so you can see better.
+
+5
+00:00:16,380 --> 00:00:16,850
+All right.
+
+6
+00:00:16,920 --> 00:00:23,220
+So we have left, and right, and again
+just to make sure everything works.
+
+7
+00:00:23,300 --> 00:00:33,489
+If I change anything here to, - and then I click
+'Save', and then I refresh the page, I have everything
+
+8
+00:00:33,490 --> 00:00:36,140
+updating perfect. Now,
+
+9
+00:00:36,610 --> 00:00:40,389
+these aren't the only HTML
+tags that you'll encounter.
+
+10
+00:00:40,390 --> 00:00:49,929
+There is actually a ton of them, and if you go back
+to the 'w3schools.com' you'll see over here all
+
+11
+00:00:49,930 --> 00:00:53,580
+the HTML tags that exist.
+
+12
+00:00:55,340 --> 00:00:56,790
+There's a lot of them.
+
+13
+00:00:57,230 --> 00:00:59,530
+We're only going to be going through,
+
+14
+00:00:59,620 --> 00:01:07,099
+I would say maybe, 10 or 15 or so because those are
+the only ones that, well technically, that I've used
+
+15
+00:01:07,100 --> 00:01:11,779
+in many years of devolvement - there's a few
+things on here that I've never even heard of.
+
+16
+00:01:11,780 --> 00:01:12,830
+I've never used.
+
+17
+00:01:12,850 --> 00:01:15,870
+You can always look up
+and learn them yourself.
+
+18
+00:01:15,980 --> 00:01:21,079
+But I'll say that there's about
+10 or 15 tags that are used,
+
+19
+00:01:21,080 --> 00:01:23,989
+ninety-nine percent of the time and
+those are the ones that you'll encounter.
+
+20
+00:01:23,990 --> 00:01:29,890
+So we'll go through some of those most popular ones
+and HTML doesn't really get any harder than -
+
+21
+00:01:30,180 --> 00:01:31,100
+than this.
+
+22
+00:01:31,101 --> 00:01:38,840
+This is the syntax, as long as you get used to these
+little signs and structure you're pretty much a
+
+23
+00:01:39,210 --> 00:01:41,230
+HTML developer.
+
+24
+00:01:41,260 --> 00:01:46,310
+So the first tag that I want to
+introduce you to is the 'h1' tag.
+
+25
+00:01:46,360 --> 00:01:50,690
+So the way that I have it
+here is actually not right.
+
+26
+00:01:50,710 --> 00:01:57,339
+You want to make sure that everything is surrounded by
+a tag, so a web browser right now can see 'BOOOOO',
+
+27
+00:01:57,340 --> 00:01:58,860
+and just print out 'BOOOOO'.
+
+28
+00:01:59,200 --> 00:02:03,300
+But if you want to do it right,
+you'd want to put something like an 'H1'
+
+29
+00:02:03,310 --> 00:02:06,960
+And an 'h1' tag.
+
+30
+00:02:07,540 --> 00:02:13,130
+If I saved this and I refresh,
+we get what we call a 'header'.
+
+31
+00:02:13,160 --> 00:02:17,029
+So that is a header and then
+one what '1' does one mean?
+
+32
+00:02:17,030 --> 00:02:21,690
+Well it actually goes all the way up to 6.
+
+33
+00:02:21,800 --> 00:02:29,840
+So if I change this to '2', and I'm not going to do
+every single one, let's just do another one 'h6'
+
+34
+00:02:30,510 --> 00:02:42,130
+and if I save this, and refresh the page, you can
+see that there's different sizes in the text.
+
+35
+00:02:42,190 --> 00:02:43,570
+So that's the header tag.
+
+36
+00:02:43,780 --> 00:02:53,030
+And again if I scroll through the W3 Schools and I go
+to the 'h' you see over here that there's the header
+
+37
+00:02:53,050 --> 00:02:54,680
+tags explained here.
+
+38
+00:02:54,980 --> 00:03:00,789
+And this website is really really cool because you
+can actually click on 'Try it Yourself', and you can
+
+39
+00:03:00,790 --> 00:03:03,830
+play around with different things.
+
+40
+00:03:06,070 --> 00:03:09,300
+Click run, and it changes it for you.
+
+41
+00:03:09,410 --> 00:03:13,650
+So again, this is a really really good website
+for you to get familiar with all the tags.
+
+42
+00:03:14,060 --> 00:03:18,929
+But, again we're going to
+stick to our website for now.
+
+43
+00:03:18,930 --> 00:03:25,739
+Another thing that I want to introduce you to is something
+called a 'p' tag, or a paragraph tag. A paragraph
+
+44
+00:03:25,740 --> 00:03:29,560
+tag lets you have paragraphs.
+
+45
+00:03:29,580 --> 00:03:36,809
+So now if I refresh, well there's not much different
+from what we had before, which was no tags and just
+
+46
+00:03:36,810 --> 00:03:49,360
+saving it, refresh but you can see the difference
+when I copy and paste this and have a few paragraphs
+
+47
+00:03:49,440 --> 00:03:52,260
+versus this.
+
+48
+00:03:52,500 --> 00:03:53,270
+Let's see what happens.
+
+49
+00:03:53,280 --> 00:03:54,760
+I save this.
+
+50
+00:03:55,140 --> 00:04:01,620
+You'll see over here that with Sublime Text it after
+I don't know what to say about maybe like 20 saves
+
+51
+00:04:01,920 --> 00:04:06,929
+it'll ask you to make a purchase, because technically
+this is a non-registered one. You can ignore for now,
+
+52
+00:04:06,930 --> 00:04:08,130
+just click 'Cancel'.
+
+53
+00:04:08,280 --> 00:04:12,720
+Again it's just one annoying thing
+that will pop up every now and then.
+
+54
+00:04:12,780 --> 00:04:15,660
+I actually have a registered Sublime Text,
+I just wanted to show you this error,
+
+55
+00:04:15,670 --> 00:04:18,100
+so you're not surprised when you see it.
+
+56
+00:04:18,460 --> 00:04:21,819
+You can use Sublime Text for as
+long as you need it, for free.
+
+57
+00:04:21,820 --> 00:04:27,009
+When you start getting into the developer role and
+working full time with it, I do recommend that you make
+
+58
+00:04:27,010 --> 00:04:27,460
+a purchase.
+
+59
+00:04:27,461 --> 00:04:29,050
+It's a great program and -
+
+60
+00:04:29,270 --> 00:04:31,629
+and you still get everything
+through the 'I'm registered'.
+
+61
+00:04:31,630 --> 00:04:34,460
+You just have this pop up that
+shows up after a few saves.
+
+62
+00:04:34,860 --> 00:04:38,099
+But anyways, from now on I'm going to
+be using a registered Sublime account.
+
+63
+00:04:38,100 --> 00:04:41,150
+I just wanted to show you that error.
+If I refresh the page here,
+
+64
+00:04:41,220 --> 00:04:44,760
+you'll see that I have the
+paragraphs show up nicely.
+
+65
+00:04:45,900 --> 00:04:51,250
+But these unstructured pieces of text,
+well, everything is kind of in one line.
+
+66
+00:04:51,340 --> 00:04:56,139
+And HTML doesn't really know what to do with
+it, so it puts everything all on one line.
+
+67
+00:04:56,140 --> 00:05:01,899
+I also want to show you one other quick trick in
+Sublime Text, so writing this jibberish is not very
+
+68
+00:05:01,900 --> 00:05:04,910
+exciting and kind of takes a bit of time.
+
+69
+00:05:05,260 --> 00:05:06,299
+Developers are lazy.
+
+70
+00:05:06,300 --> 00:05:09,350
+We want to make sure that everything
+is done fast and efficient.
+
+71
+00:05:09,370 --> 00:05:15,920
+So if you actually put 'Lorem' here and then
+press 'Tab' you'll get Lorem Ipsum paragraphs.
+
+72
+00:05:15,940 --> 00:05:21,190
+So let's do that and delete that.
+'Lorem', 'Tab'.
+
+73
+00:05:21,610 --> 00:05:26,700
+And then one more, 'Lorem', 'Tab'. Perfect.
+
+74
+00:05:26,750 --> 00:05:30,709
+Let's save that and, 'Refresh',
+and we have nice paragraphs.
+
+75
+00:05:30,710 --> 00:05:39,429
+As you can see we have some tags, and what we call
+'nested tags', so you can see that the 'body' is the
+
+76
+00:05:39,430 --> 00:05:43,379
+parent and Sublime Text actually
+lets you close and open these.
+
+77
+00:05:43,380 --> 00:05:49,690
+So you have the 'body' tag, you have the header ('h1',
+etc.) tags, which are children of the 'body' tag.
+
+78
+00:05:50,160 --> 00:05:52,000
+And then we have 'p' tags.
+
+79
+00:05:52,080 --> 00:05:55,140
+A lot of people get confused in the naming.
+
+80
+00:05:55,320 --> 00:06:01,670
+I've mentioned these as tags, so essentially
+anything that has this syntax is a tag.
+
+81
+00:06:01,950 --> 00:06:11,009
+But this is called an 'h1 element' so that's when it's
+an entire block of functionality with content inside
+
+82
+00:06:11,010 --> 00:06:11,330
+it.
+
+83
+00:06:11,520 --> 00:06:13,379
+So again tags.
+
+84
+00:06:13,380 --> 00:06:16,730
+And then this is an 'h1 element'.
+
+85
+00:06:16,860 --> 00:06:23,519
+Again it's just naming but you'll hear tags and
+elements kind of used interchangeably but those are
+
+86
+00:06:23,520 --> 00:06:24,900
+the specific differences.
+
+87
+00:06:25,290 --> 00:06:31,740
+All right let's get into some of the more exciting
+things, let's say for example I really want to emphasize
+
+88
+00:06:31,830 --> 00:06:33,930
+'Lorem ipsum' here.
+
+89
+00:06:34,070 --> 00:06:45,479
+Well I can use another tag, a 'b' tag, and then we close
+it at 'Lorem ipsum'. Let's make that screen here a little
+
+90
+00:06:45,480 --> 00:06:45,960
+bit bigger.
+
+91
+00:06:45,961 --> 00:06:47,370
+Just so you can see.
+
+92
+00:06:47,610 --> 00:06:48,840
+There you go.
+
+93
+00:06:49,350 --> 00:06:52,280
+So we have the 'b' tags over here.
+
+94
+00:06:52,320 --> 00:06:56,690
+And if I click 'Save', I refresh.
+
+95
+00:06:57,020 --> 00:06:58,830
+- Oops, we don't want
+to translate this page.
+
+96
+00:06:58,900 --> 00:07:02,379
+We see that this is now bolded.
+Again, let's make it a little bit bigger.
+
+97
+00:07:02,380 --> 00:07:03,000
+There you go.
+
+98
+00:07:03,010 --> 00:07:10,389
+Now this syntax is actually not used anymore, or is not
+recommended - obviously still works, but there was
+
+99
+00:07:10,390 --> 00:07:20,019
+a problem that - HTML was initially used for websites that
+ran on computers, on PCs, on Macs. And now we have things
+
+100
+00:07:20,020 --> 00:07:26,710
+such as mobile phones and iPads, although the bold
+text, and we actually have another one which was
+
+101
+00:07:26,770 --> 00:07:39,530
+the italicised, 'i', although we had this, for most
+phones - some of them didn't have the ability to bold
+
+102
+00:07:39,560 --> 00:07:44,840
+the text, and didn't have the ability
+to italicise, or some screen readers,
+
+103
+00:07:44,870 --> 00:07:51,329
+which people who are visually impaired use, didn't
+really understand the meaning behind italicised
+
+104
+00:07:51,330 --> 00:07:52,030
+and bold.
+
+105
+00:07:52,031 --> 00:07:59,349
+So now we use something called,
+'strong' for bold and 'Refresh'.
+
+106
+00:07:59,350 --> 00:08:06,570
+And then for italicized we
+use, 'em' for emphasis.
+
+107
+00:08:08,290 --> 00:08:09,530
+And there you go.
+
+108
+00:08:09,670 --> 00:08:16,619
+Now, the reason this change was made was a move
+towards more - something called semantic HTML, and
+
+109
+00:08:16,620 --> 00:08:23,189
+we'll get into that into a later lesson but just
+know that there are some tags that have evolved over
+
+110
+00:08:23,190 --> 00:08:27,359
+the years and it's part
+of why HTML5 exists.
+
+111
+00:08:27,360 --> 00:08:28,700
+We'll get into that a little bit more,
+
+112
+00:08:28,710 --> 00:08:31,480
+but just wanted to give
+you a quick note on that.
+
+113
+00:08:32,030 --> 00:08:32,330
+All right.
+
+114
+00:08:32,331 --> 00:08:33,619
+I think that's enough for now.
+
+115
+00:08:33,620 --> 00:08:37,039
+We're going to get into more
+tags in the next video. For now,
+
+116
+00:08:37,040 --> 00:08:38,840
+play around and I'll
+see you in the next one.
+

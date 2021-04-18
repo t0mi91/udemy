@@ -1,0 +1,407 @@
+1
+00:00:00,270 --> 00:00:03,780
+Hello and welcome back to
+a very exciting section.
+
+2
+00:00:03,800 --> 00:00:04,680
+Why is it exciting?
+
+3
+00:00:04,680 --> 00:00:11,370
+Well, we finally get to code, and we're going to start
+off by learning HTML, and then finally building
+
+4
+00:00:11,400 --> 00:00:16,140
+our very first website.
+In order for us to get started,
+
+5
+00:00:16,370 --> 00:00:19,919
+we need to set up our
+environment, and we do that by -
+
+6
+00:00:19,920 --> 00:00:27,070
+let's open up Google Chrome and we're
+going to search for 'Sublime Text 3'.
+
+7
+00:00:27,090 --> 00:00:31,140
+This is a text editor that
+a lot of developers use.
+
+8
+00:00:31,140 --> 00:00:33,270
+I myself have used it for years.
+
+9
+00:00:33,270 --> 00:00:34,650
+I absolutely love it.
+
+10
+00:00:34,740 --> 00:00:37,530
+In your day to day job you'll
+use something like this.
+
+11
+00:00:37,530 --> 00:00:39,500
+I highly recommend Sublime Text.
+
+12
+00:00:39,900 --> 00:00:47,310
+If you have a Mac version over here if you have a PC
+running Windows, you'll have the download link for
+
+13
+00:00:47,310 --> 00:00:48,290
+Windows.
+
+14
+00:00:48,300 --> 00:00:56,339
+So for me I'm going to download for the Mac and you
+can see here it's downloaded and I can drag it to
+
+15
+00:00:56,340 --> 00:01:02,909
+my applications folder if I want and you can double click.
+And if this is your first time downloading Sublime
+
+16
+00:01:02,910 --> 00:01:07,860
+Text, you get something like this
+to give it permission to load.
+
+17
+00:01:08,070 --> 00:01:11,040
+And there you go, we have Sublime Text.
+
+18
+00:01:11,300 --> 00:01:19,990
+Now what is a text editor? A text editor is a program that allows us to write code.
+
+19
+00:01:20,030 --> 00:01:26,300
+You can see over here on the right hand side of Sublime Text that it just says 'Plain Text' so I can
+
+20
+00:01:26,300 --> 00:01:34,910
+type anything that I want and there's nothing much different than if you wrote this in Word or a text
+
+21
+00:01:34,910 --> 00:01:41,160
+file. But the part with a text editor, especially with something like Sublime, that's geared towards coding.
+
+22
+00:01:41,210 --> 00:01:48,800
+If you click on 'Plain Text' here, you'll have a whole bunch of options of what type of code you're writing.
+
+23
+00:01:48,800 --> 00:01:51,550
+So in our case we're doing HTML,
+
+24
+00:01:51,590 --> 00:01:56,970
+so if I click on 'HTML', nothing changes except for the bottom part over here.
+
+25
+00:01:57,750 --> 00:02:06,580
+But now if I type something, well everything looks the same, but if I start typing HTML, It'll
+
+26
+00:02:06,590 --> 00:02:09,530
+actually recognize it and help with syntax.
+
+27
+00:02:09,560 --> 00:02:17,280
+So here now if I write HTML, look at that you get a nice little color completion.
+
+28
+00:02:17,300 --> 00:02:23,730
+So for us, for now, we're going to be writing HTML, you can see over here that there's different options
+
+29
+00:02:23,740 --> 00:02:25,350
+there is - where is it...
+
+30
+00:02:25,370 --> 00:02:31,190
+There's CSS, Javascript - which we'll learn later, so we're going to be using Sublime Text for this. For
+
+31
+00:02:31,190 --> 00:02:32,390
+now,
+
+32
+00:02:32,390 --> 00:02:39,870
+click on HTML, and let's write our very first web-page. In order for us to have a web page,
+
+33
+00:02:39,890 --> 00:02:44,400
+we write 'HTML' which stands for HyperText Markup Language.
+
+34
+00:02:44,480 --> 00:02:45,650
+So bear with me here,
+
+35
+00:02:45,650 --> 00:02:47,120
+This is going to be new.
+
+36
+00:02:47,180 --> 00:02:51,860
+But keep in mind that this is exactly what every single HTML page has.
+
+37
+00:02:51,860 --> 00:02:55,540
+These are the set of rules that all HTML files must follow.
+
+38
+00:02:55,850 --> 00:02:57,130
+And it goes like this.
+
+39
+00:02:57,200 --> 00:03:04,100
+We define a doctype, and don't worry I'll get into what that means in the next video
+
+40
+00:03:05,190 --> 00:03:12,000
+Then we have 'html' and we close the tags: '/html'
+
+41
+00:03:12,000 --> 00:03:15,930
+The second part, we have a 'head' and a closing '/head'.
+
+42
+00:03:16,440 --> 00:03:20,090
+You can see over here, some patterns forming.
+
+43
+00:03:20,090 --> 00:03:28,380
+Don't worry, I'll get back to these tags and explaining what they do, in a bit. And then we also have a 'body'
+
+44
+00:03:29,460 --> 00:03:30,840
+and then closing tags, '/body'.
+
+45
+00:03:31,110 --> 00:03:44,540
+And finally here in the 'head' we have something called a 'title', that so this over here, is the rule that
+
+46
+00:03:44,570 --> 00:03:50,250
+every single HTML file must follow. So, just looking at this right now, without knowing any HTML,
+
+47
+00:03:50,290 --> 00:03:53,730
+you can get an idea of what everything means.
+
+48
+00:03:53,730 --> 00:03:58,230
+So 'html', we're defining that this is an HTML.
+
+49
+00:03:58,530 --> 00:04:04,230
+We're saying that this is the 'head' of the HTML, with the title, and we're saying that this is the
+
+50
+00:04:04,230 --> 00:04:06,500
+'body' of the HTML.
+
+51
+00:04:06,570 --> 00:04:08,130
+So let's try something here.
+
+52
+00:04:08,190 --> 00:04:17,310
+Let's save this file, and we're going to save it - let's do 'Desktop', and we're going to call it,
+
+53
+00:04:17,310 --> 00:04:23,940
+'index.html' - you can see that it's already completed the ‘html’ syntax for us. Save and we have
+
+54
+00:04:23,940 --> 00:04:24,840
+an index.html
+
+55
+00:04:24,870 --> 00:04:26,070
+file here.
+
+56
+00:04:26,310 --> 00:04:33,660
+Let's drag this all the way down to our Google Chrome and open it up and, well, nothing happens.
+
+57
+00:04:33,660 --> 00:04:36,890
+But, lets, add a bit of text to it.
+
+58
+00:04:36,920 --> 00:04:42,990
+So in the title, I'm going to say, "My first website!".
+
+59
+00:04:42,990 --> 00:04:49,840
+And then in the body I'm just going to put "Hellooooooooo there.".
+
+60
+00:04:50,520 --> 00:04:50,840
+OK.
+
+61
+00:04:50,930 --> 00:04:52,100
+So if I save this,
+
+62
+00:04:55,530 --> 00:05:01,950
+and just to show you, from now on I'm going to be doing 'CMD-S' to save, just to go faster.
+
+63
+00:05:02,220 --> 00:05:12,030
+And now if I refresh this page I have, "Hellooooooooo there." and you can see the power over here, of what we just
+
+64
+00:05:12,030 --> 00:05:12,790
+did.
+
+65
+00:05:12,870 --> 00:05:23,620
+We have "Hellooooooooo there." as the text, which is in the body, and then we also have "My first website!" as the
+
+66
+00:05:23,620 --> 00:05:24,300
+title.
+
+67
+00:05:24,310 --> 00:05:30,190
+And you can see over here in the file, that we're referencing 'index.html' on my Desktop.
+
+68
+00:05:32,050 --> 00:05:34,470
+You can see here that we have 'html'.
+
+69
+00:05:34,720 --> 00:05:40,660
+We have the 'head', which we haven't really talked about yet but, we see that the title is in the head, kind
+
+70
+00:05:40,660 --> 00:05:46,090
+of like a header. And then we have the body which, by looking at this, we can assume that it's whatever
+
+71
+00:05:46,090 --> 00:05:51,880
+shows up onto the web page. Before we expand on this and make it, a little bit prettier,
+
+72
+00:05:51,880 --> 00:05:53,970
+because now it's just simple text.
+
+73
+00:05:53,980 --> 00:06:00,340
+I want to reiterate the fact that what we've just done is very similar to what a server does.
+
+74
+00:06:00,700 --> 00:06:07,840
+If we go back to our mock ups here, you remember that when we entered 'google.com' the servers send us
+
+75
+00:06:07,930 --> 00:06:15,160
+an HTML file, that when we moved the 'index.html' file all the way down to Google Chrome, that's
+
+76
+00:06:15,160 --> 00:06:15,880
+what we just did.
+
+77
+00:06:15,880 --> 00:06:25,030
+We mimicked a server and we gave it to the browser to load up the HTML file and because browsers are
+
+78
+00:06:25,030 --> 00:06:32,420
+built to know what HTML files are, it can read the syntax and say OK this is HTML.
+
+79
+00:06:32,630 --> 00:06:32,980
+OK.
+
+80
+00:06:33,040 --> 00:06:38,070
+You want my 'title' to be' "My first website!", and you want my 'body' to say "Hellooooooooo there."
+
+81
+00:06:38,830 --> 00:06:40,060
+That's perfect.
+
+82
+00:06:40,060 --> 00:06:43,490
+These are the default HTML rules.
+
+83
+00:06:43,600 --> 00:06:45,270
+That you'll see all the time.
+
+84
+00:06:45,400 --> 00:06:49,500
+It is a little bit confusing at first but this is it.
+
+85
+00:06:49,510 --> 00:06:53,000
+You just have to remember that there is a tag.
+
+86
+00:06:53,140 --> 00:07:03,910
+So, an 'html’ tag, a 'head' tag, a 'title' tag, a 'body' tag, and these tags usually have an opening and closing.
+
+87
+00:07:04,040 --> 00:07:08,570
+There's some exceptions to this rule, and we'll get into that a little bit later on in the videos.
+
+88
+00:07:08,600 --> 00:07:10,410
+But just remember this for now.
+
+89
+00:07:10,550 --> 00:07:16,730
+So I wanted to try creating your very first web site and seeing how it works, and once you're done with
+
+90
+00:07:16,730 --> 00:07:17,030
+that
+
+91
+00:07:17,050 --> 00:07:22,610
+I want to show you that Sublime Text actually has a nice shortcut so you don't have to keep writing
+
+92
+00:07:22,670 --> 00:07:24,080
+those tags over and over.
+
+93
+00:07:24,080 --> 00:07:30,920
+So, the way you do that is you type in, 'html' now, and then press the 'Tab' key and it loads all this up for
+
+94
+00:07:30,920 --> 00:07:31,150
+you.
+
+95
+00:07:31,220 --> 00:07:36,620
+OK, so now that we've done this, I want you to go off and create your very first website.
+
+96
+00:07:36,650 --> 00:07:37,900
+Now, I know it's very, very simple.
+
+97
+00:07:37,900 --> 00:07:41,150
+You can put whatever you want in the title and you can put whatever you want
+
+98
+00:07:41,180 --> 00:07:46,790
+in the body. And in the next video we're going to start expanding on our first website.
+
+99
+00:07:47,120 --> 00:07:48,690
+I'll see you in the next one. Bye-bye
+
