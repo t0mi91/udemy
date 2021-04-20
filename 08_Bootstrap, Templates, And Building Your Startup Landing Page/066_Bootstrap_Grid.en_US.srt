@@ -1,0 +1,220 @@
+1
+00:00:00,550 --> 00:00:02,810
+And welcome back.
+
+2
+00:00:02,920 --> 00:00:08,110
+We left off with our really quick website that we built using Bootstrap.
+
+3
+00:00:08,260 --> 00:00:15,190
+But I want to show you one thing that I've kept from you and that is the layout feature in Bootstrap.
+
+4
+00:00:15,200 --> 00:00:21,410
+And this was the primary reason that Bootstrap was so popular because layout was so difficult and
+
+5
+00:00:21,410 --> 00:00:23,840
+we didn't have flexbox back in the day.
+
+6
+00:00:23,840 --> 00:00:32,620
+Bootstrap allowed us to create very responsive websites using these ideas of columns. To show you what
+
+7
+00:00:32,620 --> 00:00:36,100
+I mean we're going to create our own column system.
+
+8
+00:00:36,300 --> 00:00:43,200
+We're going to go back to our website and I'm going to delete everything that we created so far.
+
+9
+00:00:44,060 --> 00:00:47,470
+And save and refresh. Everything's empty.
+
+10
+00:00:47,510 --> 00:00:50,610
+So in Bootstrap you can do something like this.
+
+11
+00:00:51,910 --> 00:00:57,300
+[div class="container"] You always want to wrap everything in a container and again if you go to the documentation 
+
+12
+00:00:57,300 --> 00:01:02,730
+it'll show you what to do. And we'll just grab the top ones.
+
+13
+00:01:02,880 --> 00:01:07,780
+So let's just copy these. Fix the indentation a bit.
+
+14
+00:01:07,780 --> 00:01:08,860
+There you go.
+
+15
+00:01:08,940 --> 00:01:10,450
+And if I refresh.
+
+16
+00:01:10,680 --> 00:01:14,880
+Well we need to have a bit of background so we can see them. So I'm going to say column '.col'
+
+17
+00:01:17,670 --> 00:01:30,090
+we'll do 'background-color: grey;' and the 'border' will be '2px solid black;' save
+
+18
+00:01:30,140 --> 00:01:32,850
+and go back and refresh. We have our borders.
+
+19
+00:01:33,000 --> 00:01:35,310
+Now here's something interesting they can do.
+
+20
+00:01:35,330 --> 00:01:42,130
+You can do 'col-sm-6' and then 'col-sm-3'.
+
+21
+00:01:42,210 --> 00:01:43,650
+Don't worry I'll explain what that means.
+
+22
+00:01:43,650 --> 00:01:52,610
+I'm going to refresh and look at that. The size of this just got smaller and that is because Bootstrap
+
+23
+00:01:52,820 --> 00:01:58,390
+has the idea of a grid system and this grid system has 12 lines.
+
+24
+00:01:58,550 --> 00:02:01,040
+So six plus three is nine.
+
+25
+00:02:01,040 --> 00:02:07,670
+So it's saying that I want this column to have six spaces out of that 12.
+
+26
+00:02:07,740 --> 00:02:18,300
+And this column to have three spaces out of that 12. So if we add another column 
+
+27
+00:02:18,300 --> 00:02:20,450
+and six plus three plus three is 12.
+
+28
+00:02:23,300 --> 00:02:32,900
+I'm going to say 'Extra' here I refresh you'll see that it fills in this gap. What if I put it in four here [col-sm-4].
+
+29
+00:02:32,920 --> 00:02:35,210
+So that is 13 which is over 12.
+
+30
+00:02:35,470 --> 00:02:39,870
+Well if I refresh this goes down to the next level.
+
+31
+00:02:39,900 --> 00:02:44,010
+So you see how easy it is to control things in Bootstrap.
+
+32
+00:02:44,080 --> 00:02:54,320
+I could also do something like 'column-xs-12' and then 'column-xs-6'
+
+33
+00:02:54,380 --> 00:03:00,880
+and actually will medium here [col-md-6].
+
+34
+00:03:03,820 --> 00:03:06,950
+Save let's refresh and see what happens.
+
+35
+00:03:06,960 --> 00:03:16,950
+Woah. What this is saying that if the size of the window is medium then I want the whole 12 grid system
+
+36
+00:03:17,130 --> 00:03:25,070
+to the first div and then six of the 12 to the second and then the extra one, six.
+
+37
+00:03:25,080 --> 00:03:27,350
+So you can see here that that's medium.
+
+38
+00:03:27,570 --> 00:03:35,310
+But because we have these small properties in here. If I make it smaller you can see that it resorts
+
+39
+00:03:35,310 --> 00:03:37,620
+down to the six three four grid.
+
+40
+00:03:37,710 --> 00:03:45,000
+Let's change this back to three [col-sm-3] so it looks better and show you that there's a few other
+
+41
+00:03:45,000 --> 00:03:48,410
+sizes that we can add.
+
+42
+00:03:48,450 --> 00:03:57,600
+You can see over here that we have 'Grid options' and we have Small, Medium, Large and Extra large. So let's
+
+43
+00:03:57,610 --> 00:04:06,140
+do large and see what happens. So for large I want to have everything on their own, so we can do this [col-lg-12]
+
+44
+00:04:11,060 --> 00:04:15,220
+and save let's refresh and see if you can guess what's about to happen.
+
+45
+00:04:16,030 --> 00:04:26,460
+I'm going to go from medium to large. Do you see that? 12 12 12 so I want each div to occupy 12 spaces 12 grid sytems.
+
+46
+00:04:26,460 --> 00:04:34,450
+Which is the full thing. If I go to medium I now occupy with the first one, 12.
+
+47
+00:04:34,590 --> 00:04:43,060
+The second one, six and six. They should be one after another and if I go down to even smaller 
+
+48
+00:04:43,060 --> 00:04:46,830
+the small will have six, three and three.
+
+49
+00:04:46,940 --> 00:04:54,350
+So this is how you can create really responsive websites. And that was the biggest selling feature of
+
+50
+00:04:54,370 --> 00:05:00,590
+Bootstrap it was solving this really really hard problem of making sure that our website looked good no matter
+
+51
+00:05:00,590 --> 00:05:01,770
+what the screen size.
+
+52
+00:05:03,490 --> 00:05:06,060
+So I want you to play around with the grid options here.
+
+53
+00:05:06,070 --> 00:05:11,980
+This is the hardest concept to grasp in Bootstrap. Once youve learned this.
+
+54
+00:05:11,980 --> 00:05:16,660
+Its very very easy to create websites extremely fast.
+
+55
+00:05:16,660 --> 00:05:18,000
+I'll see you in the next one. Bye-bye.
+

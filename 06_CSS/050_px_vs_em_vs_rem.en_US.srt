@@ -1,0 +1,140 @@
+1
+00:00:00,610 --> 00:00:01,510
+Welcome back.
+
+2
+00:00:01,510 --> 00:00:07,230
+Before we finish off the section I wanted to show you one last thing and that is up until this point.
+
+3
+00:00:07,270 --> 00:00:13,720
+We've used pixels quite a lot but there's two other options that we can actually use.
+
+4
+00:00:13,780 --> 00:00:24,990
+So let's remove our box models for now and instead let's create some paragraphs so using our lawn shorthand
+
+5
+00:00:26,840 --> 00:00:28,850
+and let's close this off.
+
+6
+00:00:29,120 --> 00:00:29,540
+Perfect.
+
+7
+00:00:29,690 --> 00:00:39,050
+Let's say that we also wanted to have a another paragraph that says introduction save and refresh.
+
+8
+00:00:39,200 --> 00:00:39,800
+And there you go.
+
+9
+00:00:39,800 --> 00:00:40,790
+We have our paragraph.
+
+10
+00:00:40,820 --> 00:00:47,900
+Now if we wanted to add some class to this paragraph we can just go in here and we don't need the box
+
+11
+00:00:47,900 --> 00:00:49,720
+models so we can delete that.
+
+12
+00:00:49,850 --> 00:00:58,220
+We can do something like P and let's do font size and for font size I've shown you that we can do percentages
+
+13
+00:00:58,490 --> 00:01:05,950
+but you can also do pixels so let's say 20 pixels save and refresh and we have pixels.
+
+14
+00:01:06,000 --> 00:01:14,650
+OK so let's say I want Laura Smithson to be a little bit bigger so we can use span again.
+
+15
+00:01:14,660 --> 00:01:20,020
+That's kind of like the diff tag that you've seen before is just good for inline.
+
+16
+00:01:20,060 --> 00:01:25,030
+So again this way we can add styles so I save that go to styles.
+
+17
+00:01:25,040 --> 00:01:30,560
+And now we can still expand and we can do something like this.
+
+18
+00:01:30,560 --> 00:01:38,850
+We can do font size five year refresh.
+
+19
+00:01:38,930 --> 00:01:47,810
+So what it's saying is we want the font size to be equal to five times the containing element which
+
+20
+00:01:47,810 --> 00:01:55,190
+is 20 pixels because if you remember we're inside of a p tag just to show you that that is right.
+
+21
+00:01:55,190 --> 00:02:06,630
+If I do 100 pixels and save and refresh that's the same so E M is kind of nice because if I do something
+
+22
+00:02:06,630 --> 00:02:10,060
+like two E.M. and refresh.
+
+23
+00:02:10,060 --> 00:02:16,570
+Well if I change this to Ten pixels and I refresh.
+
+24
+00:02:16,720 --> 00:02:28,300
+This always stays relative to the p one other one I can show you is R E M and that is the size in relation
+
+25
+00:02:28,300 --> 00:02:30,100
+to the size of the root element.
+
+26
+00:02:30,130 --> 00:02:31,930
+What is the root element.
+
+27
+00:02:31,930 --> 00:02:33,660
+Well it's the HMO.
+
+28
+00:02:34,300 --> 00:02:39,910
+So whatever the document is it's always going to be twice as big.
+
+29
+00:02:39,910 --> 00:02:46,730
+So if I do five refresh that's great but if I change the font size over here if five.
+
+30
+00:02:46,910 --> 00:02:49,490
+That won't be affected at all.
+
+31
+00:02:50,410 --> 00:02:52,930
+Good job getting this far in the course.
+
+32
+00:02:52,960 --> 00:02:57,760
+I know I've thrown a lot of properties and selectors at you but I promise in the next section we're
+
+33
+00:02:57,760 --> 00:03:01,840
+going to start building some real web sites and have fun with all this knowledge.
+
+34
+00:03:01,870 --> 00:03:03,760
+Can't wait seeing the next one.
+
+35
+00:03:03,810 --> 00:03:04,150
+Bye bye.
+

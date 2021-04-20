@@ -1,0 +1,200 @@
+1
+00:00:00,710 --> 00:00:06,530
+Hello, in this video, I'm going to introduce you to something called Bootstrap, if you haven't heard
+
+2
+00:00:06,530 --> 00:00:07,040
+before.
+
+3
+00:00:07,130 --> 00:00:12,110
+Bootstrap is one of the most popular projects ever for developers.
+
+4
+00:00:12,740 --> 00:00:18,500
+And what it is, is just a access file and JavaScript file.
+
+5
+00:00:19,310 --> 00:00:23,000
+But why would that be one of the most popular projects?
+
+6
+00:00:23,270 --> 00:00:30,430
+Well, one thing you might have noticed is that writing success from scratch is a bit of a pain.
+
+7
+00:00:30,470 --> 00:00:36,140
+Wouldn't it be nice if you can use something that has already been created by somebody so that not every
+
+8
+00:00:36,140 --> 00:00:41,060
+single developer has to keep reinventing the wheel and keep writing everything from scratch?
+
+9
+00:00:41,360 --> 00:00:43,730
+And that is the idea behind bootstrap.
+
+10
+00:00:43,910 --> 00:00:50,240
+Bootstrap was created to solve this problem so that we can create websites really, really fast by using
+
+11
+00:00:50,240 --> 00:00:53,960
+somebody else's success and building on top of it.
+
+12
+00:00:54,980 --> 00:01:00,550
+There's also another project called Foundation that does the same thing, and they have their own styles,
+
+13
+00:01:00,560 --> 00:01:04,280
+but again, bootstrap is the more popular of the two.
+
+14
+00:01:04,280 --> 00:01:07,540
+So we'll focus on that if we click on get started here.
+
+15
+00:01:09,100 --> 00:01:14,330
+I'll have a quick set up instruction and in the next video will actually build something with Bootstrap.
+
+16
+00:01:14,340 --> 00:01:21,600
+But I want to show you, if you go down to components, what the big sell of bootstrap is, and that
+
+17
+00:01:21,600 --> 00:01:25,170
+is it has all of these things pre-built for you.
+
+18
+00:01:25,350 --> 00:01:34,470
+So if I wanted to, let's say, have a navigation bar, well, that's already built for me with drop
+
+19
+00:01:34,470 --> 00:01:35,490
+downs and links.
+
+20
+00:01:35,970 --> 00:01:39,900
+And all I have to do is copy and paste this code.
+
+21
+00:01:40,110 --> 00:01:43,470
+And you'll see over here that they already have classes attached to them.
+
+22
+00:01:43,860 --> 00:01:49,820
+And these classes will be associated with the file that I will download from Bootstrap.
+
+23
+00:01:49,980 --> 00:01:55,020
+So any time I use something like NFPA, it will use the default bootstrap stuff.
+
+24
+00:01:55,770 --> 00:01:57,570
+And there's many things that you can do.
+
+25
+00:01:57,780 --> 00:02:02,610
+As you can see, all I need to do is copy and paste this code and I have myself a card.
+
+26
+00:02:02,640 --> 00:02:06,150
+You can imagine how fast making websites is with this.
+
+27
+00:02:06,720 --> 00:02:13,220
+Now, the one thing I do want to point out is you might be asking why do I need to also download JavaScript?
+
+28
+00:02:13,230 --> 00:02:15,750
+We haven't really learned that topic yet in this course.
+
+29
+00:02:15,750 --> 00:02:23,110
+And there are some things and bootstrap, such as dropdown menus, you can see how they're adding behavior,
+
+30
+00:02:23,130 --> 00:02:25,470
+some actions to our website.
+
+31
+00:02:25,590 --> 00:02:28,380
+If I go to, let's say, modals, for example.
+
+32
+00:02:29,490 --> 00:02:32,620
+And I click on launch demo model.
+
+33
+00:02:33,060 --> 00:02:39,150
+Well, this uses JavaScript because there's some action within our website, we won't worry too much
+
+34
+00:02:39,150 --> 00:02:42,590
+about that and that's something we'll get into when we get to the JavaScript section.
+
+35
+00:02:43,260 --> 00:02:50,820
+But you can see here that with bootstrap, by just downloading a file and a JavaScript file, we have
+
+36
+00:02:50,820 --> 00:02:52,900
+all these tools at our disposal.
+
+37
+00:02:52,950 --> 00:02:58,830
+Now, you might be asking yourself one other thing, and that is, well, if everybody uses these,
+
+38
+00:02:58,830 --> 00:03:06,990
+won't we all have the same looking websites and know the beauty of bootstrap is that these are just
+
+39
+00:03:06,990 --> 00:03:07,860
+building blocks.
+
+40
+00:03:08,800 --> 00:03:15,130
+You have all these classes that you can use, but then you can add your own custom styles on top of
+
+41
+00:03:15,130 --> 00:03:17,000
+this to make it different.
+
+42
+00:03:17,830 --> 00:03:23,530
+So if I go to Bundes, for example, well, by using these classes, I have all these beautiful buttons.
+
+43
+00:03:23,710 --> 00:03:30,340
+But if I wanted to change the behavior button primary, which is this one, I could create my own access
+
+44
+00:03:30,400 --> 00:03:37,260
+file and just put it right after the bootstrap file and change the primary color to, let's say, orange.
+
+45
+00:03:37,270 --> 00:03:45,400
+And just to show you, if you go to the Expo tab here, Bootstrap actually has a whole bunch of websites
+
+46
+00:03:45,550 --> 00:03:48,310
+that are have been built with bootstrap.
+
+47
+00:03:48,310 --> 00:03:51,400
+And you can see that they all look very, very different.
+
+48
+00:03:52,450 --> 00:03:56,350
+So in the next video, we're going to build ourself a bootstrap website.
+
+49
+00:03:57,230 --> 00:03:58,010
+I'll see you on that one.
+
+50
+00:03:58,670 --> 00:03:59,030
+Bye bye.
+

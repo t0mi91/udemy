@@ -1,0 +1,508 @@
+1
+00:00:00,770 --> 00:00:02,480
+And welcome back.
+
+2
+00:00:02,510 --> 00:00:06,200
+Let's make this Web site a little bit prettier than it is now.
+
+3
+00:00:06,230 --> 00:00:10,210
+And I'm going to introduce you to some CSX properties.
+
+4
+00:00:10,220 --> 00:00:16,730
+Properties are as the name suggests properties that we want to change within a web page and you might
+
+5
+00:00:16,730 --> 00:00:19,780
+be asking yourself how many properties are there.
+
+6
+00:00:19,820 --> 00:00:28,160
+And as we did with the AC AML section I have a recommended resource for you and that is CSX tricks.
+
+7
+00:00:28,160 --> 00:00:35,780
+This Web site anytime you google any questions about CSX most likely some of the top 10 answers are
+
+8
+00:00:35,780 --> 00:00:37,880
+going to include something from this Web site.
+
+9
+00:00:38,150 --> 00:00:46,550
+So I highly highly recommended especially if you go to the menu and Alma snack because within this almanac
+
+10
+00:00:47,000 --> 00:00:50,970
+we have all the CSX properties listed on here.
+
+11
+00:00:51,380 --> 00:00:57,170
+So anytime you have a question and you want to say what is justified content well you can click on it
+
+12
+00:00:57,440 --> 00:01:03,920
+and it will actually give you examples you can play around with it and learn about the specific property
+
+13
+00:01:04,900 --> 00:01:09,910
+just like with the HDL tags although there are way more properties you don't need to know all of them
+
+14
+00:01:09,910 --> 00:01:12,610
+and memorize them because that's not realistic.
+
+15
+00:01:12,610 --> 00:01:14,420
+That's not the best use of your time.
+
+16
+00:01:14,440 --> 00:01:19,840
+We're going to focus on the ones that you'll encounter most often and any anytime you seen new ones
+
+17
+00:01:19,840 --> 00:01:24,640
+pop up while you're working you can always look them up and learn about them because they're very very
+
+18
+00:01:24,640 --> 00:01:26,690
+simple to read and do.
+
+19
+00:01:26,800 --> 00:01:28,540
+So let's try a few of these.
+
+20
+00:01:28,620 --> 00:01:36,820
+I'm going to start off with our style that CSX over here and let's change a few things we want to have
+
+21
+00:01:36,820 --> 00:01:39,600
+our home be in the center of the web page.
+
+22
+00:01:39,610 --> 00:01:43,330
+So let's start off with text the line
+
+23
+00:01:46,290 --> 00:01:51,070
+and if I type in center and I save my text is now centered.
+
+24
+00:01:51,140 --> 00:01:51,410
+OK.
+
+25
+00:01:51,410 --> 00:01:58,660
+We also want to add a border to this image border and this is a little bit unique.
+
+26
+00:01:58,670 --> 00:02:04,330
+You can do something like this you can do five pixels which is the size of the border.
+
+27
+00:02:04,550 --> 00:02:12,170
+What style of border you want so you can do dashed and then the color of the border will do purple save
+
+28
+00:02:12,430 --> 00:02:13,560
+refresh.
+
+29
+00:02:13,910 --> 00:02:15,870
+And we have a border.
+
+30
+00:02:15,920 --> 00:02:21,270
+You can also do solid and if it's solid it's a solid border.
+
+31
+00:02:21,920 --> 00:02:22,220
+OK.
+
+32
+00:02:22,220 --> 00:02:23,220
+What else can we do.
+
+33
+00:02:23,220 --> 00:02:27,760
+It'll be nice to have an image maybe an entire image for the Web site.
+
+34
+00:02:27,770 --> 00:02:32,140
+So how do we do that well the tag that we would want to apply to is probably body.
+
+35
+00:02:32,150 --> 00:02:41,190
+So if I go into body and you might notice something here as I'm creating these selectors I'm going from
+
+36
+00:02:41,190 --> 00:02:48,780
+top to bottom body which is the parent of almost everything is at the top.
+
+37
+00:02:48,780 --> 00:02:54,460
+And as we get more and more specific we trickle down to smaller elements.
+
+38
+00:02:54,600 --> 00:02:58,540
+Again we'll get into that later video but just keep that in mind.
+
+39
+00:02:58,690 --> 00:03:05,770
+So for body will be awesome to have a cool image on our Web site so we can do background.
+
+40
+00:03:06,360 --> 00:03:11,000
+And you can see the Sublime Text actually audiophiles or has some suggestions for us.
+
+41
+00:03:11,340 --> 00:03:16,010
+And we can look through this and pick the one that we want but based on the name looks like we want
+
+42
+00:03:16,020 --> 00:03:19,320
+background image with a background image.
+
+43
+00:03:19,320 --> 00:03:22,410
+We want to specify a U.R.L. in our case.
+
+44
+00:03:22,410 --> 00:03:31,490
+I actually have on my desktop saved a nice little picture and let's title it something simple like background
+
+45
+00:03:31,760 --> 00:03:37,700
+image and I got this from a Web site called on splash if you haven't checked it out they have a ton
+
+46
+00:03:37,700 --> 00:03:39,750
+of high quality free images they can use.
+
+47
+00:03:39,770 --> 00:03:46,110
+So again here we are referencing are let's put this actually in here.
+
+48
+00:03:46,220 --> 00:03:53,510
+So it's in our project folder and then within our project folder we can say that it is background image
+
+49
+00:03:53,820 --> 00:03:54,990
+thought JPEG.
+
+50
+00:03:55,100 --> 00:03:59,130
+So I say this I refresh and look at that.
+
+51
+00:03:59,140 --> 00:04:02,150
+We have this image but you can see that it's a big image.
+
+52
+00:04:02,160 --> 00:04:03,770
+It doesn't fit the screen.
+
+53
+00:04:03,820 --> 00:04:05,140
+So how can we do that.
+
+54
+00:04:05,200 --> 00:04:10,700
+We can do background size cover.
+
+55
+00:04:10,920 --> 00:04:17,670
+So if we do that and refresh look at that we have a beautiful background on our Web site.
+
+56
+00:04:18,000 --> 00:04:18,260
+OK.
+
+57
+00:04:18,280 --> 00:04:23,400
+And let's say we want to remove these little dots next to our links.
+
+58
+00:04:23,400 --> 00:04:26,670
+We can do that by going into.
+
+59
+00:04:26,730 --> 00:04:29,150
+Well you want to change our l I elements.
+
+60
+00:04:29,160 --> 00:04:33,070
+So we go into style and we can put in here.
+
+61
+00:04:33,140 --> 00:04:40,950
+Ally and we'll do something called list style and we'll go Nunn and refresh and look at that.
+
+62
+00:04:41,100 --> 00:04:49,680
+Those little pesky dots are gone for about whenever I select about I want the cursor to not be this
+
+63
+00:04:50,670 --> 00:04:54,780
+I want to change a cursor to maybe have this little hand gesture.
+
+64
+00:04:54,780 --> 00:04:56,000
+I like to call them Mickey Mouse hands.
+
+65
+00:04:56,480 --> 00:04:57,110
+OK.
+
+66
+00:04:57,150 --> 00:05:04,380
+So we go into our H2 and we can do something called the cursor and let's say you don't really know what
+
+67
+00:05:04,380 --> 00:05:07,800
+properties cursor has or you don't even know the property.
+
+68
+00:05:07,890 --> 00:05:15,420
+You can go to see SS tricks and again go to see look at cursor.
+
+69
+00:05:15,450 --> 00:05:21,390
+You can kind of guess by the name what it does and it tells you all the information you need to know
+
+70
+00:05:21,960 --> 00:05:27,510
+but you can see over here that they even have a demo of what you can do with cursors.
+
+71
+00:05:27,510 --> 00:05:35,190
+So we want the pointer so we can just put a pointer here save.
+
+72
+00:05:35,310 --> 00:05:39,220
+Let's go back to our Web site refresh and look at that.
+
+73
+00:05:39,330 --> 00:05:43,730
+We now have a pointer when we hover over about OK.
+
+74
+00:05:43,740 --> 00:05:48,510
+And maybe the last change we want to do is that we want to make sure that our home about and log in
+
+75
+00:05:48,630 --> 00:05:50,280
+are on one line.
+
+76
+00:05:50,280 --> 00:05:55,500
+This is a little awkward when they're stacked on top of each other and we can do that by selecting.
+
+77
+00:05:55,500 --> 00:05:56,640
+Let's look over here.
+
+78
+00:05:56,730 --> 00:06:05,790
+We want to select our allies and we can use something called display and display has a few properties
+
+79
+00:06:05,820 --> 00:06:07,440
+that you can use.
+
+80
+00:06:07,440 --> 00:06:18,540
+One is block and by default this is actually already a block but there is also something called in line
+
+81
+00:06:18,650 --> 00:06:19,110
+block.
+
+82
+00:06:19,380 --> 00:06:24,640
+And if I save this and I refresh look at that we have everything in line.
+
+83
+00:06:24,650 --> 00:06:30,920
+Now we want to change a few things here we want to make sure that our colors are better than just purple
+
+84
+00:06:30,920 --> 00:06:37,070
+and and green and pink and what if we want some specific color and we have a certain design that we
+
+85
+00:06:37,070 --> 00:06:38,490
+want for our Web site.
+
+86
+00:06:38,540 --> 00:06:43,130
+What colors are very very interesting and see SS because there's a few ways that you can do them.
+
+87
+00:06:43,130 --> 00:06:48,530
+And I want to show you one of my favorite Web sites for picking colors what this Web site does it actually
+
+88
+00:06:48,530 --> 00:06:56,300
+gives you the colors that you can use along with a nice addition of what it will compliment that color.
+
+89
+00:06:56,300 --> 00:07:03,050
+So you can play around with this and change a bunch of criteria as you can click over here and see what
+
+90
+00:07:03,050 --> 00:07:04,560
+color combinations work.
+
+91
+00:07:04,700 --> 00:07:08,420
+But let's say we wanted to use something like this.
+
+92
+00:07:08,420 --> 00:07:13,880
+And if you hover over and click you'll see over here that I get a couple of numbers that we can use.
+
+93
+00:07:13,880 --> 00:07:24,010
+So the first one is a hex number so hex number as a hash and then the number associated with it.
+
+94
+00:07:24,010 --> 00:07:29,330
+So I just copied it from the Web site you see the numbers a little bit different but essentially they
+
+95
+00:07:29,330 --> 00:07:38,410
+can use anything from 0 to 9 and then all the way to F so a to F and this represents a specific color.
+
+96
+00:07:38,450 --> 00:07:48,950
+So if I copy this and let's make our color let's make it the color of our header and save this and refresh
+
+97
+00:07:49,520 --> 00:07:52,430
+you'll see that our color changes OK.
+
+98
+00:07:52,440 --> 00:08:01,470
+We also want the border again to compliment the color let's do this border color.
+
+99
+00:08:01,630 --> 00:08:08,080
+We also have something called our GDP and our GDP again you see over here that there is a hex color
+
+100
+00:08:08,080 --> 00:08:11,290
+and an RJ color and these are both the same color.
+
+101
+00:08:11,290 --> 00:08:19,000
+So you can pick whichever one you want in the case of an RG color you can do something like say we want
+
+102
+00:08:19,600 --> 00:08:24,060
+for our border have RG be color of these values.
+
+103
+00:08:24,100 --> 00:08:26,920
+So that is the value of red green and blue.
+
+104
+00:08:26,950 --> 00:08:32,320
+So that's what our GDP stands for and we just wrap it like so.
+
+105
+00:08:32,330 --> 00:08:39,670
+So now if I save this and refresh look at that I have a nice little outline just to show you of what
+
+106
+00:08:39,940 --> 00:08:42,430
+exactly I mean by red green and blue.
+
+107
+00:08:42,490 --> 00:08:50,290
+If I set all of these to zero so that means that red is in full force and green and blue are nonexistent.
+
+108
+00:08:50,400 --> 00:08:53,310
+If I save and refresh that is red.
+
+109
+00:08:53,310 --> 00:09:00,510
+If I change this to green then that's in green effect and you can imagine here that if I changed a blue
+
+110
+00:09:00,540 --> 00:09:06,860
+to 255 and everything else is zero this will be blue.
+
+111
+00:09:06,870 --> 00:09:07,610
+There you go.
+
+112
+00:09:07,740 --> 00:09:14,460
+So let's go back here to what we had before because I like the other colors way better.
+
+113
+00:09:14,460 --> 00:09:15,700
+So let's refresh.
+
+114
+00:09:15,900 --> 00:09:17,190
+Perfect.
+
+115
+00:09:17,190 --> 00:09:24,030
+Now RG B lets you do one other cool thing and that is called Our GPA and that is stands for Alpha.
+
+116
+00:09:24,060 --> 00:09:30,030
+You can actually set the opacity so with the Forth number you can actually do something between 0 and
+
+117
+00:09:30,030 --> 00:09:39,670
+1 and 1 being while opaque and you can still see everything to zero where it's completely transparent.
+
+118
+00:09:39,680 --> 00:09:45,620
+So let's do zero point five here here you can see that there's a bit of a fade now and our color perfect.
+
+119
+00:09:45,620 --> 00:09:53,670
+So using a tool like this you can really pick what colors you want your website to have and choose the
+
+120
+00:09:53,670 --> 00:09:55,960
+one that complement each other well.
+
+121
+00:09:56,520 --> 00:10:02,030
+I use this Web site a lot when creating new Web sites and thinking of color templates to use.
+
+122
+00:10:02,070 --> 00:10:03,740
+It's a really really good resource.
+
+123
+00:10:03,750 --> 00:10:10,290
+And you can use hacks and our GP whichever one you want just it's good to have some consistency if you
+
+124
+00:10:10,290 --> 00:10:16,860
+want to add some opacity so the alpha this last number then definitely use our GPA.
+
+125
+00:10:17,370 --> 00:10:26,790
+OK so going back here our Web site is starting to look somewhat ok but in the next section I want to
+
+126
+00:10:26,790 --> 00:10:32,230
+talk a little bit about selectors and more things that we can do with them.
+
+127
+00:10:32,280 --> 00:10:33,750
+I'll see on that one by.
+

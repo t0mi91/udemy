@@ -1,0 +1,740 @@
+1
+00:00:01,020 --> 00:00:02,780
+And welcome back.
+
+2
+00:00:02,790 --> 00:00:06,050
+In this video we're gonna talk all about selectors.
+
+3
+00:00:06,180 --> 00:00:08,200
+Let's go back to our home base here.
+
+4
+00:00:08,220 --> 00:00:10,890
+We can look at our styles.
+
+5
+00:00:10,920 --> 00:00:19,440
+So far we've only been selecting elements but most likely we need something more than this.
+
+6
+00:00:19,440 --> 00:00:24,920
+So let's go back to our example and look at what sort of selectors we can have.
+
+7
+00:00:25,110 --> 00:00:32,940
+Let's say for example that we want the style that we have for the big home header to also apply to our
+
+8
+00:00:33,230 --> 00:00:34,350
+p tag.
+
+9
+00:00:34,500 --> 00:00:35,640
+How can we do that.
+
+10
+00:00:35,640 --> 00:00:47,650
+Well we can do something like this save refresh awesome so that's a way of doing a selector and there's
+
+11
+00:00:47,650 --> 00:00:53,110
+actually a whole bunch of things that we can do with selectors and I create a for you a nice little
+
+12
+00:00:53,500 --> 00:01:00,280
+cheat sheet here that all attach after this lesson and it references to really good resources that I
+
+13
+00:01:00,280 --> 00:01:01,630
+recommend.
+
+14
+00:01:01,630 --> 00:01:07,360
+One is the CSX tricks that I've already mentioned and you can see over here all the selectors that they
+
+15
+00:01:07,360 --> 00:01:12,460
+have they're not as many as they had with properties.
+
+16
+00:01:12,460 --> 00:01:16,450
+And it's actually not as overwhelming as you think.
+
+17
+00:01:16,450 --> 00:01:20,010
+Probably about 30 percent of these are the ones that are abused.
+
+18
+00:01:20,080 --> 00:01:20,800
+Most of the time.
+
+19
+00:01:21,160 --> 00:01:28,560
+And we also have our good friend W three schools that lists a bunch of the selectors here.
+
+20
+00:01:28,660 --> 00:01:33,370
+So let's go over a few things and understand the main selectors that we have.
+
+21
+00:01:33,490 --> 00:01:36,300
+So I've list them off for you over here.
+
+22
+00:01:36,400 --> 00:01:43,660
+But I want to point your attention to this line cascading style sheets at the most basic level it indicates
+
+23
+00:01:44,540 --> 00:01:45,240
+you'll type.
+
+24
+00:01:45,280 --> 00:01:51,010
+It indicates that the order of C rules matter and that's something that we've already discussed before
+
+25
+00:01:51,010 --> 00:01:53,200
+you remember the p tags.
+
+26
+00:01:53,530 --> 00:02:01,270
+So the order matters because we know that the C Ss will read the last line and make sure that that color
+
+27
+00:02:01,300 --> 00:02:05,400
+is green so that's the most basic level.
+
+28
+00:02:05,640 --> 00:02:08,430
+But there's a few other things that we can do.
+
+29
+00:02:08,490 --> 00:02:10,020
+So let's look at the selectors.
+
+30
+00:02:10,020 --> 00:02:11,820
+The first one is class.
+
+31
+00:02:11,820 --> 00:02:20,820
+The class will do something like this so let's say we want to add a few more P tax here and refresh.
+
+32
+00:02:21,490 --> 00:02:22,840
+Okay perfect.
+
+33
+00:02:22,840 --> 00:02:24,780
+We love the way everything looks.
+
+34
+00:02:24,820 --> 00:02:31,170
+But ideally for the paragraphs we want the border to be a slightly different color.
+
+35
+00:02:31,300 --> 00:02:37,390
+So while we can do is we can add something called class.
+
+36
+00:02:37,390 --> 00:02:41,770
+So the class property we can give it any value we want whatever we want to call us.
+
+37
+00:02:41,800 --> 00:02:44,010
+Let's call it Web text.
+
+38
+00:02:44,020 --> 00:02:55,890
+So now we can copy and paste this class attribute to all the p tags and if I go back to my style let's
+
+39
+00:02:55,890 --> 00:02:58,140
+make this put it up a bit.
+
+40
+00:02:59,830 --> 00:03:07,450
+I can now add period web text and then from here you can see that it's highlighted green and we want
+
+41
+00:03:07,450 --> 00:03:17,580
+the border to be 5 pixels that should green save and refresh and look at that.
+
+42
+00:03:18,300 --> 00:03:27,030
+So class is a good way to select a group of elements and make sure that they all have the same s and
+
+43
+00:03:27,030 --> 00:03:28,110
+we can add multiple ones.
+
+44
+00:03:28,110 --> 00:03:41,760
+So this one can be active and this adds a second class which we can say has the text color red.
+
+45
+00:03:42,000 --> 00:03:51,970
+So if we save that save this as well and refresh you see over here that now this is Red classes very
+
+46
+00:03:51,970 --> 00:03:52,920
+very useful.
+
+47
+00:03:52,930 --> 00:04:02,710
+Let's look at the next one the next one is I.D. I.D. is similar to class except for you can use the
+
+48
+00:04:02,710 --> 00:04:04,510
+same I.D. only once.
+
+49
+00:04:04,510 --> 00:04:12,740
+So let's say that we want to group these p tags by wrapping them in a diff and you might remember this
+
+50
+00:04:12,740 --> 00:04:19,700
+from the Asian male section where we talked about this tag that is very very useful for CSX for occasions
+
+51
+00:04:19,700 --> 00:04:27,590
+like this where we want to wrap something so I can do I.D. equals Div 1 and if I save this I can now
+
+52
+00:04:27,590 --> 00:04:39,020
+go back here and for an I.D. You want to do a hash sign they have one and let's do background blue save
+
+53
+00:04:39,050 --> 00:04:41,810
+and refresh all right.
+
+54
+00:04:41,890 --> 00:04:43,770
+That looks absolutely hideous.
+
+55
+00:04:43,800 --> 00:04:48,370
+You know what I think this will look really really good if it was if it had a bit of a passage.
+
+56
+00:04:48,720 --> 00:04:57,080
+So again we remember G B.A. And if we want to blue if you remember is red green and blue.
+
+57
+00:04:57,210 --> 00:05:04,310
+So two fifty five and then we'll light opacity of let's say zero point two you save that refresh.
+
+58
+00:05:04,320 --> 00:05:13,020
+All right that looks a lot better but now let's say we copy this and we want to add a second section
+
+59
+00:05:13,380 --> 00:05:17,220
+now we would have to call this def too.
+
+60
+00:05:17,230 --> 00:05:20,670
+Again we want to make sure that the I.D. are different.
+
+61
+00:05:20,670 --> 00:05:22,100
+Otherwise we break the rule.
+
+62
+00:05:22,110 --> 00:05:26,610
+Now if I save this we'll have something new but no styles on this one.
+
+63
+00:05:26,610 --> 00:05:31,880
+We want to add a different style for Def too.
+
+64
+00:05:31,900 --> 00:05:41,770
+So again the selector of Def two will have let's say this one instead of blue has the background red
+
+65
+00:05:41,770 --> 00:05:43,680
+with opacity of point two.
+
+66
+00:05:43,840 --> 00:05:46,710
+Let's refresh and look at that.
+
+67
+00:05:46,810 --> 00:05:48,870
+Alex say a lot better than you used it.
+
+68
+00:05:48,920 --> 00:05:49,160
+OK.
+
+69
+00:05:49,570 --> 00:05:53,870
+Let's go back to a couple of the ones so this is a star.
+
+70
+00:05:54,310 --> 00:05:55,290
+So the star.
+
+71
+00:05:55,330 --> 00:06:00,820
+It's not used very often but it symbolizes all elements.
+
+72
+00:06:00,820 --> 00:06:07,030
+So if I do and usually you'll see stars of the top but if I do something like this I can say that we
+
+73
+00:06:07,030 --> 00:06:15,680
+wanted to align everything and say text the line and we want to do right by say that and refresh.
+
+74
+00:06:15,700 --> 00:06:22,200
+Now we see that this moved to their right but these didn't.
+
+75
+00:06:22,410 --> 00:06:26,700
+And the reason is because again something called specificity.
+
+76
+00:06:26,700 --> 00:06:30,000
+We're saying that yep I want everything to be right.
+
+77
+00:06:30,090 --> 00:06:37,890
+But then as we go down the CSX you'll see that we are saying H2 MP We want text line to be center.
+
+78
+00:06:37,950 --> 00:06:42,600
+So these elements instead of coming to the right get to the center.
+
+79
+00:06:42,600 --> 00:06:44,870
+So just to prove to you that that's correct.
+
+80
+00:06:44,880 --> 00:06:48,190
+If I comment this out I save and refresh.
+
+81
+00:06:48,390 --> 00:06:51,140
+You see everything moves to the right.
+
+82
+00:06:51,140 --> 00:06:51,710
+OK.
+
+83
+00:06:51,780 --> 00:06:58,190
+And let's refresh perfect the next one is the element and this something that we've already seen.
+
+84
+00:06:58,260 --> 00:07:04,330
+You can see over here we're selecting the element and then we're putting the property and values the
+
+85
+00:07:04,330 --> 00:07:10,340
+next one is the element comma element and that is just like we've done here before.
+
+86
+00:07:10,450 --> 00:07:14,950
+We want both H2 and P to have these properties.
+
+87
+00:07:14,950 --> 00:07:23,260
+The next one and this is a little bit tricky is element space element and this is a little bit different
+
+88
+00:07:23,260 --> 00:07:29,390
+in the top on because elements space element what it does.
+
+89
+00:07:29,460 --> 00:07:30,290
+I'll show you over here.
+
+90
+00:07:30,300 --> 00:07:36,380
+I saved this and I refresh and what just happened here.
+
+91
+00:07:36,480 --> 00:07:43,590
+You'll see that now the text the line of center does not apply to these paragraphs anymore.
+
+92
+00:07:43,590 --> 00:07:52,740
+And that's because this syntax of writing a selector means I want you to select all P's that are inside
+
+93
+00:07:52,760 --> 00:07:53,650
+H two.
+
+94
+00:07:53,670 --> 00:08:00,120
+So now even the H two is installed anymore because this says we only want the piece that are inside
+
+95
+00:08:00,210 --> 00:08:05,950
+H2 and you'll see that we have nothing inside H2 other than the text.
+
+96
+00:08:06,000 --> 00:08:09,680
+So if I do something like this poem though I like that.
+
+97
+00:08:09,690 --> 00:08:11,740
+OK perfect.
+
+98
+00:08:11,750 --> 00:08:14,360
+I say that and I refresh.
+
+99
+00:08:14,360 --> 00:08:25,930
+You'll see that home gnome is added with these dots let's look at the next one the next one is element
+
+100
+00:08:26,440 --> 00:08:32,540
+greater than element so this one is a little tricky.
+
+101
+00:08:33,190 --> 00:08:41,720
+So if I go like this and I refresh nothing's changed but this says that I want you to select all P's
+
+102
+00:08:41,900 --> 00:08:49,170
+all paragraphs that have parent of H to so to show you exactly what that means.
+
+103
+00:08:49,380 --> 00:08:56,800
+Let's add this on our new line so you can see better if now within this P if we do something like this
+
+104
+00:08:56,800 --> 00:09:03,760
+where we wrap this in a div like so and I refresh this.
+
+105
+00:09:03,800 --> 00:09:14,700
+The style didn't get applied because it only wants piece so paragraphs that are parents of H and this
+
+106
+00:09:14,700 --> 00:09:19,290
+piece of his parent or her parent is the div.
+
+107
+00:09:19,380 --> 00:09:28,840
+Mr. and Mrs. div if we put this back to the way it was and refresh you'll see that this time it works
+
+108
+00:09:28,840 --> 00:09:35,350
+because it's saying all peace inside of H2 which is the case hopefully you're still with me.
+
+109
+00:09:35,350 --> 00:09:38,100
+This is as hard as selectors get.
+
+110
+00:09:38,110 --> 00:09:45,230
+So once you know these ones honestly you've covered 90 percent and nothing else will scare you.
+
+111
+00:09:45,310 --> 00:09:48,910
+Let's look at one more element plus element.
+
+112
+00:09:49,240 --> 00:09:58,030
+So this one if I go element plus element and refresh what just happened this says select any p element
+
+113
+00:09:58,060 --> 00:10:01,410
+that is exactly after an H2 element.
+
+114
+00:10:01,450 --> 00:10:02,710
+So what does that mean.
+
+115
+00:10:02,710 --> 00:10:16,510
+Well we need to make it so that the P element is right after the H2 so if I go like this save and refresh
+
+116
+00:10:17,350 --> 00:10:21,580
+you'll see that now we have our styles applied.
+
+117
+00:10:21,580 --> 00:10:26,560
+Let's look at a few more and like I said these swans are probably the hardest.
+
+118
+00:10:26,560 --> 00:10:28,100
+These last ones are kind of fun.
+
+119
+00:10:28,660 --> 00:10:32,330
+OK so we have a hover so hover.
+
+120
+00:10:32,560 --> 00:10:40,770
+What that means is if I go over here and I put hover at the end this means that when I refresh.
+
+121
+00:10:40,800 --> 00:10:49,190
+Nothing happens but when I hover my mouse look at that it changes the style to what we just wrote down
+
+122
+00:10:49,190 --> 00:10:49,900
+over here.
+
+123
+00:10:49,930 --> 00:10:52,580
+This one's a pretty cool one especially four buttons.
+
+124
+00:10:52,940 --> 00:10:59,120
+The next one if we look over here is last child and first child that you might guess what that means.
+
+125
+00:10:59,120 --> 00:11:06,980
+So a good way to demonstrate this is you want to use web text so web text as if you remember is all
+
+126
+00:11:06,980 --> 00:11:17,950
+these little Laura medicines I can say in here the last child refresh and only the last child of each
+
+127
+00:11:17,950 --> 00:11:26,530
+web text and you'll see here that there's two of them because it is selecting the last child this one
+
+128
+00:11:26,530 --> 00:11:35,160
+and this one and then there's also a first child which as you can imagine if I refresh it's like the
+
+129
+00:11:35,160 --> 00:11:37,630
+first time.
+
+130
+00:11:37,710 --> 00:11:43,290
+And then finally I want to show you one last thing that I don't recommend but you might see it in some
+
+131
+00:11:43,290 --> 00:11:43,880
+code bases.
+
+132
+00:11:43,890 --> 00:11:49,190
+So I don't want you to be surprised when you come across it and that is this.
+
+133
+00:11:49,340 --> 00:11:56,570
+So I can add something like exclamation mark important here and you'll see again we get that nice highlighting
+
+134
+00:11:57,570 --> 00:11:58,620
+an important means.
+
+135
+00:11:58,680 --> 00:12:03,880
+Let's see what happens here I refresh and everything just turn pink.
+
+136
+00:12:03,880 --> 00:12:11,410
+Even though this pea over here says I want the color green important overrides any of the cascading
+
+137
+00:12:11,410 --> 00:12:18,400
+salvia rules and says hey I don't care what anybody else says the pea is pink and you can see here why
+
+138
+00:12:18,400 --> 00:12:25,630
+I don't recommend using this because although you know for sure that the p tags will be pink if somebody
+
+139
+00:12:25,630 --> 00:12:31,720
+else comes and starts working on your style sheet and maybe this is hundreds of lines and they don't
+
+140
+00:12:31,720 --> 00:12:37,300
+know that the important tag is there they can be confused as to Hey How come nothing's turning green.
+
+141
+00:12:37,300 --> 00:12:41,510
+I can play all around with the color here and nothing's happening.
+
+142
+00:12:41,590 --> 00:12:46,800
+And again it breaks the rules of cascading style sheets so you don't really want to use it.
+
+143
+00:12:46,900 --> 00:12:51,270
+But again if you see it out in the wild you won't be surprised this way.
+
+144
+00:12:51,300 --> 00:12:58,980
+The last thing I want to leave you with is the idea of specificity if this is your first time running
+
+145
+00:12:58,980 --> 00:12:59,940
+into it.
+
+146
+00:13:00,230 --> 00:13:04,270
+It might get a little confusing and you do need a bit of time to get used to it.
+
+147
+00:13:04,380 --> 00:13:10,680
+But trust me you'll get there is just one of these things that everybody goes through and eventually
+
+148
+00:13:10,800 --> 00:13:12,530
+you'll have an aha moment.
+
+149
+00:13:12,600 --> 00:13:17,710
+Once the lectures win out in the Cascade it depends on three things.
+
+150
+00:13:17,730 --> 00:13:25,230
+So the first thing is specificity and I have a resource here that really explains it well a simple way
+
+151
+00:13:25,230 --> 00:13:30,480
+to think about this is how specific is your selector.
+
+152
+00:13:30,480 --> 00:13:35,690
+So this has the specificity score here.
+
+153
+00:13:35,770 --> 00:13:39,660
+This has a little bit higher because it's more detailed.
+
+154
+00:13:39,670 --> 00:13:41,260
+It's more nested.
+
+155
+00:13:41,260 --> 00:13:43,400
+And this one is higher.
+
+156
+00:13:43,450 --> 00:13:45,360
+This one is even higher.
+
+157
+00:13:45,910 --> 00:13:49,270
+And you can see that it keeps going higher and higher.
+
+158
+00:13:49,450 --> 00:13:56,160
+So the more specific something is the more likely it will win out and make sure that that is the style.
+
+159
+00:13:56,560 --> 00:14:01,000
+And there's actually a really fun specificity calculator.
+
+160
+00:14:01,030 --> 00:14:03,170
+It's really hard to say that word.
+
+161
+00:14:03,190 --> 00:14:12,540
+So if you click over here you can type in whatever you want so let's say for example is just one point.
+
+162
+00:14:12,550 --> 00:14:19,210
+But if I do lie that's two and if I do a lie that's even higher.
+
+163
+00:14:19,240 --> 00:14:27,440
+And if I do a two even higher but then I add an I.D. of food you see that I.D. are even higher.
+
+164
+00:14:27,550 --> 00:14:35,350
+And then if I add another class less to blue you'll see that the specificity increases and you'll see
+
+165
+00:14:35,350 --> 00:14:38,740
+over here that inline styles is actually the highest.
+
+166
+00:14:38,740 --> 00:14:48,790
+So if you remember that is putting a style directly into a section that will always win out over others
+
+167
+00:14:50,080 --> 00:14:57,340
+so you can play around with this and I will link to some of the resources that I have in the next section.
+
+168
+00:14:57,340 --> 00:15:03,020
+But again this is something that they'll be very specific wants to get to a certain problem.
+
+169
+00:15:03,040 --> 00:15:05,970
+You can figure it out but I hope that makes sense.
+
+170
+00:15:05,980 --> 00:15:08,450
+Let's go back over here to the last two things.
+
+171
+00:15:08,470 --> 00:15:16,810
+So the other thing was the importance importance is as I mentioned this exclamation mark important.
+
+172
+00:15:16,810 --> 00:15:21,290
+So that always depends on what kind of styles the cascade gets.
+
+173
+00:15:21,340 --> 00:15:25,570
+And then finally it is the sauce order.
+
+174
+00:15:25,570 --> 00:15:32,160
+And that is let's go back to our index file if we had a another style sheet here.
+
+175
+00:15:32,200 --> 00:15:35,190
+Let's say we're importing another style sheet.
+
+176
+00:15:35,350 --> 00:15:40,660
+And if you remember we have style to here that makes the H2 color blue.
+
+177
+00:15:40,660 --> 00:15:51,040
+If I put this in save and let's go back to our Web site and refresh this turns blue because our browser
+
+178
+00:15:51,250 --> 00:15:57,850
+reads this style sheet and then reads this one and because this one happens after this the later style
+
+179
+00:15:57,880 --> 00:15:58,570
+gets added.
+
+180
+00:15:58,570 --> 00:16:08,070
+So if I switch this over here and let's make sure that the H2 has its own style Celestia ish to color
+
+181
+00:16:08,370 --> 00:16:20,270
+red refresh you'll see that this style wins out OK I'm going to leave this out for you in the next section
+
+182
+00:16:20,270 --> 00:16:27,250
+you can play around with CSX and some of the selectors but this is the hardest it's going to get.
+
+183
+00:16:27,260 --> 00:16:30,950
+And once you remember these rules you're all set.
+
+184
+00:16:31,010 --> 00:16:31,840
+I'll see you in the next one.
+
+185
+00:16:32,420 --> 00:16:32,620
+By.
+

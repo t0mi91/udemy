@@ -1,0 +1,457 @@
+1
+00:00:01,470 --> 00:00:02,609
+Welcome back.
+
+2
+00:00:02,610 --> 00:00:06,320
+How was the exercise?
+Hopefully wasn't too difficult.
+
+3
+00:00:06,720 --> 00:00:10,230
+But if it was and you
+weren't able to finish it.
+
+4
+00:00:10,380 --> 00:00:17,189
+Don't worry we're going to go over the steps and
+luckily for you once we do this you'll have a template
+
+5
+00:00:17,190 --> 00:00:23,039
+that you can use for all your websites because what
+we'll build will be something responsive that you
+
+6
+00:00:23,040 --> 00:00:30,089
+can customize to your own liking but you'll at least
+know the best practices after this video of how to do
+
+7
+00:00:30,090 --> 00:00:34,000
+these common patterns that
+we see in a lot of websites.
+
+8
+00:00:34,050 --> 00:00:36,030
+So let's get started.
+
+9
+00:00:36,060 --> 00:00:41,110
+The first thing I want to do to
+convert this page is well a few things.
+
+10
+00:00:41,130 --> 00:00:49,589
+Let's go to the HTML page first and let's start off
+with the navigation that is the header over here.
+
+11
+00:00:49,590 --> 00:00:52,960
+A lot of websites have some
+sort of a header at the top.
+
+12
+00:00:52,980 --> 00:00:59,720
+The first thing I want to do is to actually use semantic
+HTML and be more descriptive in what are doing.
+
+13
+00:00:59,940 --> 00:01:06,059
+So in our case instead of div I'm going to use
+the nav HTML element and this is something that
+
+14
+00:01:06,060 --> 00:01:16,340
+we've already talked about and instead of just having
+header here I'm going to have a ul class or ul
+
+15
+00:01:16,370 --> 00:01:22,080
+element that will have a
+class name of main-nav.
+
+16
+00:01:23,770 --> 00:01:34,589
+And in here we can just have li elements that will
+have an anchor tag and because we don't really
+
+17
+00:01:34,590 --> 00:01:41,039
+have we won't have any links for this example we
+can obviously do whatever new HTML page that we
+
+18
+00:01:41,040 --> 00:01:44,120
+want to reference but for now
+we can just leave it blank.
+
+19
+00:01:44,610 --> 00:01:51,720
+So the first one will let's just say be about and we
+can copy and paste this for the other items as well.
+
+20
+00:01:53,670 --> 00:02:02,480
+We'll have let's just say
+products we'll say our team.
+
+21
+00:02:02,610 --> 00:02:10,890
+And then finally we'll have contact.
+If I save this and refresh.
+
+22
+00:02:11,070 --> 00:02:15,510
+There is our navigation doesn't
+look very good does it in real life.
+
+23
+00:02:15,520 --> 00:02:23,109
+Most of the time we see the navigation at the top
+and sometimes we also see that there's navigation
+
+24
+00:02:23,110 --> 00:02:27,249
+links at the top and one all the way to
+the right that's pushed to the right edge.
+
+25
+00:02:27,250 --> 00:02:29,540
+Such as contacts.
+
+26
+00:02:29,560 --> 00:02:35,710
+So let's try and do that where we have about products
+in our team at the top over here and then contacts
+
+27
+00:02:35,770 --> 00:02:38,500
+all the way to the right at the very edge.
+
+28
+00:02:38,980 --> 00:02:45,579
+So for that we can create a new class at the very
+last item that we want to let's say push and we'll
+
+29
+00:02:45,580 --> 00:02:47,539
+add the CSS classes.
+
+30
+00:02:47,540 --> 00:02:58,930
+Now if I go to our let's say this first if I go to
+style.css We can create our navigation here now.
+
+31
+00:03:03,060 --> 00:03:10,060
+We have the main nav class which we've
+created and in here we want to use flexbox.
+
+32
+00:03:10,080 --> 00:03:17,660
+So I'm going to say display flex to activate
+flexbox sounds cool when I say activate flexbox.
+
+33
+00:03:18,180 --> 00:03:26,130
+I want to make sure I remove these little dots in
+front of the names so I can just say the list-style
+
+34
+00:03:26,340 --> 00:03:30,010
+none which will remove
+these little pointers.
+
+35
+00:03:30,240 --> 00:03:37,250
+And let's say that we want the
+font size to be let's say 0.7.
+
+36
+00:03:37,320 --> 00:03:38,320
+em.
+
+37
+00:03:38,750 --> 00:03:41,840
+If I save and refresh here.
+
+38
+00:03:41,930 --> 00:03:47,360
+All right things are a little
+bit better but still not perfect.
+
+39
+00:03:47,390 --> 00:03:50,000
+One is we want to remove any margins.
+
+40
+00:03:50,120 --> 00:03:54,480
+So I'm going to say margin: 0.
+
+41
+00:03:55,320 --> 00:03:56,510
+If I refresh.
+
+42
+00:03:56,750 --> 00:04:03,379
+All right we've removed some margins but still not
+pretty we want to perhaps add some spaces in between
+
+43
+00:04:03,380 --> 00:04:11,409
+these things I'm going to just have the li class which
+is our navigation items and I'll just say that we
+
+44
+00:04:11,410 --> 00:04:15,440
+want the padding to be 20px I refresh.
+
+45
+00:04:15,700 --> 00:04:16,760
+That's a lot better.
+
+46
+00:04:16,890 --> 00:04:17,890
+OK.
+
+47
+00:04:18,380 --> 00:04:21,680
+And just to clean things up
+let's say that our anchor tags.
+
+48
+00:04:21,740 --> 00:04:36,069
+We also want them to be able to have a color of
+let's just use '#f5f5f6' if I refresh it's nice
+
+49
+00:04:36,070 --> 00:04:38,100
+and whitish that looks good.
+
+50
+00:04:38,470 --> 00:04:46,480
+And we don't want those underline so I'm
+going to say text-decoration: none. Refresh.
+
+51
+00:04:46,490 --> 00:04:53,810
+All good now because I want to start
+structuring this as an actual web page.
+
+52
+00:04:53,870 --> 00:05:01,429
+I'm going to go to our zone class and just remove
+our padding and margin because we don't really need
+
+53
+00:05:01,430 --> 00:05:02,370
+it.
+
+54
+00:05:02,410 --> 00:05:08,670
+Refresh here. Things are going to start looking
+ugly but at least we've moved all this whitespace
+
+55
+00:05:09,600 --> 00:05:12,519
+and then finally our display.
+
+56
+00:05:12,520 --> 00:05:14,920
+We're no longer going to use inline-block.
+
+57
+00:05:15,210 --> 00:05:18,560
+We want to start using
+our flexbox or CSS grid.
+
+58
+00:05:18,570 --> 00:05:25,190
+In our case our main nav is going to have flex
+display so we don't need our inline-block anymore.
+
+59
+00:05:25,230 --> 00:05:27,380
+We're going to save and refresh.
+
+60
+00:05:27,390 --> 00:05:35,639
+And that's a lot better because divs are automatically
+blocked our displays for these bottom ones are
+
+61
+00:05:35,640 --> 00:05:37,410
+now going to just be blocks.
+
+62
+00:05:37,500 --> 00:05:46,490
+But our top one our navbar has flex now which is great
+but you'll notice here we have a bit of a white
+
+63
+00:05:47,000 --> 00:05:51,410
+gap and this is very common
+when you're working with CSS.
+
+64
+00:05:51,640 --> 00:05:56,340
+Sometimes browsers by default have
+some sort of CSS attached to them.
+
+65
+00:05:57,190 --> 00:06:08,040
+In this case in Google Chrome our body element already
+has some predefined CSS classes that are pre-built
+
+66
+00:06:08,670 --> 00:06:14,220
+by chrome so we can actually remove those
+and make sure that our margins are zero.
+
+67
+00:06:14,280 --> 00:06:16,670
+By saying margin:
+
+68
+00:06:17,100 --> 00:06:18,640
+auto 0.
+
+69
+00:06:18,690 --> 00:06:20,900
+And this is something I'll
+make sure I spell that right.
+
+70
+00:06:20,910 --> 00:06:26,579
+This is something that you'll see a lot of and
+you'll do a lot of when it comes to just making sure
+
+71
+00:06:26,580 --> 00:06:29,890
+that the styles are at least
+the margins are correct.
+
+72
+00:06:29,910 --> 00:06:36,059
+When you start off. So if I refresh here. Look at
+that! Margins are on and everything just filled
+
+73
+00:06:36,060 --> 00:06:38,630
+on the page which is great.
+
+74
+00:06:38,650 --> 00:06:46,150
+The last thing I want to do is to move contacts all
+the way up to the right and remember the push class
+
+75
+00:06:46,270 --> 00:06:47,270
+that we added.
+
+76
+00:06:47,350 --> 00:06:50,360
+Well that's going to be super easy to do.
+
+77
+00:06:50,440 --> 00:07:05,029
+All we need to do is to add a push CSS class that
+says margin-left to be auto and with this auto if
+
+78
+00:07:05,030 --> 00:07:10,190
+I refresh contacts goes
+all the way to the right.
+
+79
+00:07:10,360 --> 00:07:12,030
+If I inspect this element.
+
+80
+00:07:12,070 --> 00:07:19,549
+So I just right click and click on inspect and let's
+make this a little bit bigger so we can see if
+
+81
+00:07:19,550 --> 00:07:22,250
+I hover over li push here.
+
+82
+00:07:23,460 --> 00:07:30,419
+We see that each li element has its
+own box but because we did margin-left
+
+83
+00:07:30,420 --> 00:07:33,489
+auto, our li element
+
+84
+00:07:33,490 --> 00:07:39,299
+it's going to get automatically push because it has
+this automatic margin that it creates to the very
+
+85
+00:07:39,300 --> 00:07:39,830
+end.
+
+86
+00:07:40,040 --> 00:07:43,540
+If I did margin-right for
+example and I refresh here
+
+87
+00:07:46,370 --> 00:07:52,800
+Our margin would now actually be all the way to the
+right to fill up the entire width of the viewport.
+
+88
+00:07:54,690 --> 00:07:56,900
+But let's go back to left.
+
+89
+00:07:57,110 --> 00:08:00,550
+Let's go back to the left
+save and refresh here.
+
+90
+00:08:00,590 --> 00:08:03,949
+The neat part about this is
+that with this margin-left
+
+91
+00:08:03,950 --> 00:08:13,080
+auto, I can now resize our page and you'll see
+that contacts is always going to be to our right.
+
+92
+00:08:13,100 --> 00:08:17,959
+This is something that you'll see in a lot
+of websites and we did that fairly fast.
+
+93
+00:08:17,960 --> 00:08:19,550
+Not too bad, right?
+
+94
+00:08:19,610 --> 00:08:27,319
+The last thing I want to fix here is as you'll notice
+as we get closer and closer it kind of overlaps
+
+95
+00:08:27,320 --> 00:08:28,140
+our team
+
+96
+00:08:28,160 --> 00:08:33,650
+and well now we have this weird
+little contacts that overflows.
+
+97
+00:08:33,710 --> 00:08:35,350
+How can we fix this?
+
+98
+00:08:35,390 --> 00:08:36,940
+Let's tackle that in the next video.
+

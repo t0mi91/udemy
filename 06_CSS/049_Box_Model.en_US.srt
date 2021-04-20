@@ -1,0 +1,260 @@
+1
+00:00:00,450 --> 00:00:01,760
+Welcome back.
+
+2
+00:00:01,770 --> 00:00:05,890
+In this video I want to talk about the box model and CSX.
+
+3
+00:00:05,880 --> 00:00:10,290
+It's a very important concept and it's something that you might have been kind of curious in the back
+
+4
+00:00:10,290 --> 00:00:16,070
+of your head about and that is this image right here in CSX.
+
+5
+00:00:16,070 --> 00:00:24,450
+We have this idea of the box model which has the content it has the padding the border which we've seen
+
+6
+00:00:24,450 --> 00:00:24,910
+before.
+
+7
+00:00:24,930 --> 00:00:26,010
+And then the margin.
+
+8
+00:00:26,070 --> 00:00:28,020
+So we're going to talk about that in this video.
+
+9
+00:00:28,050 --> 00:00:30,900
+So we have our not so pretty web site right now.
+
+10
+00:00:30,990 --> 00:00:38,040
+But I have left intentionally our log in page still kind of blank and you see that there's no styles
+
+11
+00:00:38,070 --> 00:00:43,920
+applied to it because if we go to the log in page and a drag it over here it's referencing style too
+
+12
+00:00:44,130 --> 00:00:51,660
+which doesn't have much Stiles happening yet to really emphasize this point I wanted to just instead
+
+13
+00:00:51,660 --> 00:01:04,710
+of the law at Epsom I'm going to create a div if I give this a class of box model I can go into my style
+
+14
+00:01:04,710 --> 00:01:18,360
+to which I'm going to drag over here and I can say box model border five pixels solid red I save this
+
+15
+00:01:18,360 --> 00:01:20,310
+and refresh OK.
+
+16
+00:01:20,330 --> 00:01:21,610
+So we have our box model.
+
+17
+00:01:21,620 --> 00:01:26,560
+Let's add something into this div we have a.
+
+18
+00:01:26,830 --> 00:01:38,230
+And right now it's covering the entire space but if we add three more divs we'll call this one B the
+
+19
+00:01:38,230 --> 00:01:41,730
+next on C save and refresh.
+
+20
+00:01:41,740 --> 00:01:41,970
+OK.
+
+21
+00:01:41,980 --> 00:01:50,840
+We have these and if we wanted them all in one line then you might remember that that was display in
+
+22
+00:01:51,240 --> 00:01:57,050
+line block and I save refresh and there we have it.
+
+23
+00:01:57,110 --> 00:01:57,290
+OK.
+
+24
+00:01:57,390 --> 00:01:58,860
+Let's talk about the box model here.
+
+25
+00:01:59,160 --> 00:02:03,970
+Let's say we wanted more space inside of these for the letters.
+
+26
+00:02:03,970 --> 00:02:11,430
+Well in that case we can use something like padding so padding I can put 20 pixels save and refresh
+
+27
+00:02:12,270 --> 00:02:13,250
+and there's our padding.
+
+28
+00:02:13,920 --> 00:02:20,120
+But let's say we want a different padding so that the sides are wider than the top.
+
+29
+00:02:20,130 --> 00:02:29,160
+In that case we can do something like five pixels of the top 20 pixels on the right side five pixels
+
+30
+00:02:29,160 --> 00:02:36,440
+at the bottom and 20 pixels to the left eye refresh and look at that.
+
+31
+00:02:36,620 --> 00:02:42,300
+And that's just the standard that you'll have to get used to it's Top Right Bottom Left.
+
+32
+00:02:42,320 --> 00:02:49,090
+You can also actually do padding as you can see in the dropped on bottom left top right to specify.
+
+33
+00:02:49,340 --> 00:02:51,150
+But this is a quicker way of doing it.
+
+34
+00:02:51,230 --> 00:02:54,820
+If you remember there is one more and that was margin.
+
+35
+00:02:55,040 --> 00:03:00,930
+So margin allows us to create space outside of the border.
+
+36
+00:03:01,160 --> 00:03:09,790
+So if I go 20 pixels here and I save refresh you can see that we created 20 pixels on the left side
+
+37
+00:03:09,790 --> 00:03:12,690
+and right side but also the top and the bottom.
+
+38
+00:03:12,730 --> 00:03:20,710
+Let's say we only want spaces between the boxes but not at the top and bottom well same principle again.
+
+39
+00:03:20,710 --> 00:03:33,080
+We can do zero pixels 20 pixels zero pixels and 20 pixels so Top Right Bottom Left safe and refresh.
+
+40
+00:03:33,260 --> 00:03:34,100
+There you go.
+
+41
+00:03:34,190 --> 00:03:36,380
+Now this might get tedious.
+
+42
+00:03:36,380 --> 00:03:41,410
+Here is one other shorthand way and that is you can remove this.
+
+43
+00:03:41,420 --> 00:03:43,610
+So this means top and bottom.
+
+44
+00:03:43,880 --> 00:03:45,520
+This means left and right.
+
+45
+00:03:45,560 --> 00:03:47,040
+I say this and refresh.
+
+46
+00:03:47,150 --> 00:03:48,090
+Nothing should change.
+
+47
+00:03:48,110 --> 00:03:49,190
+And it doesn't.
+
+48
+00:03:49,190 --> 00:03:54,830
+And we can do the same at the top here as well.
+
+49
+00:03:54,860 --> 00:03:55,760
+Perfect.
+
+50
+00:03:55,760 --> 00:04:03,490
+One last thing I want to show you is that if we open up our developer tools so again we do inspect you'll
+
+51
+00:04:03,490 --> 00:04:08,250
+see in our styles that we have our box model.
+
+52
+00:04:08,350 --> 00:04:11,410
+So if you see over here we have our content.
+
+53
+00:04:11,770 --> 00:04:13,090
+We have our padding.
+
+54
+00:04:13,210 --> 00:04:16,870
+And it says 20 pixels five pixels five pixels.
+
+55
+00:04:17,110 --> 00:04:22,640
+We have our border five pixels five pixels five pixel five pixels.
+
+56
+00:04:22,790 --> 00:04:26,410
+And then our margin zero with 20 on the side.
+
+57
+00:04:26,450 --> 00:04:33,370
+So again chrome allows you to browse around and make sure that all of these are properly done.
+
+58
+00:04:33,380 --> 00:04:36,070
+The last thing you might ask is What about this content.
+
+59
+00:04:36,080 --> 00:04:38,460
+How can I change this.
+
+60
+00:04:38,480 --> 00:04:48,410
+And that's very simple you can do something like with this to 33 pixels save and refresh and also do
+
+61
+00:04:48,860 --> 00:04:59,080
+height to 55 pixels save and refresh and you'll see over here that in our box model we now have the
+
+62
+00:04:59,080 --> 00:05:04,600
+content with 33 pixels by 55 pixels.
+
+63
+00:05:04,610 --> 00:05:06,300
+All right that's it for now.
+
+64
+00:05:06,320 --> 00:05:07,390
+See in the next one.
+
+65
+00:05:07,560 --> 00:05:07,800
+By.
+

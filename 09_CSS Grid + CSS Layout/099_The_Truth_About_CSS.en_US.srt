@@ -1,0 +1,176 @@
+1
+00:00:01,950 --> 00:00:06,770
+Hey there I want to take a quick video to explain something.
+
+2
+00:00:07,050 --> 00:00:13,350
+And this is something that I made the mistake of when I first started off when I first started teaching
+
+3
+00:00:13,350 --> 00:00:15,320
+myself programming.
+
+4
+00:00:15,460 --> 00:00:20,500
+You see you start off with HTML and things are fairly simple.
+
+5
+00:00:20,500 --> 00:00:21,800
+You learn some tags.
+
+6
+00:00:21,820 --> 00:00:26,880
+You learn some attributes and you starting to get it... how websites are built.
+
+7
+00:00:27,430 --> 00:00:32,890
+And then you learn about CSS and all the things that you can do to websites to make them pretty
+
+8
+00:00:32,980 --> 00:00:33,790
+and beautiful.
+
+9
+00:00:35,010 --> 00:00:40,030
+But then you start encountering all these CSS properties.
+
+10
+00:00:40,020 --> 00:00:45,960
+There's so many of them there's no way for you to remember all of them and they each act differently
+
+11
+00:00:46,080 --> 00:00:54,150
+on the element so that things like positioning a navigation bar becomes really difficult because you
+
+12
+00:00:54,150 --> 00:00:59,870
+have one button that for some reason is styled differently and you can't figure out why.
+
+13
+00:01:00,160 --> 00:01:07,680
+And that is a problem that everybody has CSS is notoriously difficult and frustrating to learn.
+
+14
+00:01:07,930 --> 00:01:14,020
+But this is the mistake that I made when I first started off. I thought I had to know everything in
+
+15
+00:01:14,030 --> 00:01:14,640
+HTML.
+
+16
+00:01:14,940 --> 00:01:19,480
+Everything in CSS before I even touched Javascript.
+
+17
+00:01:19,480 --> 00:01:26,800
+So I spent way too much time learning everything about HTML. Everything about CSS... getting frustrated
+
+18
+00:01:26,800 --> 00:01:36,550
+and frustrated because I couldn't get my websites to look like somebody that has been doing it for years.
+
+19
+00:01:36,640 --> 00:01:37,840
+And here's the thing.
+
+20
+00:01:38,050 --> 00:01:43,360
+If this was that easy then every single person would be doing it but it's not.
+
+21
+00:01:43,690 --> 00:01:50,800
+It's tough to master these skills but each day you make small little progress step by step.
+
+22
+00:01:50,950 --> 00:01:53,180
+So you become better.
+
+23
+00:01:53,190 --> 00:02:00,140
+However, I don't want you to fall into the trap that I did... that is to not start off learning javascript
+
+24
+00:02:00,290 --> 00:02:07,730
+right away, because you see these circles over here these circle the size of them represent how important
+
+25
+00:02:07,730 --> 00:02:09,250
+they are to your career.
+
+26
+00:02:10,420 --> 00:02:18,180
+Now if you want to be a web designer. Designing websites and making things look pretty then CSS is
+
+27
+00:02:18,180 --> 00:02:20,060
+quite important to you.
+
+28
+00:02:20,100 --> 00:02:27,330
+However, if you want to be a developer: somebody that works on logic on javascript and builds applications
+
+29
+00:02:27,960 --> 00:02:36,660
+Well you need to focus on Javascript, because although you need to know CSS those things that you're
+
+30
+00:02:36,660 --> 00:02:39,700
+going to work on while working on Javascript.
+
+31
+00:02:39,900 --> 00:02:47,010
+So each time you're learning javascript and working with websites you're also as an effect working
+
+32
+00:02:47,010 --> 00:02:49,630
+with CSS.
+
+33
+00:02:49,670 --> 00:02:56,540
+So although your knowledge might not feel complete right now with CSS, by using javascript and starting
+
+34
+00:02:56,540 --> 00:03:01,630
+with javascript as soon as possible we focus on the most important topic at hand.
+
+35
+00:03:02,000 --> 00:03:07,910
+And little by little as you're learning javascript you're also going to learn more and more about CSS
+
+36
+00:03:07,910 --> 00:03:10,870
+So I encourage you.
+
+37
+00:03:10,960 --> 00:03:14,440
+Trust me on this, because I've been through it as well.
+
+38
+00:03:14,470 --> 00:03:20,260
+Don't start learning every single CSS property trying to memorize everything because that's not how
+
+39
+00:03:20,260 --> 00:03:21,190
+you work.
+
+40
+00:03:21,250 --> 00:03:30,010
+A web developer is somebody that uses javascript. Javascript to make smart applications, and that is what
+
+41
+00:03:30,010 --> 00:03:39,100
+your focus should be on, and along the way you will also build your HTML and CSS knowledge... and that is
+
+42
+00:03:39,100 --> 00:03:41,340
+the path that we're taking with this course.
+
+43
+00:03:41,500 --> 00:03:45,460
+Not the longest slowest path but the most efficient path.
+
+44
+00:03:47,710 --> 00:03:48,640
+I'll see in the next video.
+

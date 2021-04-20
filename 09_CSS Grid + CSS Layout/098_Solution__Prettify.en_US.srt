@@ -1,0 +1,312 @@
+1
+00:00:00,950 --> 00:00:01,550
+Welcome back.
+
+2
+00:00:02,150 --> 00:00:08,960
+Let's take just five minutes to quickly make this website a little bit prettier, just to show you how
+
+3
+00:00:08,960 --> 00:00:13,520
+easy it is to customize a website once you have the layout done.
+
+4
+00:00:13,810 --> 00:00:16,520
+I recommend a step that I've mentioned multiple times.
+
+5
+00:00:16,820 --> 00:00:21,020
+When you build a website, figure out your layout, make it responsive.
+
+6
+00:00:21,020 --> 00:00:23,710
+And once that's done, the rest is kind of fun.
+
+7
+00:00:23,930 --> 00:00:28,990
+You just had nice success, probably some images to just prettify it.
+
+8
+00:00:29,570 --> 00:00:37,910
+So in our case, I want to show you a website called Well No Shit, and it's going to really help you
+
+9
+00:00:37,910 --> 00:00:42,980
+out because, well, it gives you free design resources to use.
+
+10
+00:00:43,730 --> 00:00:50,270
+And they have fonts, illustrations, mockups, UI kits, everything for free that you can use on your
+
+11
+00:00:50,270 --> 00:00:50,710
+website.
+
+12
+00:00:51,290 --> 00:01:00,860
+In our case, we can use something like Endre over here that gives us a ton of MIT illustrated or licensed
+
+13
+00:01:00,860 --> 00:01:01,650
+illustrations.
+
+14
+00:01:02,360 --> 00:01:07,460
+So if I go to browse now, we see that we have a ton of images that we can use.
+
+15
+00:01:08,650 --> 00:01:15,340
+So in my case, I've downloaded one of these images and we're going to use it as our cover photo.
+
+16
+00:01:16,240 --> 00:01:24,130
+So let's go back to our project and in my cover photo over here, instead of just having cover with
+
+17
+00:01:24,130 --> 00:01:27,880
+exclamation marks, I'll just have an image tag.
+
+18
+00:01:28,840 --> 00:01:30,580
+That will have a class of.
+
+19
+00:01:31,860 --> 00:01:40,080
+Cover a property that we're going to or class that we'll use and it's going to link to the image that
+
+20
+00:01:40,080 --> 00:01:46,620
+I just downloaded in my images folder, again, this you already be in your starter files that I gave
+
+21
+00:01:46,620 --> 00:01:46,940
+to you.
+
+22
+00:01:47,820 --> 00:01:51,990
+So if you look in that folder, you'll see that we have an image folder.
+
+23
+00:01:53,210 --> 00:01:55,920
+And from there, we're going to grab the on draw.
+
+24
+00:01:59,700 --> 00:02:08,740
+If I save this and refresh and make sure I finish that half with an ending bracket and I refresh, OK,
+
+25
+00:02:08,820 --> 00:02:12,900
+and this is a page that's refresh, that's a lot better.
+
+26
+00:02:12,900 --> 00:02:14,900
+But oh, boy, that's a big image.
+
+27
+00:02:15,240 --> 00:02:19,040
+We can easily fix this by going to our store.
+
+28
+00:02:20,850 --> 00:02:28,080
+Going to our cover and using the cover class that we've added to the image to just say that we want
+
+29
+00:02:28,080 --> 00:02:33,500
+the width to be well, we can say one hundred percent that, but that might be too big.
+
+30
+00:02:33,690 --> 00:02:34,680
+I don't like it that big.
+
+31
+00:02:34,890 --> 00:02:35,670
+Let's do.
+
+32
+00:02:37,590 --> 00:02:46,890
+Thirty five refresh for RTM five refresh, that's better, but we want to get rid of this red background
+
+33
+00:02:46,900 --> 00:02:49,050
+now let's have everything and wait.
+
+34
+00:02:49,570 --> 00:02:51,840
+It's going to go up to our HARSONO.
+
+35
+00:02:53,320 --> 00:02:56,890
+And we can just actually remove the red from here.
+
+36
+00:03:01,960 --> 00:03:03,040
+Now looks a lot better.
+
+37
+00:03:03,220 --> 00:03:11,980
+All right, so as we see the image sizes and growing, which is good, but it looks nice and pretty
+
+38
+00:03:12,160 --> 00:03:13,030
+as the cover photo.
+
+39
+00:03:13,780 --> 00:03:19,510
+Another thing that I noticed is that when I scroll down, I want the header tab to be sticky, that
+
+40
+00:03:19,510 --> 00:03:20,680
+is to scroll with me.
+
+41
+00:03:21,970 --> 00:03:25,990
+And that's another common pattern that we'll see that's fairly easy to do.
+
+42
+00:03:27,260 --> 00:03:35,630
+We can just give the nav element a sticky class and this sticky class.
+
+43
+00:03:39,850 --> 00:03:44,290
+Can say that they'll have possession of fixed.
+
+44
+00:03:46,690 --> 00:03:55,330
+And a top of zero that is sort of top, and if I refresh this, it will actually because of the position
+
+45
+00:03:55,330 --> 00:03:59,470
+fixed, although it works now, it messed up our width.
+
+46
+00:03:59,470 --> 00:04:02,650
+So we want to make sure that the width is always one hundred percent.
+
+47
+00:04:03,070 --> 00:04:07,880
+So all we would do is at the end, say, with 100 percent.
+
+48
+00:04:08,140 --> 00:04:13,750
+Again, these three properties together is a common pattern that you'll see to make.
+
+49
+00:04:15,990 --> 00:04:23,310
+To make navigation sticky so that now when I scroll down, look at that, our navigation is nice and
+
+50
+00:04:23,310 --> 00:04:23,620
+sticky.
+
+51
+00:04:24,210 --> 00:04:26,670
+Let's make the green navigation bar blue.
+
+52
+00:04:28,090 --> 00:04:29,530
+So I'll turn this into blue.
+
+53
+00:04:30,780 --> 00:04:32,240
+All right, that looks a lot better.
+
+54
+00:04:33,990 --> 00:04:39,030
+What else we can change our font, let's say, to something.
+
+55
+00:04:40,820 --> 00:04:47,330
+Prettier font family, let's just say aerial fire refresh.
+
+56
+00:04:47,360 --> 00:04:49,550
+All right, that looks a little bit cleaner.
+
+57
+00:04:50,210 --> 00:04:51,410
+What else can we do here?
+
+58
+00:04:53,020 --> 00:04:57,760
+Well, just to finish it off, maybe we wanted to do something different when we hover over the zone.
+
+59
+00:04:58,850 --> 00:05:04,280
+Let's say that with the boxes, when we hover over them, I can just copy and paste this.
+
+60
+00:05:05,900 --> 00:05:09,260
+Let's make them tilt a little bit, so I'll say box.
+
+61
+00:05:11,200 --> 00:05:15,550
+And instead of shadow or box shadow, we'll say transform.
+
+62
+00:05:22,590 --> 00:05:25,890
+And we'll just say that we want to rotate.
+
+63
+00:05:27,720 --> 00:05:29,850
+Say negative seven degrees.
+
+64
+00:05:37,010 --> 00:05:44,810
+If I save and refresh, look at that, we have some grid systems that when we hover over them, they
+
+65
+00:05:44,810 --> 00:05:45,920
+rotate seven degrees.
+
+66
+00:05:46,400 --> 00:05:53,080
+I mean, I wanted to demonstrate to you how fast we can convert a website to start looking good.
+
+67
+00:05:53,630 --> 00:05:55,790
+By no means is this perfect.
+
+68
+00:05:56,930 --> 00:06:05,480
+But by just changing a few properties, we've now gone from this to our final view.
+
+69
+00:06:07,810 --> 00:06:15,370
+And you can imagine how within a day of improving this website, making this a little bit prettier,
+
+70
+00:06:15,700 --> 00:06:17,170
+maybe you really like.
+
+71
+00:06:19,030 --> 00:06:25,000
+This websites cards that they have here, so you can just inspect the element.
+
+72
+00:06:26,420 --> 00:06:30,580
+And perhaps just copy their success styles.
+
+73
+00:06:32,700 --> 00:06:39,810
+But there's a lot of flexibility here, the important point, though, is the fact that you start with
+
+74
+00:06:40,020 --> 00:06:43,500
+your layout using flex blocks and access grade.
+
+75
+00:06:44,450 --> 00:06:50,240
+And then it's really up to you and your creativity to design beautiful websites.
+
+76
+00:06:51,090 --> 00:06:52,050
+I hope that was fun.
+
+77
+00:06:52,770 --> 00:06:58,180
+I definitely had a lot of fun playing with great inflects box, and I'll see you in the next video.
+
+78
+00:06:58,860 --> 00:06:59,220
+Bye bye.
+

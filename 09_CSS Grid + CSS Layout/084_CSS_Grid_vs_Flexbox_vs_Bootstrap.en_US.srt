@@ -1,0 +1,240 @@
+1
+00:00:00,970 --> 00:00:02,289
+Welcome back!
+
+2
+00:00:02,313 --> 00:00:08,613
+When it comes to layout using CSS
+a very important skill of a developer
+
+3
+00:00:08,637 --> 00:00:13,560
+there are probably
+three really good ways to do it this year.
+
+4
+00:00:14,710 --> 00:00:20,640
+One is something that we've
+discussed and that is flexbox.
+
+5
+00:00:20,680 --> 00:00:27,550
+Another one was Bootstrap 4 and we're going to
+learn about a new way of doing it which is called
+
+6
+00:00:27,790 --> 00:00:37,670
+CSS grid and if you go for a google image search
+and type in something like CSS flexbox vs. grid
+
+7
+00:00:38,000 --> 00:00:43,459
+you're going to get a lot of images explaining what
+the differences are why you use one over the other.
+
+8
+00:00:43,460 --> 00:00:50,629
+But I want to just preface the next couple of
+videos and let you know that there's no one versus
+
+9
+00:00:50,630 --> 00:00:52,920
+the other one that wins out over the other.
+
+10
+00:00:52,980 --> 00:00:54,710
+There's always a tradeoff.
+
+11
+00:00:54,950 --> 00:01:02,659
+And the best way to think about these tools is as
+complimentary tools that is the both work really really
+
+12
+00:01:02,660 --> 00:01:03,730
+well together.
+
+13
+00:01:03,770 --> 00:01:11,509
+You don't only have to use just fluxbox or just see
+a set script ideally use them both together and
+
+14
+00:01:11,510 --> 00:01:18,679
+I'll show you later on how we can use both fluxbox
+and CSS grid to pretty much do anything we want.
+
+15
+00:01:18,680 --> 00:01:26,030
+When it comes to layout but just to start us off
+a good way to think about flexbox vs. CSS grid
+
+16
+00:01:27,810 --> 00:01:32,700
+is that Flexbox is really good to
+use if you just have one dimension.
+
+17
+00:01:32,850 --> 00:01:39,400
+Maybe you're only thinking about columns
+and how to do layout based on columns.
+
+18
+00:01:39,620 --> 00:01:47,610
+CSS grids are really really powerful especially when
+it comes to two dimensional layouts that is both
+
+19
+00:01:47,910 --> 00:01:49,870
+columns and rows.
+
+20
+00:01:50,070 --> 00:01:57,269
+So it's really really good at let's say image galleries
+or listing out your portfolio projects on your
+
+21
+00:01:57,270 --> 00:02:00,960
+own personal webpage
+and we'll get into that.
+
+22
+00:02:01,080 --> 00:02:08,210
+But now you might be asking yourself OK
+isn't this what Bootstrap allows us to do.
+
+23
+00:02:09,330 --> 00:02:10,690
+And you'd be right.
+
+24
+00:02:10,950 --> 00:02:16,630
+Bootstrap came at a time when we
+didn't have flexbox and CSS grid.
+
+25
+00:02:16,710 --> 00:02:25,619
+It came at a time when we just had display and
+floats and positioning CSS properties that as we saw
+
+26
+00:02:25,620 --> 00:02:31,739
+are really really difficult to use when it comes
+to layouts and Bootstrap solved that problem.
+
+27
+00:02:31,740 --> 00:02:37,040
+It gave us this grid system that we can use within
+Bootstrap to make really beautiful layouts.
+
+28
+00:02:37,170 --> 00:02:39,290
+So that was really really useful.
+
+29
+00:02:40,560 --> 00:02:47,850
+But on your resume if you say that you know Bootstrap
+4 yeah that's good but it won't be that impressive
+
+30
+00:02:48,270 --> 00:02:55,949
+to employers anymore especially if you're going for
+a real developer job which is why I haven't focused
+
+31
+00:02:55,950 --> 00:03:02,939
+too much on Bootstrap 4. Because I argue that everything
+that you can do in Bootstrap 4 although sometimes
+
+32
+00:03:02,940 --> 00:03:09,989
+it's easy because it comes with their own pre-built
+components you can do now using flexbox and
+
+33
+00:03:09,990 --> 00:03:16,319
+CSS grid and because being a good developer
+means not just learning one library that always
+
+34
+00:03:16,320 --> 00:03:17,610
+changes always evolves.
+
+35
+00:03:17,730 --> 00:03:20,190
+It's learning the fundamentals.
+
+36
+00:03:20,330 --> 00:03:26,960
+It's more important for us to learn flexbox and CSS
+grid because now if we know these two we can create
+
+37
+00:03:27,050 --> 00:03:29,359
+any sort of layouts we want.
+
+38
+00:03:29,360 --> 00:03:34,909
+One last thing when it comes
+to CSS grid it's a new feature.
+
+39
+00:03:34,910 --> 00:03:40,909
+Most web browsers have support for it but we do see
+a few reds and older versions of browsers that do
+
+40
+00:03:40,910 --> 00:03:43,400
+not support CSS grid.
+
+41
+00:03:43,790 --> 00:03:51,799
+When we look at flexbox it's a little bit better
+because it's older than CSS grid and we've learned
+
+42
+00:03:51,800 --> 00:03:53,480
+all about this before right.
+
+43
+00:03:53,510 --> 00:03:59,970
+Each browser has their own implementation and any
+new feature has to be implemented individually.
+
+44
+00:03:59,980 --> 00:04:07,820
+So although CSS grid has become pretty standard across
+the web if you're trying to support older browsers
+
+45
+00:04:07,910 --> 00:04:13,980
+or something like Opera Mini then you might
+want to consider using floats to do layout.
+
+46
+00:04:14,330 --> 00:04:19,430
+Although to be honest most of the web
+is moving toward CSS grid and flexbox.
+
+47
+00:04:19,460 --> 00:04:26,389
+So I just recommend starting to use this right away
+because eventually this will have really really
+
+48
+00:04:26,390 --> 00:04:28,750
+good support but enough talk.
+
+49
+00:04:28,910 --> 00:04:34,669
+I think it's time for us to learn CSS grids to see
+what all the hype is about and start working on
+
+50
+00:04:34,670 --> 00:04:36,320
+a fun little project.
+
+51
+00:04:37,090 --> 00:04:38,900
+I'll see in the next one. Bye bye.
+

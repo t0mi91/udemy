@@ -1,0 +1,886 @@
+1
+00:00:00,790 --> 00:00:06,810
+"What do I do if I don't have enough experience?"
+"What if I'm underqualified for a job?"
+
+2
+00:00:06,834 --> 00:00:12,187
+Well, first of all, you should have this
+mentality in mind when applying to jobs
+
+3
+00:00:12,288 --> 00:00:16,188
+and apply to jobs that you feel
+you are under qualified for.
+
+4
+00:00:16,730 --> 00:00:21,670
+If a job is asking you to do something
+that you already feel confident
+
+5
+00:00:21,870 --> 00:00:26,020
+then you should ask yourself "What
+am I going to learn in this job?".
+
+6
+00:00:26,340 --> 00:00:31,650
+"Am I going to learn actually, is this job going to
+put things on my resume that will make me get better
+
+7
+00:00:31,890 --> 00:00:34,889
+and get a better position in the future?
+
+8
+00:00:34,890 --> 00:00:39,940
+Or am I just going to do the same thing that
+I already know what to do or how to do it?"
+
+9
+00:00:39,960 --> 00:00:47,190
+Finally, you have to keep in mind that job postings
+are put in order to weed out the weak candidates.
+
+10
+00:00:47,250 --> 00:00:54,179
+I have seen way too many of these created by non-technical
+people or just making job sound tougher than
+
+11
+00:00:54,180 --> 00:00:58,830
+it really is to remove junior
+developers or engineers from applying.
+
+12
+00:00:59,160 --> 00:01:03,160
+So ask yourself:
+"Is this job going to be tough?"
+
+13
+00:01:03,300 --> 00:01:04,590
+Good, then
+
+14
+00:01:04,770 --> 00:01:09,100
+that is what you want. That's
+why you should be doing.
+
+15
+00:01:09,120 --> 00:01:10,440
+Do you feel competent?
+
+16
+00:01:10,500 --> 00:01:12,940
+You are very qualified for this job.
+
+17
+00:01:13,350 --> 00:01:18,410
+Ok then, maybe you should push yourself and apply
+to a job that's more difficult than you think.
+
+18
+00:01:18,450 --> 00:01:24,650
+Every application should be a long shot. If you're applying
+to something that you're 100 percent qualified for
+
+19
+00:01:24,690 --> 00:01:26,220
+where is your room to grow?
+
+20
+00:01:26,250 --> 00:01:27,890
+So dream big.
+
+21
+00:01:28,170 --> 00:01:32,860
+But in order to dream big,
+you might have a bit of a roadblock.
+
+22
+00:01:32,940 --> 00:01:36,750
+What if you don't have enough experience?
+
+23
+00:01:36,790 --> 00:01:40,540
+See, I don't love resumes and I don't
+think a lot of people do either.
+
+24
+00:01:40,710 --> 00:01:46,050
+But sometimes without a resume you cannot get an
+interview. And in order to have a good resume
+
+25
+00:01:46,080 --> 00:01:50,990
+you need to have something to put on
+it, like great experience.
+
+26
+00:01:51,010 --> 00:01:55,870
+Here's the catch though: "How can you have good
+experience if you're just getting started?"
+
+27
+00:01:55,900 --> 00:02:00,639
+It's like you have no hope if you're a beginner or
+if you don't have enough work experience because
+
+28
+00:02:00,640 --> 00:02:03,760
+you're just out of school
+or you're changing careers.
+
+29
+00:02:03,790 --> 00:02:05,040
+Well not quite.
+
+30
+00:02:05,330 --> 00:02:07,990
+As with everything there's the
+regular way of doing things
+
+31
+00:02:08,020 --> 00:02:09,150
+then there's the smart way.
+
+32
+00:02:11,074 --> 00:02:15,135
+You see experience doesn't come just
+from working at another company.
+
+33
+00:02:15,150 --> 00:02:19,430
+There are many ways that you can
+demonstrate experience without a past job.
+
+34
+00:02:19,590 --> 00:02:23,050
+And here you'll find my
+favorite ways to show improve.
+
+35
+00:02:23,220 --> 00:02:24,930
+You can get the job done.
+
+36
+00:02:24,960 --> 00:02:26,960
+You won't have to do
+every single one of them.
+
+37
+00:02:26,970 --> 00:02:29,579
+But two out of four of
+these or even better
+
+38
+00:02:29,580 --> 00:02:35,990
+three out of four, will be great at showcasing
+on your resume and make you stand up.
+
+39
+00:02:36,420 --> 00:02:39,820
+So let's go in order and
+see how we can do this.
+
+40
+00:02:39,840 --> 00:02:42,010
+The first one is GitHub.
+
+41
+00:02:43,450 --> 00:02:49,300
+GitHub is a great way to demonstrate that you
+actually code that you've built projects.
+
+42
+00:02:49,330 --> 00:02:56,620
+The number one thing you can do is to start making
+commits and making sure that you have a good history
+
+43
+00:02:56,890 --> 00:02:58,460
+of things that you've done.
+
+44
+00:02:58,630 --> 00:03:03,249
+And by the way if you're wondering how I got this
+cat picture in here I'll show you a little trick in
+
+45
+00:03:03,250 --> 00:03:09,989
+the next exercise to make your contribution
+look a little bit nicer and busier.
+
+46
+00:03:09,990 --> 00:03:17,940
+In case you're just getting started and you don't
+have a good past history. Another way to improve your
+
+47
+00:03:18,120 --> 00:03:25,990
+GitHub profile or to just add more experience is
+contributing and participating in open source projects.
+
+48
+00:03:26,010 --> 00:03:34,949
+For example I've created a zero to mastery organization
+where we have a ton of open source projects
+
+49
+00:03:34,950 --> 00:03:43,309
+by the community that you can contribute to and they're
+made specifically for you to mess up, make mistakes.
+
+50
+00:03:43,310 --> 00:03:44,489
+Nobody is going to yell you.
+
+51
+00:03:44,490 --> 00:03:49,979
+These are just fun projects that are open source that
+you can contribute to and you can do as much or as
+
+52
+00:03:49,980 --> 00:03:55,855
+little as you want but this will improve your
+experience and contributing to open source projects and
+
+53
+00:03:55,856 --> 00:04:01,270
+it's something you can add to your resumes.
+Now, contributing to open source projects
+
+54
+00:04:01,290 --> 00:04:07,829
+recruiters love seeing this because this demonstrates
+you can work with others and also with something
+
+55
+00:04:07,830 --> 00:04:10,110
+like GitHub and version control.
+
+56
+00:04:10,170 --> 00:04:11,650
+All right let's look at the next one.
+
+57
+00:04:12,360 --> 00:04:14,940
+The next one is website.
+
+58
+00:04:15,060 --> 00:04:20,490
+If you are especially a full-stack or front-end
+developer or even a designer you should have your own
+
+59
+00:04:20,620 --> 00:04:23,850
+website where you can showcase your skills.
+
+60
+00:04:23,900 --> 00:04:29,899
+This again is something you can speak about in your
+interview and about how you built the website or it gives
+
+61
+00:04:29,900 --> 00:04:32,980
+you a good way to talk
+about your past projects.
+
+62
+00:04:32,990 --> 00:04:38,089
+Now you're asking yourself: "Ah! Andrei, am I going to
+have to build a whole new website and waste a bunch
+
+63
+00:04:38,090 --> 00:04:38,650
+of time?"
+
+64
+00:04:38,660 --> 00:04:39,679
+Well not really.
+
+65
+00:04:39,680 --> 00:04:44,910
+Let me show you a couple of tricks. You see you
+don't need to build your own website from scratch.
+
+66
+00:04:44,960 --> 00:04:51,049
+There's a ton of free templates like creative tim
+here that just gives you a nice template for you
+
+67
+00:04:51,050 --> 00:04:58,010
+to use and fill in with your information.
+We can also look at this one.
+
+68
+00:04:58,040 --> 00:05:00,130
+And again free templates that you can use.
+
+69
+00:05:00,140 --> 00:05:05,610
+I especially like the mountain
+template and you can see that, yeah!
+
+70
+00:05:05,720 --> 00:05:11,510
+I mean you can customize this to your own and make it
+look professional and it's already designed nicely
+
+71
+00:05:11,540 --> 00:05:21,900
+and also customized for different experiences such
+as mobile, tablet and in a day you can have your own
+
+72
+00:05:22,330 --> 00:05:23,450
+website.
+
+73
+00:05:23,620 --> 00:05:28,680
+And just to show you how you shouldn't really
+spend too much time on your own website.
+
+74
+00:05:28,700 --> 00:05:32,390
+One of my favorite people
+to follow is Kevin Kelly.
+
+75
+00:05:32,420 --> 00:05:38,780
+He is very very popular among the tech community
+and he's just overall really smart thinker.
+
+76
+00:05:39,920 --> 00:05:41,860
+And you can see his website over here.
+
+77
+00:05:41,870 --> 00:05:43,550
+It's very simple.
+
+78
+00:05:43,700 --> 00:05:44,860
+Nothing exaggerated.
+
+79
+00:05:44,880 --> 00:05:49,670
+A very very clean but
+small very basic layout.
+
+80
+00:05:50,270 --> 00:05:54,430
+And this is to show you that you
+don't need some crazy animations.
+
+81
+00:05:54,470 --> 00:05:58,939
+Make it all flashy to stand out.
+As long as you have a personal website
+
+82
+00:05:58,940 --> 00:06:05,190
+it just shows that you actually spend time building
+it and doing something that most people wouldn't do.
+
+83
+00:06:06,200 --> 00:06:12,610
+Another thing that I want to show you is for example
+the jobboard that we have for all of my students
+
+84
+00:06:12,800 --> 00:06:16,680
+and this is again another open source
+project that the community built.
+
+85
+00:06:16,850 --> 00:06:24,199
+If we just search through let's say Toronto developers
+here and we go to Christine Aqui I hope I'm
+
+86
+00:06:24,200 --> 00:06:25,280
+saying the last thing right.
+
+87
+00:06:25,340 --> 00:06:28,790
+You can see how simple yet
+beautiful her portfolio is.
+
+88
+00:06:28,820 --> 00:06:36,109
+If we go to about me just a nice little bio with links
+to her profile if we go to projects we see some
+
+89
+00:06:36,110 --> 00:06:37,220
+other projects.
+
+90
+00:06:37,460 --> 00:06:43,650
+And this is something that she can put on her
+resume and immediately stand out from the crowd.
+
+91
+00:06:44,000 --> 00:06:49,909
+And it also gives her an opportunity to list projects
+that she can talk about when she gets to an interview.
+
+92
+00:06:49,910 --> 00:06:51,590
+All right let's look at the next topic.
+
+93
+00:06:52,730 --> 00:06:56,520
+1 ~ 2 big projects. Now
+
+94
+00:06:56,870 --> 00:07:04,800
+you can't really fake experience. If you've never built
+anything beyond a "to-do list" or a "Hello World" app
+
+95
+00:07:04,970 --> 00:07:08,300
+you simply will not be
+able to get very good jobs.
+
+96
+00:07:08,360 --> 00:07:13,730
+However, most people think having a
+hundred projects is the way to go.
+
+97
+00:07:13,820 --> 00:07:21,349
+So they do a project today and build small projects
+many small tiny projects to have 30 of them and
+
+98
+00:07:21,350 --> 00:07:25,490
+they start building all these
+projects that are very very simple.
+
+99
+00:07:26,170 --> 00:07:28,269
+Now that's not actually impressive.
+
+100
+00:07:28,270 --> 00:07:31,680
+I mean it shows that you're
+working hard and coding along.
+
+101
+00:07:31,750 --> 00:07:39,009
+But if I'm a recruiter you can show me a project of
+maybe "tic-tac-toe" but I don't really care that's
+
+102
+00:07:39,010 --> 00:07:43,740
+something that anybody can build with a
+bit of coding experience in a day or two.
+
+103
+00:07:43,780 --> 00:07:49,860
+Frankly no recruiter or interviewer is going to
+check out all your 30 projects. Most of the time
+
+104
+00:07:49,870 --> 00:07:53,709
+we want to hear your most
+difficult or the hardest
+
+105
+00:07:53,710 --> 00:07:58,850
+biggest project you've worked on. Instead of
+spending your time on these small little projects
+
+106
+00:07:58,990 --> 00:08:06,720
+spend your time on one or two big projects.
+For example; in other course that I teach
+
+107
+00:08:06,730 --> 00:08:13,250
+we built a face recognition app.
+And this app, well has a front end
+
+108
+00:08:13,300 --> 00:08:21,570
+using React.js, a backend where we have a RESTful API
+server with Express. We've deployed it to Heroku.
+
+109
+00:08:22,170 --> 00:08:32,010
+We've created session management with authenticator
+routes, we store user information such as username.
+
+110
+00:08:32,250 --> 00:08:37,019
+And also hashed passwords securely
+in our database on Postgres.
+
+111
+00:08:37,020 --> 00:08:46,180
+We've deployed our app with Docker and we've also
+used redis for session management and caching.
+
+112
+00:08:46,200 --> 00:08:53,309
+Now all of that may not mean a lot to you but having
+something like a one big project they can talk
+
+113
+00:08:53,310 --> 00:08:59,369
+about all these things, will make you sound a lot
+more impressive than somebody that just built a ton
+
+114
+00:08:59,370 --> 00:09:06,860
+of tiny projects. So focus on that have 1 to 2 big
+projects that you can show off makes you stand out.
+
+115
+00:09:06,910 --> 00:09:12,340
+And it's also going to give you something to talk about
+during the interview and put it up on your website
+
+116
+00:09:12,370 --> 00:09:19,510
+or create its own website and you immediately can
+put this as the first item on your resume. Because
+
+117
+00:09:19,630 --> 00:09:23,679
+here's the thing; if you
+don't have work experience
+
+118
+00:09:23,680 --> 00:09:27,030
+if we go back to the resume
+we used in the exercise.
+
+119
+00:09:27,190 --> 00:09:28,590
+Remember this resume.
+
+120
+00:09:28,840 --> 00:09:36,619
+Well if you have no work experience, maybe for work
+experience you can say something like javascript
+
+121
+00:09:36,620 --> 00:09:42,840
+developer or web application developer and
+talk about how you build your project here.
+
+122
+00:09:44,090 --> 00:09:50,060
+Because to a recruiter it doesn't really matter if you
+worked at a certain company building an application
+
+123
+00:09:50,090 --> 00:09:53,539
+or on your own or that could
+be a little bit vague too.
+
+124
+00:09:53,540 --> 00:09:54,790
+They don't need to know that.
+
+125
+00:09:54,920 --> 00:10:01,609
+They just need to know that you build things that are
+real that are big and complicated and you solved
+
+126
+00:10:01,610 --> 00:10:02,929
+hard problems.
+
+127
+00:10:02,930 --> 00:10:11,209
+So having one or two big projects they you can list
+on your experiences, is a great way to add to your
+
+128
+00:10:11,210 --> 00:10:16,350
+resume if you don't have enough
+past work experience at companies.
+
+129
+00:10:16,540 --> 00:10:22,779
+And I have a few students who have actually used this
+technique to get interviews, even though they just
+
+130
+00:10:22,780 --> 00:10:23,820
+learn how to code
+
+131
+00:10:23,860 --> 00:10:31,149
+six months ago. And then finally
+we have the blog posts or blog.
+
+132
+00:10:31,150 --> 00:10:33,760
+Let's have a look at what I mean by that.
+
+133
+00:10:33,780 --> 00:10:39,479
+This is another thing you can include in your resume,
+especially if it's related to a technology you're
+
+134
+00:10:39,480 --> 00:10:41,410
+using or the company is using.
+
+135
+00:10:42,330 --> 00:10:50,550
+For example I have here my medium profile. medium.com
+allows anybody around the world to just post
+
+136
+00:10:51,240 --> 00:10:57,810
+a blog post and it's very popular with the tech
+community so there's a lot of tech related posts that
+
+137
+00:10:57,820 --> 00:11:00,610
+you right on medium and there's
+other platforms like this.
+
+138
+00:11:00,690 --> 00:11:07,350
+What if you wrote a blog post about a specific
+technology that the company you're applying for is using
+
+139
+00:11:08,440 --> 00:11:15,400
+or some sort of a technical problem that they're facing?
+By doing that and just adding a link to that blog post.
+
+140
+00:11:15,530 --> 00:11:18,750
+It gives you again another
+leg up to most people.
+
+141
+00:11:19,720 --> 00:11:26,350
+And the great thing about platforms like this is that
+well if we go to one of my articles here you can
+
+142
+00:11:26,560 --> 00:11:31,850
+post it to what we call publishers and publishers
+allow your post to be discovered by others.
+
+143
+00:11:32,020 --> 00:11:33,459
+And it's very simple to do.
+
+144
+00:11:33,460 --> 00:11:39,279
+You can write a blog post on medium in a day and submit
+it to a place like hackernoon and lots of people
+
+145
+00:11:39,280 --> 00:11:48,040
+see it. And as soon as you show this to a recruiter
+or an interviewer, again it automatically shows that
+
+146
+00:11:48,370 --> 00:11:53,049
+you know what you're talking about or at least it
+makes you stand out from the rest. And you can do this
+
+147
+00:11:53,050 --> 00:11:54,320
+with YouTube videos as well.
+
+148
+00:11:54,340 --> 00:11:59,820
+But I prefer writing because it's a lot
+faster and it looks a lot more professional.
+
+149
+00:11:59,880 --> 00:12:05,030
+So let's just review here; "what happens
+if you don't have enough experience?"
+
+150
+00:12:05,040 --> 00:12:10,980
+Well all of these four points allow you to gain that
+experience or show that you have experience without
+
+151
+00:12:11,670 --> 00:12:15,060
+actually having traditional
+work experience.
+
+152
+00:12:15,420 --> 00:12:21,360
+All you need to do is start something on your own
+and build something like a project or a portfolio
+
+153
+00:12:21,390 --> 00:12:23,550
+or a blog post.
+
+154
+00:12:23,580 --> 00:12:29,000
+This only shows initiative but you can focus
+this project on solely getting your interviews.
+
+155
+00:12:29,010 --> 00:12:37,029
+Or you can participate in a hackathon or contribute
+to open source projects. By taking this initiative
+
+156
+00:12:37,030 --> 00:12:43,950
+you're doing more than most people that hope to
+just land an interview by sending a generic resume.
+
+157
+00:12:43,960 --> 00:12:48,640
+You'll immediately stand out from the crowd and
+give you something to put on your resume that again
+
+158
+00:12:48,820 --> 00:12:51,080
+is different than the average developer.
+
+159
+00:12:52,800 --> 00:12:57,950
+Plus you have the added benefit of something
+to talk about in your actual interview.
+
+160
+00:12:59,080 --> 00:13:05,779
+Remember nothing is given to you for free and luck
+is for those who rather wait and go after what they
+
+161
+00:13:05,780 --> 00:13:11,310
+want so by simply building something
+just for fun such as a side project.
+
+162
+00:13:11,480 --> 00:13:15,289
+You're showing how self-motivated
+and ambitious you are.
+
+163
+00:13:15,290 --> 00:13:18,480
+Experience doesn't mean
+on the job experience.
+
+164
+00:13:18,530 --> 00:13:21,370
+Write about your portfolio projects.
+
+165
+00:13:21,620 --> 00:13:24,409
+Maybe talk about your
+website and how you built it.
+
+166
+00:13:24,410 --> 00:13:29,719
+Talk about your GitHub profile maybe a hackathon you
+participate in and or open source projects you've
+
+167
+00:13:29,720 --> 00:13:31,069
+worked on.
+
+168
+00:13:31,070 --> 00:13:37,909
+Write a blog post on a specific technology that the
+company you're applying to is using. All of them
+
+169
+00:13:37,910 --> 00:13:40,970
+answer this question:
+"Do you have experience?"
+
+170
+00:13:41,160 --> 00:13:48,059
+Finally there are many things that you can add that are
+not developer related, but can make you a great employee.
+
+171
+00:13:48,060 --> 00:13:51,420
+For example, "did you work
+as an instructor at a camp?"
+
+172
+00:13:51,750 --> 00:13:57,070
+Well you can now add ability to manage
+people and communicate well with others.
+
+173
+00:13:57,120 --> 00:14:01,310
+Any skill that is related to getting
+the job done can be included.
+
+174
+00:14:02,120 --> 00:14:08,400
+Also if you have only had six months of coding
+experience, don't show that on the resume.
+
+175
+00:14:08,480 --> 00:14:16,550
+That doesn't mean to lie but to hide that information.
+Because a recruiter only glances at your resume.
+
+176
+00:14:16,760 --> 00:14:20,740
+They won't care if you're the best developer in
+the world if they just see six months experience.
+
+177
+00:14:20,840 --> 00:14:22,669
+That's too risky for them.
+
+178
+00:14:22,670 --> 00:14:26,730
+Your resume will most likely be discarded
+no matter how good of a developer you are.
+
+179
+00:14:26,750 --> 00:14:34,129
+So remember resumes are only good to get your foot
+in the door. By tweaking your resume to show that
+
+180
+00:14:34,130 --> 00:14:40,279
+you have experience so that the recruiter thinks "Oh
+interviewing this person is low risk because they
+
+181
+00:14:40,280 --> 00:14:43,380
+know what they're talking about",
+is a good way of doing it.
+
+182
+00:14:44,470 --> 00:14:48,079
+"Do you have past experience?
+Have you made good decisions in the past?
+
+183
+00:14:48,103 --> 00:14:51,740
+And have you worked on a challenging
+problem and solve them?"
+
+184
+00:14:51,760 --> 00:14:53,710
+If you're able to answer yes to that
+
+185
+00:14:53,734 --> 00:14:59,274
+well then a recruiter is most likely
+going to ask you for an interview.
+
+186
+00:14:59,740 --> 00:15:00,980
+I'll see you in the next video.
+

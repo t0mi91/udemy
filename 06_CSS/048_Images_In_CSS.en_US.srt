@@ -1,0 +1,204 @@
+1
+00:00:00,710 --> 00:00:01,910
+And welcome back.
+
+2
+00:00:01,910 --> 00:00:07,790
+I want to show you a property that is commonly used with images so I have a really funny picture here
+
+3
+00:00:08,390 --> 00:00:09,800
+of an alpaca.
+
+4
+00:00:09,800 --> 00:00:10,940
+So we're gonna copy that.
+
+5
+00:00:10,940 --> 00:00:17,110
+Actually we're gonna use the link for this and we're gonna add an image to our Web site.
+
+6
+00:00:17,120 --> 00:00:19,760
+Let's just make our font size a little bit smaller.
+
+7
+00:00:21,260 --> 00:00:21,810
+Perfect.
+
+8
+00:00:21,830 --> 00:00:25,320
+And I'm going to try and add a picture to the left over here.
+
+9
+00:00:25,490 --> 00:00:33,470
+So if we go to our about page and in our section over here we can try and add a picture.
+
+10
+00:00:33,950 --> 00:00:35,360
+So let's do an image tag.
+
+11
+00:00:35,840 --> 00:00:41,990
+And if you remember we have a source and that source I just copy and pasted the link and if I saved
+
+12
+00:00:41,990 --> 00:00:45,000
+this and refresh.
+
+13
+00:00:45,140 --> 00:00:45,950
+That's a big picture.
+
+14
+00:00:45,960 --> 00:00:59,570
+So as you may remember we have to do with close to 50 pixels and height 50 pixels let's save and refresh
+
+15
+00:01:00,170 --> 00:01:01,860
+and you can see that we broke.
+
+16
+00:01:01,880 --> 00:01:04,020
+Let's make that a little bit bigger actually.
+
+17
+00:01:04,160 --> 00:01:12,490
+Let's to two hundred and 200.
+
+18
+00:01:12,530 --> 00:01:13,550
+Perfect.
+
+19
+00:01:13,550 --> 00:01:20,840
+You can see here that we actually broke a bit of our CSX and that is because if you look over here we
+
+20
+00:01:20,840 --> 00:01:26,080
+have used this selector which says immediate neighbour of H2.
+
+21
+00:01:26,220 --> 00:01:29,700
+We can just do this for now refresh.
+
+22
+00:01:29,720 --> 00:01:31,740
+And there you have it.
+
+23
+00:01:31,820 --> 00:01:36,010
+But I kind of want the text to be on the right side over here.
+
+24
+00:01:36,020 --> 00:01:37,230
+How do we do that.
+
+25
+00:01:37,230 --> 00:01:45,570
+Well we can select the image and use a property called float and float.
+
+26
+00:01:45,570 --> 00:01:48,360
+You can do right or left.
+
+27
+00:01:48,360 --> 00:01:58,320
+So if we do left and refresh it flows the image to the left and you see that the text wraps around and
+
+28
+00:01:58,320 --> 00:02:04,710
+this property was created specifically for these reasons to have images floating to either left or right
+
+29
+00:02:04,770 --> 00:02:12,500
+and be able to have text wrapped around them you'll see instances where float is being used for positioning
+
+30
+00:02:12,530 --> 00:02:17,560
+elements and that's not the best practice because it has some funny properties.
+
+31
+00:02:17,630 --> 00:02:20,980
+For now just use it with images if you can.
+
+32
+00:02:21,170 --> 00:02:27,080
+And just to show you that I can do it on the right as well I go like this and refresh it flows to the
+
+33
+00:02:27,080 --> 00:02:34,370
+right kind of like this better so we'll keep that there so after the image we want to have a
+
+34
+00:02:38,430 --> 00:02:47,410
+in this footer l say Web site made with love close that safe.
+
+35
+00:02:47,450 --> 00:02:53,900
+And we also want to make this actually a lot smaller so I'm going to do five pixels because I want to
+
+36
+00:02:53,900 --> 00:02:55,500
+show you something.
+
+37
+00:02:55,580 --> 00:03:02,510
+So you see over here I've made this line had very very small but I wanted to demonstrate for you because
+
+38
+00:03:02,720 --> 00:03:03,880
+this is floated to the right.
+
+39
+00:03:03,890 --> 00:03:07,310
+Everything just kind of tax on to the left side over here.
+
+40
+00:03:07,430 --> 00:03:14,180
+And if we wanted to make sure that our footer is at the bottom of the website we would have to use a
+
+41
+00:03:14,180 --> 00:03:21,170
+property that almost always comes with float and it's usually put in the property after the float is
+
+42
+00:03:21,170 --> 00:03:21,800
+being used.
+
+43
+00:03:21,800 --> 00:03:26,680
+So in our case footer and we have to specify clear both.
+
+44
+00:03:27,380 --> 00:03:36,380
+So if I save and refresh we have that at the bottom and let's align it to the center here and let's
+
+45
+00:03:36,490 --> 00:03:40,300
+two center save and refresh.
+
+46
+00:03:40,300 --> 00:03:41,710
+Perfect.
+
+47
+00:03:41,710 --> 00:03:46,840
+Now we have Web site made with love with a whole bunch of gibberish.
+
+48
+00:03:47,050 --> 00:03:54,910
+But I want to show you that property float for images and make sure that we clear so that any property
+
+49
+00:03:54,910 --> 00:04:04,270
+that you don't want a part of the float is cleared so it can start on its own pass the image we'll see
+
+50
+00:04:04,270 --> 00:04:05,120
+in the next one.
+
+51
+00:04:05,230 --> 00:04:05,590
+But by.
+
