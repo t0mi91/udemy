@@ -1,0 +1,92 @@
+1
+00:00:00,330 --> 00:00:02,220
+And welcome back.
+
+2
+00:00:02,220 --> 00:00:07,320
+Whenever you have a request from an employer to build a website or a web app one of the first things
+
+3
+00:00:07,320 --> 00:00:12,590
+that they will ask for is to make sure that your Web site is responsive.
+
+4
+00:00:12,630 --> 00:00:14,640
+So what is responsive UI.
+
+5
+00:00:15,180 --> 00:00:20,700
+Well I can show you by opening up the developer tools which we should know by now and you'll see over
+
+6
+00:00:20,700 --> 00:00:24,700
+here that there is a little phone icon.
+
+7
+00:00:24,960 --> 00:00:31,860
+If we click on this go we'll show you why your Web site will look like on say an iPhone.
+
+8
+00:00:31,890 --> 00:00:33,350
+Let's make this a little bit bigger.
+
+9
+00:00:33,450 --> 00:00:36,450
+So let's do 100 percent of the size.
+
+10
+00:00:36,450 --> 00:00:37,590
+Perfect.
+
+11
+00:00:37,590 --> 00:00:42,540
+You'll see that your Web site on an iPhone looks like this.
+
+12
+00:00:42,600 --> 00:00:51,600
+And if we do a night bad well it looks like this and if it rotates it looks good so responsive means
+
+13
+00:00:52,050 --> 00:01:00,570
+that your Web site no matter what whether it's on the big screen or something like a notepad it is responsive.
+
+14
+00:01:00,570 --> 00:01:02,730
+That means there's no cut offs.
+
+15
+00:01:02,730 --> 00:01:07,440
+Everything looks good no matter what size the screen is.
+
+16
+00:01:07,440 --> 00:01:14,400
+So if we go back to our Web site and close the developer tabs I can actually play around with this open
+
+17
+00:01:14,430 --> 00:01:16,710
+and close and see that it's responsive.
+
+18
+00:01:16,710 --> 00:01:23,520
+The Web site looks good no matter what the size and users can enjoy the experience and not be turned
+
+19
+00:01:23,520 --> 00:01:30,180
+off because whether they're accessing it through their eye bad at home on their couch it still looks
+
+20
+00:01:30,180 --> 00:01:31,020
+good.
+
+21
+00:01:31,020 --> 00:01:32,150
+So keep that in mind.
+
+22
+00:01:32,280 --> 00:01:36,970
+Responsive UI should be a priority when building Web sites.
+
+23
+00:01:37,110 --> 00:01:38,590
+I'll see in the next one probably.
+

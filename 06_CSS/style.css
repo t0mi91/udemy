@@ -1,0 +1,57 @@
+body{
+    background-image: url(background.jpg);
+    background-position: cover;
+    text-align: center;
+    max-width: 50%;
+}
+
+h2, p{
+    color: salmon;
+    border: 2px solid rgba(255, 99, 71, 0.5);
+    cursor: pointer;
+}
+
+h2:hover{
+    background-color: ivory;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    margin-inline: 50px;
+}
+
+button{
+    display: flex;
+    justify-content: left;
+}
+
+p{
+    color:teal;
+    text-align: left;
+    border: 3px dashed;
+    line-height: 50px;
+    font-style: italic;
+    font-weight: bold;
+    font-family:'Roboto', sans-serif;
+}
+
+.div1{
+    background: rgba(0, 0, 255, 0.2);
+
+}
+
+.div2{
+    background: rgba(255, 0, 0, 0.2);
+
+}
+
+img{
+    float: left;
+}
+
+footer{
+    clear: both;
+    color: ivory;
+    text-align: center;
+}

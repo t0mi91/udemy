@@ -1,0 +1,356 @@
+1
+00:00:01,560 --> 00:00:02,900
+Welcome back.
+
+2
+00:00:02,910 --> 00:00:09,700
+In this video we're going to be talking about CSX three now just like with a CML in 80 mile five.
+
+3
+00:00:09,720 --> 00:00:20,540
+CSX is a standard that constantly evolves to adapt to new demands of Web sites so CSX 3 is the latest
+
+4
+00:00:20,600 --> 00:00:29,690
+evolution of CSX where we've added new properties and new features so that we can make our design even
+
+5
+00:00:29,690 --> 00:00:30,720
+better.
+
+6
+00:00:30,740 --> 00:00:38,840
+So if you remember in our diagram over here all these browsers have different developers different teams
+
+7
+00:00:39,140 --> 00:00:42,870
+that work on implementing their features.
+
+8
+00:00:43,010 --> 00:00:51,380
+Now in an ideal world everybody agrees on what CSX does and when new features and new properties are
+
+9
+00:00:51,380 --> 00:00:52,220
+added.
+
+10
+00:00:52,220 --> 00:00:57,680
+Everybody implements them at the same time but that's simply not the case.
+
+11
+00:00:57,680 --> 00:01:00,770
+Some browsers might work with some property.
+
+12
+00:01:00,770 --> 00:01:05,360
+Some might not because they haven't gotten around to making it work.
+
+13
+00:01:06,350 --> 00:01:09,740
+So let's go back to our Web site now.
+
+14
+00:01:09,760 --> 00:01:14,160
+Let's play with one of my favorite CSX three properties.
+
+15
+00:01:14,240 --> 00:01:22,680
+How cool would it be if when we hover over these pictures the picture moves well with CSX three they've
+
+16
+00:01:22,680 --> 00:01:24,620
+introduced something called transition.
+
+17
+00:01:25,770 --> 00:01:34,200
+And if I do all one second and I'll explain to what that does in one second image hover.
+
+18
+00:01:34,290 --> 00:01:40,200
+So this should be familiar where when we hover we want the image to transform.
+
+19
+00:01:40,200 --> 00:01:42,180
+This is a new property as well.
+
+20
+00:01:42,270 --> 00:01:46,270
+And we'll say scale one point one.
+
+21
+00:01:46,860 --> 00:01:47,910
+So let's see what happens.
+
+22
+00:01:48,100 --> 00:01:55,610
+I refresh look at that my images are now moving on hover.
+
+23
+00:01:55,610 --> 00:01:56,770
+Is that cool.
+
+24
+00:01:56,890 --> 00:02:04,530
+What these properties do is say that I want the image to transition when an action is taken upon it.
+
+25
+00:02:04,660 --> 00:02:11,730
+And I want all the properties to transition over one second And what's that transition going to be.
+
+26
+00:02:11,730 --> 00:02:17,380
+Well when I hover I wanted to transform by a scale of one point one.
+
+27
+00:02:17,420 --> 00:02:19,560
+So it's essentially growing.
+
+28
+00:02:19,910 --> 00:02:23,220
+If I change this to four seconds and I refresh.
+
+29
+00:02:23,480 --> 00:02:30,240
+Well now takes four seconds for the image to scale.
+
+30
+00:02:30,290 --> 00:02:31,330
+You can see over here.
+
+31
+00:02:31,340 --> 00:02:35,050
+I'm going to change this back to one second just because it looks better that way.
+
+32
+00:02:35,780 --> 00:02:44,770
+If I make this website full screen you see that we now have a beautiful effect for our image gallery.
+
+33
+00:02:44,790 --> 00:02:48,990
+There's also another property called animation which you can look at on your own.
+
+34
+00:02:49,050 --> 00:02:56,580
+But again CSX tree has brought in a lot of these new properties to make Web sites even more dynamic
+
+35
+00:02:56,730 --> 00:02:58,020
+than they are now.
+
+36
+00:02:58,020 --> 00:03:07,350
+But there is a little caveat to using such properties and that is you want to make sure that each browser
+
+37
+00:03:07,800 --> 00:03:16,830
+has implemented a new feature so if I go to one of our favorite Web sites w schools they have a CSX
+
+38
+00:03:16,830 --> 00:03:24,480
+browser support reference and here you can look at all the CSX to make sure that browsers support whatever
+
+39
+00:03:24,480 --> 00:03:26,300
+property you want to use.
+
+40
+00:03:26,310 --> 00:03:35,250
+So if we go to transition we see that it is supported by all latest browsers but you also see that if
+
+41
+00:03:35,250 --> 00:03:42,420
+we go to something like a user select they have this M.S. Moore's Web kids line over it.
+
+42
+00:03:42,420 --> 00:03:48,960
+And if we scroll all the way down we'll show you that it is supported by Internet Explorer with prefix
+
+43
+00:03:49,020 --> 00:03:49,710
+M.S..
+
+44
+00:03:49,710 --> 00:03:51,090
+What does that mean.
+
+45
+00:03:51,090 --> 00:03:56,590
+Well these are browser prefixes and you'll see them every once in a while.
+
+46
+00:03:57,060 --> 00:04:05,010
+What it is is these are new features of CSX that haven't fully been implemented by the browsers and
+
+47
+00:04:05,010 --> 00:04:12,270
+you want to use a prefix to make sure that they work as an experimental feature in the browser.
+
+48
+00:04:12,270 --> 00:04:20,300
+Let me explain what that means if I wanted to add a let's say a box shadow Suzanne means kind of making
+
+49
+00:04:20,300 --> 00:04:24,090
+this look 3-D and having a shadow underneath the edge over here.
+
+50
+00:04:24,110 --> 00:04:32,840
+Previously I had to do something like this where I put box shadow and you can read into the property
+
+51
+00:04:32,870 --> 00:04:38,870
+to see what I'm about to do but I'm going to do four pixels four pixels five pixels and then the color
+
+52
+00:04:39,980 --> 00:04:41,510
+which is a bit of a gray.
+
+53
+00:04:42,350 --> 00:04:51,500
+So if I do this and refresh Well now it looks nice and my browser is the new chrome so it has this feature
+
+54
+00:04:51,770 --> 00:05:01,870
+but a few years ago when box shadow was first introduced you had to do something like this box shadow
+
+55
+00:05:03,370 --> 00:05:12,010
+then copy and paste this and this makes sure that it works on the Mozilla browser.
+
+56
+00:05:12,010 --> 00:05:24,500
+And then you also had and this which made sure that it works on Internet Explorer you had Web Kit which
+
+57
+00:05:24,740 --> 00:05:28,810
+made sure that it works on safari and chrome.
+
+58
+00:05:29,010 --> 00:05:39,100
+And then finally you also had oh which made it work on the Opera browser and then you also had to still
+
+59
+00:05:39,100 --> 00:05:43,570
+mention the box shadow without the prefix is at the bottom.
+
+60
+00:05:43,570 --> 00:05:52,480
+So now if any of these browsers don't support box shadow well they have these prefixes so that it should
+
+61
+00:05:52,480 --> 00:05:57,420
+work and book Shadow has been some time now so you don't need to do this anymore.
+
+62
+00:05:57,610 --> 00:06:04,870
+But there is one great way of seeing if a certain property still needs browser prefixes and that is
+
+63
+00:06:04,990 --> 00:06:10,620
+using something like this reference which I will leave for you so you can check it out.
+
+64
+00:06:11,320 --> 00:06:15,380
+Another thing I wanted to show you is can I use.
+
+65
+00:06:15,610 --> 00:06:16,960
+So can I use dot com.
+
+66
+00:06:16,960 --> 00:06:21,720
+He is a great resource to see any thing that you might want to try out.
+
+67
+00:06:21,730 --> 00:06:30,900
+So if I type in here a CSX transition you'll see CSX three transitions are supported in all these browsers
+
+68
+00:06:30,990 --> 00:06:33,780
+except we have one Opera Mini.
+
+69
+00:06:34,110 --> 00:06:41,130
+And it says it's two point sixty three percent of the global usage.
+
+70
+00:06:41,130 --> 00:06:48,060
+So if you use CSX three transitions two point sixty three percent of population might not be able to
+
+71
+00:06:48,060 --> 00:06:48,720
+see it.
+
+72
+00:06:48,750 --> 00:06:54,230
+Now whether that is your user base or not you can kind of decide what the tradeoffs are.
+
+73
+00:06:54,360 --> 00:07:01,860
+But this is a great thing to use and if we use something like flex box while we see that flex box has
+
+74
+00:07:02,550 --> 00:07:05,600
+all support it shouldn't be a problem for you to use it.
+
+75
+00:07:07,170 --> 00:07:14,130
+OK let's go back to this and just finish up this Web site to make it look nice so I don't like that
+
+76
+00:07:14,130 --> 00:07:15,150
+there's space here ideally.
+
+77
+00:07:15,300 --> 00:07:24,480
+This is all the way to the left but if I do margin 0 pixels and I refresh that actually doesn't change
+
+78
+00:07:24,480 --> 00:07:30,390
+much because sometimes browsers have their own default margins.
+
+79
+00:07:30,390 --> 00:07:36,770
+So the way to get around it is to do margin zero for the body.
+
+80
+00:07:36,830 --> 00:07:41,810
+So margin 0 pixels let's save and refresh.
+
+81
+00:07:42,060 --> 00:07:42,660
+Perfect.
+
+82
+00:07:42,660 --> 00:07:45,630
+Now we have this all the way to the left.
+
+83
+00:07:45,740 --> 00:07:46,040
+OK.
+
+84
+00:07:46,200 --> 00:07:55,980
+But we do want a bit of a buffer at the top so I'm going to add margin top and we'll do 10 pixels save
+
+85
+00:07:56,010 --> 00:07:57,600
+and refresh.
+
+86
+00:07:57,600 --> 00:07:58,590
+Perfect.
+
+87
+00:07:58,590 --> 00:08:04,100
+Now we have a beautiful Web site and it didn't really take us much.
+
+88
+00:08:04,200 --> 00:08:13,070
+We just wrote a few lines of CSX a few lines of 80 email and because we have let's see in the next one
+
+89
+00:08:13,640 --> 00:08:13,860
+by.
+

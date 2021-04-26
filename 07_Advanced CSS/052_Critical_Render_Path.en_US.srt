@@ -1,0 +1,188 @@
+1
+00:00:00,420 --> 00:00:01,610
+Welcome back.
+
+2
+00:00:01,620 --> 00:00:06,750
+In this section we're gonna be talking about some advanced topics in CSX and I'm going to start off
+
+3
+00:00:06,810 --> 00:00:09,480
+with the critical render path.
+
+4
+00:00:09,480 --> 00:00:10,090
+What is that.
+
+5
+00:00:10,800 --> 00:00:16,860
+Well we always should know how things work underneath the hood so we can make our websites as fast and
+
+6
+00:00:16,860 --> 00:00:19,200
+reliable as possible.
+
+7
+00:00:19,200 --> 00:00:24,670
+So based on what we've built in the previous section let's look at what's happening underneath the hood.
+
+8
+00:00:24,720 --> 00:00:30,990
+We are going to our Web site and ideally our Web site will be on a server and I'll show you how to do
+
+9
+00:00:30,990 --> 00:00:32,530
+that later on in the course.
+
+10
+00:00:32,580 --> 00:00:35,170
+For now is just our computer.
+
+11
+00:00:35,280 --> 00:00:39,210
+But let's pretend we have a server where our files are hosted.
+
+12
+00:00:40,020 --> 00:00:44,220
+When we go to our Web site we'll call it cool Web site dot com.
+
+13
+00:00:44,250 --> 00:00:54,270
+We request the HP email file and the browser now sees our HCM Alpha reads through this document and
+
+14
+00:00:54,480 --> 00:01:03,050
+as it's looking through it notices that oh I need a c assess file here so it goes back.
+
+15
+00:01:03,200 --> 00:01:11,100
+Makes Another request and says Hey can you please give me a c file as well the server says yep no problem.
+
+16
+00:01:11,140 --> 00:01:12,630
+Let me grab that for you.
+
+17
+00:01:12,940 --> 00:01:22,780
+Grabs the C Ss file and now it starts looking at both the AC L and the C assess file to try and figure
+
+18
+00:01:22,780 --> 00:01:25,310
+out how the web page should look.
+
+19
+00:01:25,660 --> 00:01:29,420
+But then it also notices that hold on a second.
+
+20
+00:01:29,620 --> 00:01:31,600
+I need some fonts as well.
+
+21
+00:01:31,870 --> 00:01:35,120
+So it goes to this address and looks for a font.
+
+22
+00:01:35,120 --> 00:01:42,280
+Again the Web site now asks the Web site that the fonts our host that act in our case is the Google
+
+23
+00:01:42,400 --> 00:01:48,400
+API and it grabs the font file.
+
+24
+00:01:48,400 --> 00:01:49,530
+Now here's the thing.
+
+25
+00:01:49,720 --> 00:01:57,520
+While it's grabbing the font file it could render the page and rendering means displaying so it could
+
+26
+00:01:57,520 --> 00:02:01,550
+display the Web site if it only has the ACM on CSX.
+
+27
+00:02:01,660 --> 00:02:08,140
+But it might not show up the text because the text is looking for the font file.
+
+28
+00:02:08,230 --> 00:02:14,710
+So when we talk about the critical render path we like to mention that CSX is their render blocking
+
+29
+00:02:14,710 --> 00:02:21,200
+file so you won't be able to render a web page until you receive your CSX.
+
+30
+00:02:21,340 --> 00:02:28,930
+And sometimes if you have font files you'll also have to wait for the text to render on the page so
+
+31
+00:02:28,930 --> 00:02:31,040
+keep that in mind when you build your Web sites.
+
+32
+00:02:31,090 --> 00:02:37,030
+But what are things that we can consider when doing this so that our Web sites load up faster.
+
+33
+00:02:37,120 --> 00:02:39,720
+One is maybe to have our own fun files.
+
+34
+00:02:39,850 --> 00:02:44,920
+Another one might be that you don't want to make your CSX too big.
+
+35
+00:02:44,920 --> 00:02:50,680
+If we had hundreds and hundreds of lines of code of CSX while the file gets bigger and bigger and it's
+
+36
+00:02:50,680 --> 00:02:56,800
+more and more that you have to transfer over the wire one method that people have used and you'll see
+
+37
+00:02:56,860 --> 00:03:00,190
+often is something called magnifying your CSX.
+
+38
+00:03:00,770 --> 00:03:10,760
+And if we open up a browser here you can do something called CSX magnify and CSX minute by what it does
+
+39
+00:03:10,760 --> 00:03:16,470
+is you can enter your CSX here you can see an example over here.
+
+40
+00:03:16,470 --> 00:03:25,110
+So you enter this and you click minute five and one minute five does it removes all the whitespace so
+
+41
+00:03:25,110 --> 00:03:28,890
+everything is on one line just really tiny together.
+
+42
+00:03:28,890 --> 00:03:36,360
+So even though it's the same CSX it technically makes the file a little bit smaller so that the number
+
+43
+00:03:36,360 --> 00:03:43,500
+of bytes that you're sending over the Internet is a lot less and you'll see that technique used in JavaScript
+
+44
+00:03:43,500 --> 00:03:44,090
+as well.
+
+45
+00:03:44,160 --> 00:03:50,430
+And we'll talk about that in that section but that is the critical render path a path that a Web site
+
+46
+00:03:50,430 --> 00:03:55,060
+takes to display something to the user.
+
+47
+00:03:55,310 --> 00:03:56,780
+I'll see in the next one by.
+
