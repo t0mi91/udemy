@@ -3,4 +3,46 @@ html {
   width: 100%;
   height: 100%;
   font-family: 'Montserrat', sans-serif;
+  background: url(wl.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1{
+color: ivory;
+text-transform: uppercase;
+font-size: 2.5em;
+}
+
+hr {
+  border-color: lightcoral;
+  border-width: 3px;
+  max-width: 100px;
+}
+
+.btn{
+  text-transform: uppercase;
+  font-weight:700;
+  border-radius: 300px;
+}
+
+.btn-secondary{
+  background-color: lightcoral;
+  border-color: lightcoral;
+}
+
+.btn-secondary:hover{
+  background-color: lightcoral;
+  border-color: lightcoral;
+  border-width: 4px;
+}
+
+.btn-xl{
+  padding:1em 2em;
+}
+
+.buffer{
+  height: 10em;
 }
