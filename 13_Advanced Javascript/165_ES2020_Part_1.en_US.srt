@@ -1,0 +1,484 @@
+1
+00:00:00,510 --> 00:00:10,110
+Hello, welcome back to another latest feature of ECMAScript, they keep adding new things, but this
+
+2
+00:00:10,110 --> 00:00:11,670
+is a really, really good one.
+
+3
+00:00:11,830 --> 00:00:15,990
+So the latest one is 20/20, has some really neat features.
+
+4
+00:00:15,990 --> 00:00:18,600
+And I want to show you some of my favorite ones.
+
+5
+00:00:19,290 --> 00:00:21,390
+You can see them right here.
+
+6
+00:00:23,290 --> 00:00:30,040
+Now, in this video, I'm going to talk about the street over here and then later on we'll have separate
+
+7
+00:00:30,040 --> 00:00:36,820
+lectures for years, 20, 20 promise all settled and also global this.
+
+8
+00:00:37,120 --> 00:00:45,520
+So those lectures will be titled East 2020 with the respective names, because these last two are better
+
+9
+00:00:45,520 --> 00:00:49,240
+understood once we go over a few different new topics.
+
+10
+00:00:49,780 --> 00:00:53,280
+So let's just focus on these three for now.
+
+11
+00:00:54,010 --> 00:00:56,310
+Let's get started with Big End.
+
+12
+00:00:56,980 --> 00:01:01,480
+And Big End is a really, really exciting new feature.
+
+13
+00:01:01,870 --> 00:01:04,100
+It's a new type in JavaScript.
+
+14
+00:01:04,540 --> 00:01:05,470
+What do I mean by that?
+
+15
+00:01:06,280 --> 00:01:09,700
+Well, now in JavaScript we have.
+
+16
+00:01:10,820 --> 00:01:12,980
+A type of.
+
+17
+00:01:14,730 --> 00:01:16,110
+Big int.
+
+18
+00:01:17,280 --> 00:01:23,640
+That's a new type, just like we have no, just like we have Bolian, we have different types in JavaScript.
+
+19
+00:01:24,300 --> 00:01:26,730
+Well, let's test out that theory.
+
+20
+00:01:27,450 --> 00:01:30,720
+Let's say we want to find out in our console over here.
+
+21
+00:01:33,450 --> 00:01:39,770
+If I do, type of it gives me the type of something, so if I do type of four, it's a number.
+
+22
+00:01:39,780 --> 00:01:44,490
+If I do type of let's say true, it's a boolean.
+
+23
+00:01:45,360 --> 00:01:52,830
+But what if I do a type of a really, really large number?
+
+24
+00:01:55,420 --> 00:02:04,480
+Well, that's still no, you see Big Int stands for Big Integer, but Andre, you just told me that
+
+25
+00:02:04,480 --> 00:02:07,330
+Big Ant is a new type and how come I don't see it here?
+
+26
+00:02:08,280 --> 00:02:12,150
+Well, to get the biggest type, let's clear this.
+
+27
+00:02:16,080 --> 00:02:24,420
+You simply add the letter and after a number, so, for example, I can do one, and so if I do type
+
+28
+00:02:24,420 --> 00:02:31,300
+of one RN, I get big ENT, but what does that really mean?
+
+29
+00:02:32,070 --> 00:02:36,660
+Here's a fun little JavaScript trick or a gotcha.
+
+30
+00:02:37,670 --> 00:02:45,620
+JavaScript has something called Max Safe Integer, and I'm going to link to some resources in this video
+
+31
+00:02:46,100 --> 00:02:49,190
+that if you want to dive deep, you can read about.
+
+32
+00:02:50,680 --> 00:02:53,440
+You see, JavaScript has something called a safe number.
+
+33
+00:02:54,800 --> 00:03:00,530
+And it can go up to a certain Insaaf integer, which is this number right here, but as soon as you
+
+34
+00:03:00,530 --> 00:03:04,460
+go a little bit higher, the calculations start breaking down.
+
+35
+00:03:04,970 --> 00:03:06,950
+So if we scroll all the way down here.
+
+36
+00:03:08,870 --> 00:03:13,160
+We find out that the Mac's safe integer has a value of this number.
+
+37
+00:03:14,210 --> 00:03:20,270
+The reason behind that number is that JavaScript uses double precision floating point format numbers.
+
+38
+00:03:21,140 --> 00:03:21,920
+That's a mouthful.
+
+39
+00:03:22,100 --> 00:03:31,580
+Essentially, there's a limit to how much information we can store in memory, what kind of and because
+
+40
+00:03:31,580 --> 00:03:33,200
+of the way JavaScript is built.
+
+41
+00:03:33,200 --> 00:03:36,990
+And this is actually common with other programming languages as well.
+
+42
+00:03:37,440 --> 00:03:45,150
+There's only a certain number that it can hold and big int solves this problem.
+
+43
+00:03:45,710 --> 00:03:51,830
+So let's experiment here, because I always love when learning a new thing to experiment and make sure
+
+44
+00:03:51,830 --> 00:03:53,470
+that we truly understand this.
+
+45
+00:03:53,630 --> 00:03:56,530
+So I'm going to open up the console once again.
+
+46
+00:03:57,830 --> 00:04:05,450
+And I'm going to try something, I'm going to say no dot max safe integer, which gives me the number
+
+47
+00:04:05,450 --> 00:04:06,600
+that we have here.
+
+48
+00:04:06,650 --> 00:04:11,180
+So this is the max that we can do in JavaScript.
+
+49
+00:04:11,390 --> 00:04:13,850
+So what if I do this number?
+
+50
+00:04:15,460 --> 00:04:17,240
+Plus one, does that work?
+
+51
+00:04:17,980 --> 00:04:19,090
+Yep, it works.
+
+52
+00:04:19,300 --> 00:04:21,550
+What if I do this number plus 10?
+
+53
+00:04:22,240 --> 00:04:22,900
+Does that work?
+
+54
+00:04:24,730 --> 00:04:25,840
+No, it doesn't, does it?
+
+55
+00:04:28,690 --> 00:04:34,940
+This number plus 10 shouldn't equal that, you see how we just broke something?
+
+56
+00:04:35,290 --> 00:04:36,060
+What if I do this?
+
+57
+00:04:36,070 --> 00:04:38,230
+What if I do this?
+
+58
+00:04:40,150 --> 00:04:41,560
+No, right over here.
+
+59
+00:04:44,740 --> 00:04:45,580
+Minus one.
+
+60
+00:04:47,310 --> 00:04:49,800
+Oh, boy, it's messed up again.
+
+61
+00:04:50,040 --> 00:04:52,040
+Again, that doesn't make sense, does it?
+
+62
+00:04:52,830 --> 00:05:00,840
+So big int is used when we want to use a number that's larger than this max safe integer and we want
+
+63
+00:05:00,840 --> 00:05:02,720
+to do some calculations with it.
+
+64
+00:05:03,030 --> 00:05:05,970
+So instead, if I do this.
+
+65
+00:05:07,680 --> 00:05:10,770
+N minus one n.
+
+66
+00:05:11,940 --> 00:05:20,340
+Well, I get an operation between these two big events and you see here that it's working, it's minus
+
+67
+00:05:20,340 --> 00:05:20,610
+one.
+
+68
+00:05:22,530 --> 00:05:30,570
+Again, if we try and do our Max Integer over here and we do plus 10, we see that this doesn't work
+
+69
+00:05:30,780 --> 00:05:34,080
+as soon as we add NP to both of these.
+
+70
+00:05:34,500 --> 00:05:35,070
+There you go.
+
+71
+00:05:35,220 --> 00:05:36,870
+Our operations work.
+
+72
+00:05:37,560 --> 00:05:40,740
+So we're able to use Big Ent. as a new type.
+
+73
+00:05:41,670 --> 00:05:44,640
+Remember, if I clear this and I do.
+
+74
+00:05:46,070 --> 00:05:55,400
+Let's say one end plus two and, well, I get a big into a type of big event that we can do calculations
+
+75
+00:05:55,400 --> 00:05:57,080
+on, especially for big numbers.
+
+76
+00:05:57,080 --> 00:06:02,090
+But as you can see, we can also just do regular numbers as well as long as we enter.
+
+77
+00:06:02,270 --> 00:06:05,360
+And pretty, pretty cool most of the time.
+
+78
+00:06:05,360 --> 00:06:06,920
+You're not going to use this feature.
+
+79
+00:06:06,920 --> 00:06:12,170
+But it's nice to know and it's interesting to know that there are these limitations with JavaScript
+
+80
+00:06:12,170 --> 00:06:13,910
+and big and solves them.
+
+81
+00:06:14,690 --> 00:06:15,080
+All right.
+
+82
+00:06:15,260 --> 00:06:17,000
+Let's learn something even more fun.
+
+83
+00:06:18,810 --> 00:06:25,010
+Next one is nowish coalescing operator, actually, you know what, let's start with this one first,
+
+84
+00:06:25,050 --> 00:06:30,920
+the optional chaining operator and then we'll go into the nowish coalescing operator.
+
+85
+00:06:31,500 --> 00:06:34,830
+So let's pretend that we're playing Pokemon.
+
+86
+00:06:35,070 --> 00:06:39,510
+Hopefully everybody knows Pokemon greatest game as I was growing up.
+
+87
+00:06:40,510 --> 00:06:41,870
+I think it's still popular, though.
+
+88
+00:06:42,220 --> 00:06:47,590
+All right, getting sidetracked, let's focus here, let's imagine that we have a user and we'll say
+
+89
+00:06:47,590 --> 00:06:53,980
+Will Will is a Pokemon trainer and this user.
+
+90
+00:06:55,050 --> 00:07:00,120
+Has, let's say, the Pokemon, Pikachu and Pikachu.
+
+91
+00:07:03,210 --> 00:07:08,220
+Is, let's say, a species that is a mouse Pokémon.
+
+92
+00:07:10,260 --> 00:07:11,550
+It's got a height.
+
+93
+00:07:12,650 --> 00:07:15,590
+Of zero point four and let's say a wait.
+
+94
+00:07:16,820 --> 00:07:25,290
+Of six pounds, so height zero point four centimeters and six kilograms of weight.
+
+95
+00:07:25,880 --> 00:07:35,330
+Now, let's imagine that we want to find out the weight of Pikachu and hold it in a variable.
+
+96
+00:07:35,960 --> 00:07:39,410
+While we would usually do is say let.
+
+97
+00:07:40,600 --> 00:07:50,290
+Wait, and we'll say within here, we'll do Will Pokémon dot, Pikachu dot, wait.
+
+98
+00:07:51,970 --> 00:07:54,850
+So if we cancel, let's make this a little bit bigger.
+
+99
+00:07:56,990 --> 00:07:59,060
+And we'll do wait here.
+
+100
+00:08:00,090 --> 00:08:01,440
+Let's copy this.
+
+101
+00:08:06,380 --> 00:08:10,760
+Oh, man, we forgot to come over here, so let's try that again, let's copy this.
+
+102
+00:08:12,770 --> 00:08:18,860
+And we get wait of six, just to be clear here, I can just say.
+
+103
+00:08:25,210 --> 00:08:29,440
+All right, so this is working, but here's a problem.
+
+104
+00:08:30,560 --> 00:08:40,100
+Let's say we have a different user and this time the new user, his name is Andre and Andre doesn't
+
+105
+00:08:40,100 --> 00:08:44,780
+have Pikachu instead Andre has right you.
+
+106
+00:08:46,050 --> 00:08:48,430
+Again, a different kind of Pokemon.
+
+107
+00:08:48,810 --> 00:08:52,820
+It's still a mouse Pokemon, but some of the details are different.
+
+108
+00:08:55,040 --> 00:09:00,020
+Say the height is zero point eight and the weight is 30 kilograms.
+
+109
+00:09:01,090 --> 00:09:03,550
+So now, if I wanted to find out.
+
+110
+00:09:05,380 --> 00:09:06,910
+The weight.
+
+111
+00:09:08,380 --> 00:09:10,270
+Let's say, right, you.
+
+112
+00:09:12,570 --> 00:09:14,760
+And I run this command.
+
+113
+00:09:23,810 --> 00:09:26,930
+So let's say now instead of.
+
+114
+00:09:29,130 --> 00:09:39,120
+Right, you listeners do wait to hear, and this time from Andre's Pokemon, we'll do this if I run
+
+115
+00:09:39,120 --> 00:09:39,420
+this.
+
+116
+00:09:43,350 --> 00:09:48,840
+I get an error, cannot read property weight of undefined and why is that?
+
+117
+00:09:49,020 --> 00:09:53,660
+Well, because Andre doesn't have Pikachu, right?
+
+118
+00:09:53,970 --> 00:09:56,100
+We don't have that Pokemon instead.
+
+119
+00:09:56,100 --> 00:09:56,460
+We have.
+
+120
+00:09:56,460 --> 00:09:56,730
+Right.
+
+121
+00:09:56,760 --> 00:10:05,160
+You so when we tried to grab the Pikachu from the Andre Pokémon object, it's going to say, er.
+

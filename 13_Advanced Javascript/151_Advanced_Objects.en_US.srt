@@ -1,0 +1,1116 @@
+1
+00:00:01,270 --> 00:00:02,500
+Welcome back.
+
+2
+00:00:02,500 --> 00:00:06,490
+We're going to talk about some advanced 'objects' concepts.
+
+3
+00:00:06,490 --> 00:00:13,840
+Now, as I said, with both arrays and functions, these are advanced concepts, you're probably not going to
+
+4
+00:00:13,840 --> 00:00:21,490
+just get it a 100 percent the first time around, but use these videos as a reference to come back as you
+
+5
+00:00:21,490 --> 00:00:22,980
+progress through your career.
+
+6
+00:00:24,250 --> 00:00:30,020
+Now in this video, I'm going to talk about three things that are important with objects.
+
+7
+00:00:30,110 --> 00:00:35,260
+We're going to talk about 'reference type'.
+
+8
+00:00:35,350 --> 00:00:38,040
+We're going to talk about 'context'.
+
+9
+00:00:38,620 --> 00:00:41,350
+And finally we're going to talk about 'instantiation'.
+
+10
+00:00:45,000 --> 00:00:51,690
+So let's get started with the first line. 'reference type'. What I mean when I say a 'reference type'? 
+
+11
+00:00:51,690 --> 00:00:58,810
+Well, I wanted to see if I can guess what's going to happen when I do array'[]' equals array'[]'.
+
+12
+00:00:58,830 --> 00:01:00,530
+What do you think the answer is going to be?
+
+13
+00:01:00,570 --> 00:01:02,860
+Let's see.
+
+14
+00:01:02,890 --> 00:01:05,930
+Hmm! interesting.
+
+15
+00:01:05,930 --> 00:01:14,160
+OK, what if I do array one equals array one? interesting. 
+
+16
+00:01:14,260 --> 00:01:15,270
+OK one more question.
+
+17
+00:01:15,550 --> 00:01:18,280
+What about something like this?
+
+18
+00:01:19,650 --> 00:01:20,620
+'Object1'
+
+19
+00:01:21,060 --> 00:01:25,090
+equals the value of 10,
+
+20
+00:01:29,230 --> 00:01:37,220
+and we'll say 'object2' equals 'object1'.
+
+21
+00:01:39,120 --> 00:01:49,450
+And we'll finally say a variable(var) 'object3' equals value 10.
+
+22
+00:01:49,460 --> 00:01:54,710
+So looking at these and I'm actually going to copy it on here, so you can see it as well.
+
+23
+00:01:59,260 --> 00:02:00,180
+Looking at this,
+
+24
+00:02:00,310 --> 00:02:07,420
+What happens if I do 'object1' equals 'object2'?
+
+25
+00:02:07,450 --> 00:02:08,510
+What do you think will happen?
+
+26
+00:02:09,560 --> 00:02:10,100
+True.
+
+27
+00:02:10,300 --> 00:02:10,750
+OK.
+
+28
+00:02:10,880 --> 00:02:15,580
+That makes sense, I mean 'object2' is 'object1'.
+
+29
+00:02:15,760 --> 00:02:22,780
+But what if I do 'object1' equals 'object3'.
+
+30
+00:02:22,860 --> 00:02:25,710
+Here I get, false.
+
+31
+00:02:25,900 --> 00:02:29,160
+But why is that? We have value 10, value 10.
+
+32
+00:02:29,180 --> 00:02:30,990
+They're both the same thing.
+
+33
+00:02:31,240 --> 00:02:32,060
+Right.
+
+34
+00:02:32,460 --> 00:02:33,190
+Let's check something else.
+
+35
+00:02:33,200 --> 00:02:37,010
+What if I do 'object1.value'
+
+36
+00:02:38,230 --> 00:02:42,430
+equals 15, OK.
+
+37
+00:02:42,610 --> 00:02:45,340
+And now I do 'object2.value'
+
+38
+00:02:48,390 --> 00:02:50,020
+it equals 15.
+
+39
+00:02:50,150 --> 00:02:59,590
+But if I do 'object3.value', I get 10. Well that was confusing right.
+
+40
+00:03:00,000 --> 00:03:02,280
+Let's look at what's actually going on.
+
+41
+00:03:02,430 --> 00:03:07,010
+And this is the first topic we're talking about which is 'reference type'.
+
+42
+00:03:07,110 --> 00:03:08,220
+Let's look at a diagram.
+
+43
+00:03:11,020 --> 00:03:16,700
+Objects are what's called the 'reference types' in Javascript.
+
+44
+00:03:16,940 --> 00:03:25,000
+Up untill this point, all the other javascript types that we've learned including 'numbers', 'null', we have
+
+45
+00:03:27,530 --> 00:03:39,610
+'undefined', 'booleans', 'strings' even 'symbols' they're all defined by the programming language.
+
+46
+00:03:39,600 --> 00:03:48,150
+So Javascript, the person who wrote javascript and ECMAScript the standard says these are primitive types.
+
+47
+00:03:48,150 --> 00:03:57,990
+We tell you what they are. Now a 'reference type' which is a non primitive type are not defined by the
+
+48
+00:03:57,990 --> 00:03:59,900
+programming languages.
+
+49
+00:03:59,910 --> 00:04:06,380
+What that means is that they're created by the programmer.
+
+50
+00:04:06,410 --> 00:04:08,750
+So let's look over here as an example.
+
+51
+00:04:09,760 --> 00:04:10,930
+When I say variable.
+
+52
+00:04:10,930 --> 00:04:13,200
+Number one equals one.
+
+53
+00:04:13,330 --> 00:04:15,170
+Javascript knows what one is.
+
+54
+00:04:15,170 --> 00:04:16,470
+It's a number.
+
+55
+00:04:16,480 --> 00:04:17,500
+It's a primitive type.
+
+56
+00:04:17,500 --> 00:04:19,450
+It's always the same thing.
+
+57
+00:04:19,590 --> 00:04:25,340
+It's immutable every time it uses the one that's the same one that javascript knows about.
+
+58
+00:04:25,460 --> 00:04:31,460
+When I do variable number two, yah it's using the same number one that javascript knows about.
+
+59
+00:04:33,260 --> 00:04:40,750
+However when we created 'object1' equals 'value 10' and 'object2' equals 'object1' and 'object3' equals
+
+60
+00:04:40,770 --> 00:04:45,620
+the 'value 10', well those are created by the programmer.
+
+61
+00:04:45,630 --> 00:04:47,190
+There are 'reference types'.
+
+62
+00:04:47,190 --> 00:04:55,310
+So what we said was I want 'object1' create a new object, will say this box over here this filing cabinet
+
+63
+00:04:56,560 --> 00:05:06,590
+and in it, put 'value 10' into this box. 'object2' says, I want you to just reference and that's where the
+
+64
+00:05:06,590 --> 00:05:07,680
+word comes from,
+
+65
+00:05:07,760 --> 00:05:19,360
+reference 'object1', saying hey! I want whatever's inside this box. When 'object3' gets created,
+
+66
+00:05:19,470 --> 00:05:22,770
+it's a new object because we have the new brackets.
+
+67
+00:05:23,660 --> 00:05:27,770
+And it's saying put 'value 10' in this box.
+
+68
+00:05:27,770 --> 00:05:35,320
+Essentially what we're doing is saying, when we create a variable(var) 'object1' when we're storing just a reference
+
+69
+00:05:35,330 --> 00:05:40,520
+an address to where we're storing the 'value 10' which is 'Box1'.
+
+70
+00:05:40,520 --> 00:05:43,780
+So we're saying 'object1',
+
+71
+00:05:43,970 --> 00:05:49,660
+I'm just letting you know that this is the address of all the contents that you want
+
+72
+00:05:49,730 --> 00:05:55,710
+and that's  in 'Box1'. 'object2' is saying, I want whatever is an 'object1'
+
+73
+00:05:55,730 --> 00:06:01,220
+and we look an 'object1', an 'object1' just has the information of 'box1'.
+
+74
+00:06:01,430 --> 00:06:08,110
+So it references that, an 'object3' creates a new object.
+
+75
+00:06:08,120 --> 00:06:15,140
+So it's saying, I'm going to put my contents in 'Box3' and I'm just going to have the address of the box
+
+76
+00:06:15,470 --> 00:06:18,070
+saying 'Box3' that's right over here.
+
+77
+00:06:19,500 --> 00:06:21,090
+So going back to our example,
+
+78
+00:06:24,280 --> 00:06:28,040
+this makes sense, when we change 'object1' value to 15,
+
+79
+00:06:28,090 --> 00:06:31,150
+we change the contents of 'Box1'.
+
+80
+00:06:31,150 --> 00:06:39,330
+So when we do 'object2.value' which is referencing the same box as 'object1' that's 15, 
+
+81
+00:06:39,340 --> 00:06:45,730
+but 'object3.value' doesn't change because that's, that's interested in a completely different box, it's 'Box3'
+
+82
+00:06:46,720 --> 00:06:48,740
+and going back to the first example.
+
+83
+00:06:50,920 --> 00:06:58,970
+Arrays, well as I mentioned in previous videos, arrays are just objects at the end of the day.
+
+84
+00:06:59,090 --> 00:07:05,220
+So when you create an array, it's the same thing, creating a box, a data structure.
+
+85
+00:07:05,510 --> 00:07:09,100
+And this is creating a second data structure.
+
+86
+00:07:09,120 --> 00:07:09,800
+Right.
+
+87
+00:07:09,860 --> 00:07:16,820
+So that is a 'reference type'. A very important concept but I think, I think you get it right.
+
+88
+00:07:17,670 --> 00:07:18,980
+Let's get to the next one.
+
+89
+00:07:18,990 --> 00:07:21,010
+This gets a little trickier.
+
+90
+00:07:21,060 --> 00:07:30,090
+This one's called 'context' and 'context' gets confused a lot with 'scope'.
+
+91
+00:07:30,190 --> 00:07:37,230
+If you remember, we said that 'scope' is created when it sees curly brackets, right!.
+
+92
+00:07:37,270 --> 00:07:45,040
+We said that, if we create a function, as soon as we create that function
+
+93
+00:07:45,040 --> 00:07:45,880
+there is a new 'scope' that's created.
+
+94
+00:07:46,450 --> 00:07:57,550
+So we can have, 'let a' equals 'a' and that lives within this universe.
+
+95
+00:07:57,560 --> 00:08:02,180
+It doesn't know anything about the root scope which is over here.
+
+96
+00:08:02,180 --> 00:08:06,680
+So if I do 'console.log(a)', well it's not going to work.
+
+97
+00:08:06,880 --> 00:08:11,940
+Oh! and we need to actually assign something and we need to name it to let's just say 'b'.
+
+98
+00:08:12,320 --> 00:08:16,380
+So if I do this, well 'console.log(a)'.
+
+99
+00:08:16,590 --> 00:08:20,710
+well, just return 'ReferenceError' because it doesn't exist.
+
+100
+00:08:20,810 --> 00:08:22,370
+So that's 'scope'.
+
+101
+00:08:22,400 --> 00:08:31,520
+Now how is 'context' different? 'context' tells you, where we are within the object.
+
+102
+00:08:31,520 --> 00:08:32,650
+Let me explain.
+
+103
+00:08:32,990 --> 00:08:38,760
+If, we say 'console.log(this)'.
+
+104
+00:08:39,110 --> 00:08:45,350
+Well you see, I get some highlighting, and this is the first time we're seeing 'this',
+
+105
+00:08:45,350 --> 00:08:46,340
+and it's a special word in javascript.
+
+106
+00:08:46,340 --> 00:08:52,220
+Probably the most confusing word that a lot of people have trouble and even people that I've been in
+
+107
+00:08:52,220 --> 00:08:57,150
+the industry for years still have a difficult time with 'this'. But let's see what it is.
+
+108
+00:08:57,560 --> 00:09:03,950
+'this' is, as you can see, the 'window object'.
+
+109
+00:09:03,990 --> 00:09:14,610
+So just to double check, if I do 'console.log(this)' equals 'window', I get true.
+
+110
+00:09:14,840 --> 00:09:23,990
+And I can access 'this.alert("hello")'
+
+111
+00:09:24,030 --> 00:09:35,670
+So what 'this' means, is what is the object environment that we're in right now, the best way to think about it is,
+
+112
+00:09:35,670 --> 00:09:42,500
+what is to the left of the dot?
+
+113
+00:09:42,510 --> 00:09:49,860
+So right now, I'm able to do 'alert' because I'm inside the 'window object'.
+
+114
+00:09:50,190 --> 00:09:54,060
+So doing 'window' or doing 'this' is the same thing.
+
+115
+00:09:54,210 --> 00:09:57,170
+Now why is that important?
+
+116
+00:09:57,330 --> 00:10:04,110
+Well when we get to 'instantiation', I'll show you why it is? but it's a very important concept
+
+117
+00:10:04,110 --> 00:10:05,490
+that you'll see again and again.
+
+118
+00:10:05,550 --> 00:10:17,440
+But remember, 'this' just refers to what object it's inside of. Two more example to demonstrate 'this'.
+
+119
+00:10:17,480 --> 00:10:23,450
+One is, if I do 'function a()', withem function 'a',
+
+120
+00:10:26,240 --> 00:10:29,140
+will say 'console.log(this)'.
+
+121
+00:10:29,170 --> 00:10:30,840
+So if I call 'a', what do you think happens?
+
+122
+00:10:33,620 --> 00:10:35,660
+Let's see. still the window object 'this'
+
+123
+00:10:35,660 --> 00:10:39,280
+still refers to the function.
+
+124
+00:10:39,410 --> 00:10:47,240
+And if you remember that's because I said, it has to be what object we're inside of right now.
+
+125
+00:10:47,240 --> 00:10:47,970
+Technically function 'a'.
+
+126
+00:10:48,020 --> 00:10:52,260
+I can go 'window.a' and run the function.
+
+127
+00:10:52,520 --> 00:11:02,940
+So to the left of the dot, well that's the 'window', in order to create a new value for 'this'.
+
+128
+00:11:03,070 --> 00:11:06,450
+You have to do something like this.
+
+129
+00:11:10,430 --> 00:11:13,560
+'object', 'a' function 'a'.
+
+130
+00:11:13,580 --> 00:11:14,960
+Now if I do 'function()'
+
+131
+00:11:19,930 --> 00:11:23,240
+and within here I do a 'console.log(this)'.
+
+132
+00:11:23,230 --> 00:11:32,550
+Well, in that case, if I copy this and run 'object4.a'
+
+133
+00:11:35,600 --> 00:11:36,340
+Well,
+
+134
+00:11:36,620 --> 00:11:45,780
+Now this is the object, which is 'object4'.
+
+135
+00:11:45,850 --> 00:11:49,910
+So why is that important to us?
+
+136
+00:11:50,080 --> 00:11:54,510
+Well, first of all you'll see it in other codebases, so it's good to know.
+
+137
+00:11:54,730 --> 00:12:01,840
+But it's really important when we do 'instantiation', 'instantiation' is when you make a copy of an object
+
+138
+00:12:02,470 --> 00:12:05,320
+and reuse the code.
+
+139
+00:12:05,320 --> 00:12:11,950
+Imagine you're building a big multiplayer game online, and this game is going to have many many players
+
+140
+00:12:11,950 --> 00:12:17,170
+you can have wizards you can have trolls, warlocks, elves.
+
+141
+00:12:17,200 --> 00:12:24,130
+Now, if you had to create an object for every single player that's a lot of repeated code,
+
+142
+00:12:24,130 --> 00:12:28,040
+that's a lot of hassle and well, that's a lot of your time and it's not very efficient.
+
+143
+00:12:29,410 --> 00:12:32,320
+To solve that, you can do something called 'instantiation'.
+
+144
+00:12:32,320 --> 00:12:37,490
+You're making instances or multiple copies of an object.
+
+145
+00:12:37,510 --> 00:12:42,990
+So let me show you how we do 'instantiation' in javascript.
+
+146
+00:12:43,040 --> 00:12:49,340
+Again this is going to look, a little bit weird at first, just like 'for' loops did, just like 'functions' did
+
+147
+00:12:49,340 --> 00:12:54,000
+at the beginning, but it's just the syntax, and you'll get used to it.
+
+148
+00:12:54,380 --> 00:12:59,290
+So let's say we have a 'Player' 'class'.
+
+149
+00:12:59,430 --> 00:13:05,540
+Now you see the new syntax already, and I capitalize a 'class'.
+
+150
+00:13:05,590 --> 00:13:10,060
+Now, think of a 'class' as something that I want to make a copy of.
+
+151
+00:13:10,210 --> 00:13:18,130
+If I ever want to make a copy of an 'object', it's a good idea to do something like this, so that well, you'll
+
+152
+00:13:18,130 --> 00:13:20,060
+see how easy it is to copy this now.
+
+153
+00:13:20,070 --> 00:13:22,000
+So we do.
+
+154
+00:13:22,010 --> 00:13:23,680
+'class Player'.
+
+155
+00:13:25,650 --> 00:13:28,650
+And within here, will say 'constructor'
+
+156
+00:13:31,360 --> 00:13:35,570
+and I know this looks weird but again it's just syntax.
+
+157
+00:13:35,590 --> 00:13:45,650
+Let's give it, this 'Player' can have a 'name' and a 'type' and within the constructor 'this.name' equals
+
+158
+00:13:45,740 --> 00:13:51,350
+'name' and 'this.type' equals 'type'.
+
+159
+00:13:55,940 --> 00:13:58,150
+Oh boy! What just happened here.
+
+160
+00:13:58,160 --> 00:14:00,890
+'constructor', when you create a 'class', a 'Player', 'class' says.
+
+161
+00:14:01,190 --> 00:14:08,330
+Every time I'm making a copy of a 'Player' the first thing that gets run is the 'constructor' function and
+
+162
+00:14:08,330 --> 00:14:14,760
+this 'constructor' function is gonna create these properties on the 'Player' object.
+
+163
+00:14:14,990 --> 00:14:17,530
+So 'name' and a 'type'.
+
+164
+00:14:17,660 --> 00:14:21,500
+And now I can create anything that I want for the 'Player'.
+
+165
+00:14:21,500 --> 00:14:30,730
+Let's say, we want to create a method such as 'introduce()' that 'console.log(s)'
+
+166
+00:14:33,650 --> 00:14:42,980
+with back ticks(`), 'Hi I am' and again if you remember this syntax template strings,
+
+167
+00:14:43,420 --> 00:14:54,190
+'this.name', 'I'm a', 'this.type'. Awesome!
+
+168
+00:14:54,280 --> 00:15:02,560
+So, now I'm saying, this 'Player' class, any player that I create will always be able to introduce himself and
+
+169
+00:15:02,560 --> 00:15:07,880
+they'll also have 'this' 'name' and 'this.type'.
+
+170
+00:15:07,900 --> 00:15:14,930
+And the reason we use 'this' here is that when we create a 'Player' we can access the name and type property.
+
+171
+00:15:14,980 --> 00:15:17,090
+I'll show you later on how that works.
+
+172
+00:15:17,320 --> 00:15:24,580
+But this is just the syntax you're going to get used to. In order to access
+
+173
+00:15:24,580 --> 00:15:25,090
+the 'Player' and make copies of it.
+
+174
+00:15:25,120 --> 00:15:29,290
+You'll have to run a 'constructor' which is all the properties and methods
+
+175
+00:15:29,290 --> 00:15:29,970
+that you want the 'Player' to have.
+
+176
+00:15:30,250 --> 00:15:38,680
+You can also create methods that 'Players' can have and any time you want to access a property
+
+177
+00:15:38,680 --> 00:15:47,160
+within the 'constructor' well use 'this.name' for (if I) wanna use 'introduce' I'll have to do 'this.introduce'.
+
+178
+00:15:47,190 --> 00:15:54,030
+OK, so we have a 'Player' but when we're building our multiplayer game
+
+179
+00:15:54,030 --> 00:15:54,650
+we want to now copy this but add onto it.
+
+180
+00:15:54,750 --> 00:15:59,470
+Let's say we have what we want to create a wizard player, a player that's a wizard.
+
+181
+00:15:59,520 --> 00:16:00,570
+In that case, we would do,
+
+182
+00:16:00,570 --> 00:16:04,010
+'class Wizard' again capital letter
+
+183
+00:16:05,030 --> 00:16:10,780
+'extends' and again is just the javascript keyword 'Player'.
+
+184
+00:16:13,400 --> 00:16:14,260
+So what is this saying?
+
+185
+00:16:14,270 --> 00:16:19,340
+I'm saying, I want 'wizard' to extend whatever 'Player' has.
+
+186
+00:16:19,340 --> 00:16:26,540
+So I want to add on top of whatever 'Player' has, again because it's a 'class', I have to do a 'constructor'.
+
+187
+00:16:28,410 --> 00:16:35,700
+And this 'Wizard' is going to accept 'name' and 'type' and within here, this is the tricky part.
+
+188
+00:16:35,700 --> 00:16:45,480
+Any time we extend something we need to also call the 'constructor' function of the 'Player'.
+
+189
+00:16:45,480 --> 00:16:52,010
+We have to do something called 'super' with the properties that we want to pass to the 'constructor'.
+
+190
+00:16:52,080 --> 00:17:01,040
+In this case, 'name' and 'type', I know this is confusing, is just something you have to do,
+
+191
+00:17:01,340 --> 00:17:02,410
+whenever you 'extend' a class,
+
+192
+00:17:02,630 --> 00:17:09,450
+you want to use super's so that you essentially have access to these.
+
+193
+00:17:09,460 --> 00:17:14,440
+OK, so let's say that with the wizard, we also want to have a 'play' function.
+
+194
+00:17:14,620 --> 00:17:18,600
+And the 'play' function was just a 'console.log'.
+
+195
+00:17:19,060 --> 00:17:30,640
+'WEEEEEE I'm a', 'this' 'type' and now that we have our wizard, what's the power?
+
+196
+00:17:30,640 --> 00:17:31,340
+what's the reason that we just did this?
+
+197
+00:17:31,360 --> 00:17:37,340
+Now we can do this, instead of constantly creating 'Players' and then saying that they have their Wizards
+
+198
+00:17:37,450 --> 00:17:38,760
+and they can play.
+
+199
+00:17:38,770 --> 00:17:49,360
+Now I can say 'wizard1' equals 'new' 'Wizard' and we'll call the first wizard again.
+
+200
+00:17:49,370 --> 00:17:50,830
+We get 'name' and 'type'.
+
+201
+00:17:51,210 --> 00:17:58,220
+So we'll say 'Shelly' and she'll be a 'Healer'.
+
+202
+00:18:00,220 --> 00:18:15,990
+And if I want to create a new wizard, I'll just say 'wizard2' equals 'new' 'Wizard' 'Shawn' and he is 'Dark Magic'.
+
+203
+00:18:16,270 --> 00:18:23,120
+Ooh!, There was a lots of new syntax, so let's go through it and make sure we understand everything.
+
+204
+00:18:23,610 --> 00:18:29,010
+As we've learned, let's use console log(console.log) to really understand what we're doing.
+
+205
+00:18:29,010 --> 00:18:34,240
+I'm going to add a console log(console.log) right of the top over here.
+
+206
+00:18:36,240 --> 00:18:37,620
+And will say 'this'.
+
+207
+00:18:37,640 --> 00:18:38,730
+What is 'this'.
+
+208
+00:18:39,950 --> 00:18:46,950
+I'm going to save, and actually I'm going to copy this into the console.
+
+209
+00:18:47,150 --> 00:18:48,010
+Let's copy it.
+
+210
+00:18:49,100 --> 00:18:51,570
+And see what the console log gives us?
+
+211
+00:18:51,570 --> 00:18:54,430
+We see that we get 'Wizard'.
+
+212
+00:18:54,530 --> 00:18:56,220
+All right, let's go through everything here.
+
+213
+00:18:57,580 --> 00:19:02,440
+I say, we have a 'class Player' then a 'class Wizard' that extends 'Player'.
+
+214
+00:19:02,830 --> 00:19:07,440
+And then we have two variables that we created 'wizard1' and 'Wizard2'.
+
+215
+00:19:07,480 --> 00:19:14,350
+Now the program's going to see the 'new' keyword and any time it sees a 'new' keyword it says, oh! we're
+
+216
+00:19:14,350 --> 00:19:23,810
+creating a new 'Wizard' and this 'Wizard' is going to have two parameters 'Shelly' and 'Healer'.
+
+217
+00:19:23,860 --> 00:19:30,280
+So it's going to go to the 'Wizard' class again because it has this 'new' word.
+
+218
+00:19:30,310 --> 00:19:38,740
+He goes to the 'Wizard' class and it says, hey! 'Wizard' I want you to extend 'Player'.
+
+219
+00:19:38,900 --> 00:19:47,990
+So it's going to go to the 'constructor', and it's gonna see this 'super' and what this does, is it takes
+
+220
+00:19:47,990 --> 00:19:51,570
+us up to the 'constructor' of the 'Player'.
+
+221
+00:19:51,800 --> 00:20:02,510
+And it runs this, and now it attaches 'this' as the 'Wizard' and then it introduces the 'new' function and then
+
+222
+00:20:02,540 --> 00:20:03,920
+adds the 'play' function.
+
+223
+00:20:03,920 --> 00:20:16,550
+Now, if I go to 'wizard1' and I say 'play', I get 'WEEEEEEE I'm a healer', because Shelly is a healer.
+
+224
+00:20:16,760 --> 00:20:25,800
+But I also have access to 'wizard1.introduce', 'Hi I am Shelly, I'm a healer'.
+
+225
+00:20:27,220 --> 00:20:34,580
+And, we also have access to 'wizard2', Uh! I have to run this again.
+
+226
+00:20:34,720 --> 00:20:35,950
+Let's run this again.
+
+227
+00:20:38,970 --> 00:20:42,680
+And I don't think I copied the second 'wizard' last time.
+
+228
+00:20:42,810 --> 00:20:47,370
+So now I have 'wizard2. introduce'.
+
+229
+00:20:47,380 --> 00:20:48,780
+'Hi I'm Sean',
+
+230
+00:20:49,260 --> 00:20:50,890
+'I'm a dark magic'.
+
+231
+00:20:50,920 --> 00:20:54,480
+That sentence doesn't make sense Sean but that's OK for now.
+
+232
+00:20:54,970 --> 00:20:57,250
+Let's just try something.
+
+233
+00:20:57,250 --> 00:20:58,610
+If I do 'console log'
+
+234
+00:21:01,320 --> 00:21:02,500
+here.
+
+235
+00:21:02,740 --> 00:21:05,520
+And we'll just say 'wizard'
+
+236
+00:21:08,190 --> 00:21:11,190
+and here will say 'player', just so we can distinguish between them.
+
+237
+00:21:12,710 --> 00:21:19,820
+And I'm only going to copy the first wizard so that we don't get two of these running, again because
+
+238
+00:21:19,820 --> 00:21:25,760
+we're creating two 'wizards', we're going to have this run twice. But just for our sanity, we'll run.
+
+239
+00:21:25,820 --> 00:21:32,090
+'Shelly'. So I'm going to refresh and add here. Ooh!I forgot to add a comma
+
+240
+00:21:35,320 --> 00:21:43,690
+and let's refresh, and I get an error, 'Reference Error', 
+
+241
+00:21:43,690 --> 00:21:45,040
+'Must call super constructor and derived class before accessing 'this''.
+
+242
+00:21:45,520 --> 00:21:54,430
+What that's saying is, that in order for me to access 'this' and get 'this.type', I have to call 'super' which
+
+243
+00:21:54,880 --> 00:21:57,720
+runs a 'constructor' function and 'player'.
+
+244
+00:21:57,730 --> 00:21:59,260
+So that's what 'super' is doing.
+
+245
+00:21:59,260 --> 00:22:05,080
+It sounds kind of weird but it just something that you need. I'm gonna just put this at the bottom after we call
+
+246
+00:22:05,080 --> 00:22:08,830
+'super' and now it should work.
+
+247
+00:22:08,830 --> 00:22:09,190
+Let's see
+
+248
+00:22:14,230 --> 00:22:18,810
+I get, the first 'player' 'wizard'.
+
+249
+00:22:19,220 --> 00:22:24,660
+So we call 'super' as soon as we say 'new wizard', 'Shelly, Healer'.
+
+250
+00:22:24,930 --> 00:22:32,400
+I go to the 'wizard' extends 'Player',  I run the 'constructor' function which says 'super', hey! run the
+
+251
+00:22:32,400 --> 00:22:35,280
+'constructor' function and the 'player' and I run that.
+
+252
+00:22:35,400 --> 00:22:44,570
+And that's why we log 'console log player' first and then we go to 'console.log' 'wizard' and then run
+
+253
+00:22:44,570 --> 00:22:46,530
+the rest of the class.
+
+254
+00:22:46,550 --> 00:22:48,180
+Very cool!.
+
+255
+00:22:48,390 --> 00:22:50,730
+Now just to show you something.
+
+256
+00:22:50,760 --> 00:22:57,950
+This is actually new syntax that you'll see and 'react' and it was part of ES6.
+
+257
+00:22:57,960 --> 00:23:07,090
+But back in the day, this is how we used to do it. The exact same code I have up there
+
+258
+00:23:11,630 --> 00:23:20,060
+is right here it's called classical inheritance and it doesn't look too too bad but you see that there's
+
+259
+00:23:20,520 --> 00:23:26,250
+prototype which it's another thing that you'll see in javascript and to be honest with you,
+
+260
+00:23:26,250 --> 00:23:27,000
+you shouldn't really use it.
+
+261
+00:23:27,000 --> 00:23:34,320
+It doesn't look very nice and you see that we have to attach 'play' to both 'wizard1' and 'wizard2' and
+
+262
+00:23:35,650 --> 00:23:39,210
+it just doesn't look as nice as this.
+
+263
+00:23:39,340 --> 00:23:41,950
+And once you get used to everything.
+
+264
+00:23:42,160 --> 00:23:43,820
+It's not too bad.
+
+265
+00:23:43,840 --> 00:23:49,600
+All we're saying is, as soon as we say 'class', we say,
+
+266
+00:23:49,600 --> 00:23:51,060
+hey! we're probably going to make a copy of this object.
+
+267
+00:23:51,270 --> 00:23:56,820
+So we want to make copies of player, we want to make copies of 'wizard' and that's called 'instantiation'.
+
+268
+00:23:56,820 --> 00:24:06,020
+When I do the 'new' keyword, I say make an instance of 'wizard' and 'wizard' uses some functionality from
+
+269
+00:24:06,020 --> 00:24:11,270
+the player and adds its own little 'play' function as well.
+
+270
+00:24:11,270 --> 00:24:18,770
+Holy moly, that was a lot, like I said, this is something that you'll have to come back to and you won't
+
+271
+00:24:18,770 --> 00:24:19,940
+get it right away.
+
+272
+00:24:19,940 --> 00:24:26,380
+It's really really hard to fully understand the topic without actually having to use it in real life.
+
+273
+00:24:26,420 --> 00:24:32,900
+Just keep this in mind, every time you hear somebody talk about 'reference type' or 'context' or even 'scope'
+
+274
+00:24:33,290 --> 00:24:35,780
+or 'instantiating' something.
+
+275
+00:24:35,840 --> 00:24:38,790
+Well, these are the things that they're talking about.
+
+276
+00:24:39,020 --> 00:24:40,980
+'Objects' are really really complicated.
+
+277
+00:24:41,000 --> 00:24:42,570
+They're really hard.
+
+278
+00:24:42,680 --> 00:24:47,040
+But with that, it gives us a lot of power.
+
+279
+00:24:47,050 --> 00:24:51,280
+So with that, good luck with the exercises, I'll see you in the next one. Buh-bye.
+

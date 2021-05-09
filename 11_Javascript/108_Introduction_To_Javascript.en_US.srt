@@ -1,0 +1,92 @@
+1
+00:00:00,360 --> 00:00:01,390
+Welcome back.
+
+2
+00:00:01,680 --> 00:00:05,570
+We're about to take the biggest step in our developer careers now.
+
+3
+00:00:06,150 --> 00:00:08,200
+This is by far my favorite thing to teach.
+
+4
+00:00:08,370 --> 00:00:10,100
+And I cannot wait to get started.
+
+5
+00:00:10,200 --> 00:00:17,850
+But before I do I want you to know one thing: When I first started learning JavaScript it was the hardest
+
+6
+00:00:17,850 --> 00:00:18,850
+thing to get.
+
+7
+00:00:19,290 --> 00:00:25,650
+I remember feeling confused and frustrated along the way and to be honest if this is your first time
+
+8
+00:00:25,650 --> 00:00:29,460
+learning a programming language you'll have those moments.
+
+9
+00:00:29,490 --> 00:00:35,850
+I'm here to tell you to stick through it. Just like learning any language; with enough time in practice,
+
+10
+00:00:36,000 --> 00:00:38,720
+you can become fluent.
+
+11
+00:00:38,730 --> 00:00:44,610
+Now unlike human language though, you don't have to remember as many words, and sentence structure. So you
+
+12
+00:00:44,610 --> 00:00:47,030
+will get there I promise you this.
+
+13
+00:00:47,070 --> 00:00:53,420
+Now don't just watch the videos in this section and fly through the content. Really work on the exercises
+
+14
+00:00:53,520 --> 00:00:58,840
+I give you at the end of the videos and make sure you understand each topic.
+
+15
+00:00:58,970 --> 00:01:03,460
+Finally, this section will teach you the basics of JavaScript.
+
+16
+00:01:03,470 --> 00:01:10,970
+It all seems very strange and detached sometimes from HTML on CSS - as a matter of fact we won't be touching
+
+17
+00:01:10,970 --> 00:01:13,220
+HTML and CSS very much.
+
+18
+00:01:13,220 --> 00:01:20,000
+However, in the next section I will show you how our new found knowledge of JavaScript can now be connected
+
+19
+00:01:20,390 --> 00:01:23,850
+to our HTML and CSS websites.
+
+20
+00:01:23,860 --> 00:01:26,180
+This is when the real magic happens.
+
+21
+00:01:26,290 --> 00:01:29,110
+So stay strong, stay determined.
+
+22
+00:01:29,320 --> 00:01:31,870
+You'll get there in due time.
+
+23
+00:01:32,000 --> 00:01:35,240
+Let's get started, shall we? See you in the next one. Bye-bye
+

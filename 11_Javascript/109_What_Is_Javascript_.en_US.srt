@@ -1,0 +1,308 @@
+1
+00:00:00,740 --> 00:00:09,690
+Welcome back. JavaScript was created in 1995 buy the Netscape web browser right over here. It was a way
+
+2
+00:00:10,080 --> 00:00:17,490
+for them to be able to add actions to websites. Think of JavaScript as the verb in anything you do on
+
+3
+00:00:17,490 --> 00:00:24,670
+a website. You tweet, you play a YouTube video, you sign up for a user name.
+
+4
+00:00:24,690 --> 00:00:30,150
+These are all actions we take on websites made possible through JavaScript.
+
+5
+00:00:30,150 --> 00:00:36,870
+In 1995 it was a way for this browser, Netscape, to beat the competition which were other browsers at
+
+6
+00:00:36,870 --> 00:00:40,710
+the time, because at the time Netscape was the most popular.
+
+7
+00:00:40,980 --> 00:00:45,690
+Other browsers started adopting their own version of JavaScript, so that websites were work on their
+
+8
+00:00:45,690 --> 00:00:51,490
+browsers as well and thus less people switch over to their browsers.
+
+9
+00:00:51,490 --> 00:00:53,360
+Can you guess what happened next?
+
+10
+00:00:53,620 --> 00:00:58,290
+Well, every browser had their own idea of what JavaScript was.
+
+11
+00:00:58,360 --> 00:01:00,090
+So there was no standard.
+
+12
+00:01:00,310 --> 00:01:08,370
+Eventually a standard had to be created to make sure that everyone had the same idea what JavaScript was.
+
+13
+00:01:08,410 --> 00:01:14,320
+So that web developers can build one website and have it work on all browsers.
+
+14
+00:01:14,320 --> 00:01:16,290
+This standard was called ECMAScript.
+
+15
+00:01:16,300 --> 00:01:23,650
+So yes, JavaScript and ECMAScript can be used interchangeably and you will hear both of these a lot.
+
+16
+00:01:23,920 --> 00:01:26,790
+But it's the same language. Now
+
+17
+00:01:27,010 --> 00:01:33,830
+this browser compatibility issue - browsers having their own teams, their own schedule and their own code.
+
+18
+00:01:33,850 --> 00:01:35,810
+Sound familiar?
+
+19
+00:01:35,850 --> 00:01:41,950
+Yep! If you remember, it's the same thing that happened with HTML and CSS.
+
+20
+00:01:42,030 --> 00:01:44,190
+It's the same issue that we keep having
+
+21
+00:01:44,200 --> 00:01:45,610
+over and over.
+
+22
+00:01:45,940 --> 00:01:49,620
+We covered this topic in 'Web Developer Fundamentals Part 2'.
+
+23
+00:01:49,770 --> 00:01:53,790
+You see, it's always a big problem:
+
+24
+00:01:53,850 --> 00:01:58,660
+Make sure that all browsers have the same understanding of what (a) real
+
+25
+00:01:58,680 --> 00:02:06,720
+HTML, CSSA and JavaScript should be. So that when we send each one of those files, we don't have to
+
+26
+00:02:06,720 --> 00:02:14,600
+write one specific for each browser and just like HTML and CSS, JavaScript is evolving.
+
+27
+00:02:14,750 --> 00:02:21,770
+So there are new things that we can do now, that you weren't able to do in 1995 with JavaScript. In the
+
+28
+00:02:21,880 --> 00:02:28,900
+'ES6' video section later on in the course we will talk about these new features, so don't worry.
+
+29
+00:02:29,050 --> 00:02:32,430
+Now let's take a look at what JavaScript does.
+
+30
+00:02:32,470 --> 00:02:37,270
+We can open up the browser and I have 'Udemy' over here.
+
+31
+00:02:37,730 --> 00:02:40,300
+Well 'Udemy' uses a lot of JavaScript.
+
+32
+00:02:40,310 --> 00:02:46,930
+I mean, clicking on a course, adding it to cart, liking the post.
+
+33
+00:02:47,320 --> 00:02:48,570
+All these things.
+
+34
+00:02:48,680 --> 00:02:55,940
+Well, they're all JavaScript. Even if you open categories over here, you see this dropdown and I can select
+
+35
+00:02:55,940 --> 00:03:00,400
+things and there's actions, constantly happening throughout the website.
+
+36
+00:03:00,710 --> 00:03:07,990
+That's all JavaScript. But it's not just the Web, that use JavaScript on. Instagram?
+
+37
+00:03:08,060 --> 00:03:11,840
+Well Instagram uses JavaScript.
+
+38
+00:03:11,870 --> 00:03:13,250
+What about something else?
+
+39
+00:03:13,250 --> 00:03:16,280
+Maybe, virtual reality?
+
+40
+00:03:16,300 --> 00:03:16,630
+Yeah.
+
+41
+00:03:16,780 --> 00:03:17,620
+You can do that too.
+
+42
+00:03:17,620 --> 00:03:20,590
+You can do 'VR', 'VR games',
+
+43
+00:03:20,590 --> 00:03:26,030
+'VR apps' with JavaScript. That's, that's pretty cool.
+
+44
+00:03:26,030 --> 00:03:27,520
+What else can JavaScript do?
+
+45
+00:03:27,620 --> 00:03:35,730
+Well, you can actually program drones with JavaScript and control them from your Wii remote if you wanted
+
+46
+00:03:35,730 --> 00:03:36,160
+to.
+
+47
+00:03:37,410 --> 00:03:39,260
+What about robotics?
+
+48
+00:03:39,270 --> 00:03:42,170
+Yeah, this guy built a robot.
+
+49
+00:03:43,830 --> 00:03:47,120
+That he can control from his web browser.
+
+50
+00:03:48,950 --> 00:03:49,980
+How cool is that.
+
+51
+00:03:51,830 --> 00:03:53,600
+Now remember Node.js?
+
+52
+00:03:54,530 --> 00:03:59,850
+We talked about this slide at the beginning of the course and how we're going to learn these topics.
+
+53
+00:03:59,850 --> 00:04:03,600
+Well, some of this is able to be done because of it.
+
+54
+00:04:03,950 --> 00:04:07,820
+But Node.js is pretty much JavaScript, it is JavaScript.
+
+55
+00:04:07,820 --> 00:04:09,710
+So you learn JavaScript.
+
+56
+00:04:09,710 --> 00:04:15,380
+You can pick up backend stuff very easily and the 'Node.js' section of this course will be a breeze.
+
+57
+00:04:15,380 --> 00:04:16,720
+It's not a new language
+
+58
+00:04:16,760 --> 00:04:17,760
+that you'll learn.
+
+59
+00:04:18,140 --> 00:04:19,600
+So is Express.
+
+60
+00:04:19,790 --> 00:04:21,480
+So is React.
+
+61
+00:04:21,530 --> 00:04:24,200
+So this is why JavaScript is so important.
+
+62
+00:04:24,260 --> 00:04:28,410
+What we will learn here will take you very far in the rest of your career.
+
+63
+00:04:28,430 --> 00:04:32,270
+This is one skill that really opens up a lot of possibilities.
+
+64
+00:04:33,610 --> 00:04:39,250
+Here's the beauty of JavaScript though and any other programming languages, because what is JavaScript
+
+65
+00:04:39,250 --> 00:04:46,800
+really? It's, it's a file, a father who can write instructions to a computer.
+
+66
+00:04:47,010 --> 00:04:50,580
+In the example of a robot arm all you had to do is write.
+
+67
+00:04:50,620 --> 00:04:54,610
+If I press this button - move arm to the right, if I press this button -
+
+68
+00:04:54,760 --> 00:04:56,100
+move arm to the left.
+
+69
+00:04:57,030 --> 00:05:03,150
+It all looks extremely complicated, but as you will see, no matter how complex the program, let's say an
+
+70
+00:05:03,150 --> 00:05:05,830
+online game like 'World of Warcraft',
+
+71
+00:05:05,960 --> 00:05:08,840
+well, everything is built one block at a time.
+
+72
+00:05:08,850 --> 00:05:15,720
+One simple logic at a time. In the next section we're going to start writing our first JavaScript in
+
+73
+00:05:15,720 --> 00:05:17,860
+our first simple pieces of logic.
+
+74
+00:05:18,180 --> 00:05:20,820
+Don't let it fool you though. Although it may look simple.
+
+75
+00:05:20,820 --> 00:05:27,730
+These are the building blocks that allow you to build big web apps like Facebook or Google. Exciting
+
+76
+00:05:27,730 --> 00:05:29,910
+things are going to happen with your newfound power.
+
+77
+00:05:30,160 --> 00:05:33,310
+So I'll see you in the next one. Bye-bye
+

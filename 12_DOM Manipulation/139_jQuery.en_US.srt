@@ -1,0 +1,340 @@
+1
+00:00:00,510 --> 00:00:07,440
+When I teach students for the first time DOM manipulation and events it's always overwhelming.
+
+2
+00:00:07,440 --> 00:00:10,230
+It takes a few tries to really get it.
+
+3
+00:00:10,320 --> 00:00:16,620
+And one thing you may have noticed in the previous videos is that there were a lot of methods that you
+
+4
+00:00:16,620 --> 00:00:23,990
+learned and the Dom has a lot of them but you constantly have to check and see if it was compatible
+
+5
+00:00:23,990 --> 00:00:26,450
+with the browsers to make sure it works.
+
+6
+00:00:26,450 --> 00:00:33,860
+So we used websites like can I use dot com to constantly check that we can use those properties.
+
+7
+00:00:33,860 --> 00:00:37,000
+It was a tedious process a few years ago.
+
+8
+00:00:37,010 --> 00:00:43,320
+The support for the selectors and DOM manipulation techniques were even worse.
+
+9
+00:00:43,400 --> 00:00:51,540
+For example query selector now is all good but a few years ago only a few browsers have them.
+
+10
+00:00:51,560 --> 00:00:56,510
+So what did people do if it was even worse than it is now.
+
+11
+00:00:56,970 --> 00:01:01,280
+Well there was a library that was created that solved this huge problem.
+
+12
+00:01:02,600 --> 00:01:05,000
+And that was jQuery.
+
+13
+00:01:05,060 --> 00:01:07,230
+You might have heard of it.
+
+14
+00:01:07,290 --> 00:01:16,200
+It's one of the most popular libraries for JavaScript. In 2006 J.A.G. was introduced to the Web development
+
+15
+00:01:16,200 --> 00:01:17,010
+world.
+
+16
+00:01:17,040 --> 00:01:23,970
+It was a library which means it's just JavaScript a JavaScript file run by a few people that added a
+
+17
+00:01:23,970 --> 00:01:27,660
+little bit more to the language so you can do more things.
+
+18
+00:01:27,680 --> 00:01:31,140
+You had more properties more functions.
+
+19
+00:01:31,140 --> 00:01:37,730
+Its main goal was to make DOM manipulation easier and compatible with all browsers.
+
+20
+00:01:37,960 --> 00:01:41,820
+So they took care of the hard work and browser compatibility issues.
+
+21
+00:01:41,830 --> 00:01:42,860
+Isn't that nice of them?
+
+22
+00:01:43,940 --> 00:01:49,940
+Let's check this W3C example of jQuery.
+
+23
+00:01:50,080 --> 00:01:59,860
+You can see over here that they're loading a script tag with a CDN that is pointed at a jQuery minified
+
+24
+00:02:00,070 --> 00:02:05,860
+JavaScript and jQuery is just this snippet of code.
+
+25
+00:02:05,970 --> 00:02:16,180
+It always has the dollar sign document dot ready which means, when the document the DOM object is ready
+
+26
+00:02:16,230 --> 00:02:20,080
+run this function and inside of it you are write all this
+
+27
+00:02:20,100 --> 00:02:20,940
+jQuery.
+
+28
+00:02:21,150 --> 00:02:24,420
+So in this case you can see that we want to select P.
+
+29
+00:02:24,420 --> 00:02:30,800
+This was a jQuery specific syntax and on click run this function.
+
+30
+00:02:31,020 --> 00:02:34,940
+So it was the exact same thing as when we did p
+
+31
+00:02:34,950 --> 00:02:44,340
+Dot addEventListener and then we would do click and then do some sort of a function.
+
+32
+00:02:44,560 --> 00:02:51,610
+So you can see it made things a little bit cleaner to do and you can do things like this dot hide.
+
+33
+00:02:51,690 --> 00:02:54,630
+So if I click over here it hides.
+
+34
+00:02:54,780 --> 00:02:57,150
+It hides it hides.
+
+35
+00:02:57,210 --> 00:02:58,360
+That's pretty nice.
+
+36
+00:02:58,770 --> 00:03:01,960
+But jQuery had a one issue.
+
+37
+00:03:02,110 --> 00:03:04,690
+It made the code very imperative.
+
+38
+00:03:04,810 --> 00:03:06,600
+And what does that mean?
+
+39
+00:03:06,700 --> 00:03:09,670
+It's a word you're going to hear a lot when you become a developer.
+
+40
+00:03:09,760 --> 00:03:13,560
+It means that you have to tell the program exactly what to do.
+
+41
+00:03:13,720 --> 00:03:21,160
+One by one this may not seem like a bad idea but when your websites get big and complicated it creates
+
+42
+00:03:21,160 --> 00:03:22,550
+a huge mess.
+
+43
+00:03:23,150 --> 00:03:30,140
+One action is dependent on one action which is dependent on another action which is dependent on another
+
+44
+00:03:30,140 --> 00:03:30,830
+action.
+
+45
+00:03:30,860 --> 00:03:33,730
+Now you lose track of what is happening.
+
+46
+00:03:34,570 --> 00:03:40,420
+More errors and more bugs into your codebase and it becomes really really complicated.
+
+47
+00:03:40,420 --> 00:03:41,490
+Let me show you an example.
+
+48
+00:03:42,970 --> 00:03:50,320
+We have a simple jQuery code here where we say again document ready function and then we're selecting
+
+49
+00:03:51,070 --> 00:03:54,990
+article left section when the click happens.
+
+50
+00:03:55,000 --> 00:04:03,770
+Then we check this has a class and we remove class and I mean this doesn't look that bad.
+
+51
+00:04:04,660 --> 00:04:12,100
+But it got to a point where you had code like this called pyramid of Doom where if this happens you
+
+52
+00:04:12,100 --> 00:04:17,680
+do this and if this happens you do this and if this happens you do this and you can imagine if there
+
+53
+00:04:17,680 --> 00:04:24,130
+was another thing that was listening to another event that might have unexpected consequences because
+
+54
+00:04:24,250 --> 00:04:29,760
+this is running and the user is at the same time interacting with the website.
+
+55
+00:04:29,830 --> 00:04:36,910
+And you can see here how much of a mess it is I mean this is this is just an example but you can see
+
+56
+00:04:37,150 --> 00:04:38,850
+that it's very imperative.
+
+57
+00:04:38,860 --> 00:04:45,940
+This happens and do this and within it if that happens then do this and so on and so forth.
+
+58
+00:04:46,210 --> 00:04:49,520
+It creates a big mess when you have big websites.
+
+59
+00:04:49,620 --> 00:04:55,810
+jQuery was great at the time he made JavaScript really popular because it was finally easy to make interactive
+
+60
+00:04:55,840 --> 00:04:58,140
+websites and it did a lot of great things for the industry.
+
+61
+00:04:58,140 --> 00:05:03,380
+However as time progressed people found new and better ways to do things.
+
+62
+00:05:03,550 --> 00:05:08,450
+Web browsers adapted new things like querySelector.
+
+63
+00:05:08,740 --> 00:05:19,330
+And we even have a website now that compares what you can do with simple JavaScript and HTML and what
+
+64
+00:05:19,570 --> 00:05:23,860
+you can do with jQuery and most of the things you can do both.
+
+65
+00:05:23,860 --> 00:05:29,850
+And it's not that different as time progressed people found new and better ways to do things.
+
+66
+00:05:30,730 --> 00:05:36,070
+You still have jQuery being used today but there are fewer and fewer people starting projects that
+
+67
+00:05:36,070 --> 00:05:38,010
+are using jQuery right now.
+
+68
+00:05:38,200 --> 00:05:43,300
+As a matter of fact the number of job postings with jQuery as a requirement has really gone down
+
+69
+00:05:43,300 --> 00:05:50,130
+and there's rather a negative view of developers who only know jQuery this is not to bash a library.
+
+70
+00:05:50,130 --> 00:05:52,380
+It was an important part of JavaScript growth.
+
+71
+00:05:52,740 --> 00:05:56,340
+But in 2018 it isn't that useful of a skill.
+
+72
+00:05:56,340 --> 00:06:04,150
+That is why in this course we are learning React. React is a library that solves the huge problem of
+
+73
+00:06:04,150 --> 00:06:04,960
+jQuery.
+
+74
+00:06:04,990 --> 00:06:11,650
+Instead of being imperative it's declarative. We will get into more of the benefits and what that means
+
+75
+00:06:12,130 --> 00:06:13,520
+when we get to the section.
+
+76
+00:06:13,780 --> 00:06:21,000
+But having a historical perspective of where we were and where we are now is important.
+
+77
+00:06:21,340 --> 00:06:23,130
+So remember this.
+
+78
+00:06:23,470 --> 00:06:27,760
+First we had HTML, then CSS and JavaScript.
+
+79
+00:06:28,030 --> 00:06:31,360
+Then came jQuery to make our JavaScript easier.
+
+80
+00:06:31,360 --> 00:06:36,540
+Then came more libraries that made JavaScript even more fun and easy to work with.
+
+81
+00:06:37,490 --> 00:06:42,320
+From now on we won't be using DOM manipulation techniques we have learned in this section.
+
+82
+00:06:42,320 --> 00:06:46,250
+Bummer. I know but I'll show you what we can do better.
+
+83
+00:06:46,310 --> 00:06:47,620
+So stay tuned.
+
+84
+00:06:47,620 --> 00:06:49,760
+It gets way more fun after this.
+
+85
+00:06:50,390 --> 00:06:52,280
+I'll see you in the next one. Bye bye.
+

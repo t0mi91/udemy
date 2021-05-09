@@ -1,0 +1,456 @@
+1
+00:00:00,840 --> 00:00:03,000
+And welcome back!
+
+2
+00:00:03,000 --> 00:00:10,830
+We're going to take a quick break from learning JavaScript syntax to show you how JavaScript gets implemented
+
+3
+00:00:11,190 --> 00:00:12,170
+in the browser.
+
+4
+00:00:12,450 --> 00:00:15,730
+We're going to go back to this image that we've seen many times before
+
+5
+00:00:15,780 --> 00:00:22,650
+in this course. And we have a pretty good idea of what HTML and CSS does.
+
+6
+00:00:22,650 --> 00:00:31,740
+If you remember, HTML gets sent to the browser, then it sees the 'link' tag and the CSS gets sent to
+
+7
+00:00:31,740 --> 00:00:32,570
+the browser.
+
+8
+00:00:32,670 --> 00:00:36,270
+But what about our new friend JavaScript over here?
+
+9
+00:00:36,300 --> 00:00:37,380
+What happens with him?
+
+10
+00:00:38,260 --> 00:00:43,350
+Well, in this video we're going to learn exactly that.
+
+11
+00:00:43,390 --> 00:00:49,340
+So I have over here an index.html file. I'm going to open it with Google Chrome.
+
+12
+00:00:49,450 --> 00:00:50,940
+It's completely empty now.
+
+13
+00:00:51,250 --> 00:00:57,630
+And I'm also going to drag it to my Sublime text, so that we can add something to it.
+
+14
+00:01:00,370 --> 00:01:06,790
+So I have Sublime text and the browser, and we're going to use our little short command to create a quick
+
+15
+00:01:06,790 --> 00:01:09,660
+html file - 'Javascript'.
+
+16
+00:01:09,970 --> 00:01:21,600
+And let's have just have a simple 'header' that says 'Javascript in HTML'. Save and refresh.
+
+17
+00:01:21,650 --> 00:01:22,260
+Perfect!
+
+18
+00:01:22,280 --> 00:01:23,910
+We've masters of this already.
+
+19
+00:01:23,930 --> 00:01:25,760
+We all know what's going on.
+
+20
+00:01:26,180 --> 00:01:29,830
+So how do we add JavaScript to this?
+
+21
+00:01:29,840 --> 00:01:41,620
+I mean: with CSS we had the 'link' tag, right? And we had this 'href' where we tell it where it is. Well, if
+
+22
+00:01:41,620 --> 00:01:49,910
+you remember, JavaScript again just like HTML and CSS is just a file.
+
+23
+00:01:50,050 --> 00:01:54,550
+So let's create one first. In Sublime text
+
+24
+00:01:54,550 --> 00:01:55,950
+I'm going to create a new file.
+
+25
+00:01:56,100 --> 00:02:00,170
+I'm going to save it and I'm going to say 'script.js'.
+
+26
+00:02:00,220 --> 00:02:01,160
+'script.js'.
+
+27
+00:02:01,180 --> 00:02:02,860
+See the 'dot js' at the end?
+
+28
+00:02:02,860 --> 00:02:04,550
+That means JavaScript.
+
+29
+00:02:04,660 --> 00:02:10,050
+Notice, what happens when I click 'save'. At the bottom Sublime Text
+
+30
+00:02:10,090 --> 00:02:13,780
+now converted syntax to JavaScript.
+
+31
+00:02:13,850 --> 00:02:21,440
+So now I can write something like '4+3' and I get the cool JavaScript colors as, and I can write
+
+32
+00:02:21,890 --> 00:02:35,850
+'if (4+3 === 7)', I can 'alert("You're smart!").
+
+33
+00:02:36,500 --> 00:02:38,800
+So you can see that it does the syntax for me.
+
+34
+00:02:39,870 --> 00:02:40,450
+OK.
+
+35
+00:02:40,830 --> 00:02:42,220
+Perfect.
+
+36
+00:02:42,330 --> 00:02:44,650
+Then I just save that.
+
+37
+00:02:44,760 --> 00:02:47,840
+Let's see if we can add this to ...oops.
+
+38
+00:02:47,880 --> 00:02:49,390
+I forgot the semicolon here.
+
+39
+00:02:49,410 --> 00:02:51,080
+I always forget it too.
+
+40
+00:02:51,210 --> 00:02:53,210
+Let's add this to our HTML.
+
+41
+00:02:53,430 --> 00:02:58,720
+If it works, we'll get an 'alert' saying "You're a smart!"
+
+42
+00:02:58,920 --> 00:03:00,190
+So how can we do this?
+
+43
+00:03:01,240 --> 00:03:06,780
+Well, there's a HTML tag called 'script' tag.
+
+44
+00:03:07,150 --> 00:03:15,510
+So 'link' tag - for stylesheet, 'script' tag for - JavaScript. And all we do is this:
+
+45
+00:03:15,680 --> 00:03:25,250
+We have the 'type = "text/javascript"'. You see over here how with CSS we have "text/css". Well, we're telling it
+
+46
+00:03:25,250 --> 00:03:36,380
+here that this is JavaScript. And in here JavaScript can be written right over here.
+
+47
+00:03:37,280 --> 00:03:45,150
+I go 'alert("hello")' and you might remember this because it's a kind of like the 'style' tag for CSS.
+
+48
+00:03:45,310 --> 00:03:46,400
+Let's see what happens.
+
+49
+00:03:47,380 --> 00:03:49,930
+I'm going to refresh and I get
+
+50
+00:03:50,060 --> 00:03:50,790
+'hello'.
+
+51
+00:03:51,140 --> 00:03:51,950
+Look at that!
+
+52
+00:03:51,950 --> 00:04:01,520
+We just added JavaScript to HTML. But I really want to use this file. As we know with CSS we
+
+53
+00:04:01,520 --> 00:04:06,890
+don't necessarily want our JavaScript to live on HTML, we want separation of concerns, we want the
+
+54
+00:04:06,890 --> 00:04:08,620
+JavaScript in the JavaScript file.
+
+55
+00:04:09,180 --> 00:04:14,480
+Well, the way we do that is - through a source file.
+
+56
+00:04:15,040 --> 00:04:20,830
+So all we do is - 'src'. You might remember this from images.
+
+57
+00:04:20,860 --> 00:04:27,690
+So instead of 'href' and 'link' we have 'src' and we say 'script.js'.
+
+58
+00:04:28,660 --> 00:04:34,300
+I save and I refresh. And I get "You're smart!".
+
+59
+00:04:34,310 --> 00:04:41,980
+Now again we can say 'script.js', because, well, it's in the same folder - it's in the desktop folder.
+
+60
+00:04:42,050 --> 00:04:49,130
+If it wasn't, then let's say, this HTML wasn't in the desktop folder, we'd have to do something
+
+61
+00:04:49,160 --> 00:04:51,350
+like 'desktop/script.js...'. OK.
+
+62
+00:04:59,150 --> 00:05:05,310
+So that's very interesting. What if I have multiple JavaScript files, we might have seen that
+
+63
+00:05:05,330 --> 00:05:09,440
+in... remember Bootstrap and Bootstrap we have like three 'script' tags.
+
+64
+00:05:09,810 --> 00:05:10,600
+Well, yep.
+
+65
+00:05:10,700 --> 00:05:18,020
+You can, just - just like you can with 'link', you can have multiple 'script' tags and you can just say 'script2',
+
+66
+00:05:18,050 --> 00:05:24,490
+'script3' and again, each one gets executed one at a time.
+
+67
+00:05:25,660 --> 00:05:26,320
+OK.
+
+68
+00:05:26,730 --> 00:05:36,540
+Now one question you might have is: 'Why did I just put the 'script' tag at the bottom here, at the bottom
+
+69
+00:05:36,540 --> 00:05:38,200
+of the body?'
+
+70
+00:05:38,260 --> 00:05:39,190
+Why didn't we -
+
+71
+00:05:39,220 --> 00:05:41,200
+and let me just remove this for now...
+
+72
+00:05:41,200 --> 00:05:47,550
+Why don't we just put it at the top, like we do with the CSS file?
+
+73
+00:05:47,680 --> 00:05:49,140
+Well, let me show you something.
+
+74
+00:05:49,240 --> 00:05:50,560
+Let's put it up here.
+
+75
+00:05:50,560 --> 00:05:51,690
+Let's see what happens.
+
+76
+00:05:52,000 --> 00:05:59,350
+I'm going to refresh. OK. I get "You're smart!"
+
+77
+00:05:59,390 --> 00:06:00,350
+I don't know if you saw that.
+
+78
+00:06:00,350 --> 00:06:02,030
+Did you see the JavaScript go?
+
+79
+00:06:02,180 --> 00:06:03,300
+Let's change this quickly.
+
+80
+00:06:03,320 --> 00:06:10,750
+Let's say, our website is now fresh and new and I'm going to say 'Waiting for Javascript'.
+
+81
+00:06:11,010 --> 00:06:15,080
+I'm going to save. Notice what happens to the header.
+
+82
+00:06:15,380 --> 00:06:18,970
+I refresh. It hasn't changed yet.
+
+83
+00:06:19,190 --> 00:06:22,500
+I have to click "You're smart!"
+
+84
+00:06:22,550 --> 00:06:24,600
+You see, it's completely gone.
+
+85
+00:06:24,610 --> 00:06:34,640
+Click 'OK' and only then it shows up, because the browser reads the file, goes and gets the CSS file and
+
+86
+00:06:34,640 --> 00:06:39,070
+then sees the 'script' tag and says "Oh, I'm going to go read what's over here!"
+
+87
+00:06:39,140 --> 00:06:42,770
+And here is an 'alert' and what an 'alert' does it...
+
+88
+00:06:42,830 --> 00:06:50,090
+It waits for us to click 'OK', so the browser can't display (while) waiting for JavaScript.
+
+89
+00:06:50,090 --> 00:06:56,750
+So you will see an older websites people that put the 'script' tags in here, but that actually delays what
+
+90
+00:06:56,750 --> 00:06:58,470
+gets seen by the user.
+
+91
+00:06:58,820 --> 00:07:11,270
+Instead, if we put it down here and change the text again to 'Not waiting' and a save. See what happens.
+
+92
+00:07:13,260 --> 00:07:20,440
+'Not waiting for Javascript' - that got changed. So we ideally want to put our 'script' tags at the bottom
+
+93
+00:07:20,440 --> 00:07:21,200
+of the body.
+
+94
+00:07:21,400 --> 00:07:31,270
+What that means is that the website gets displayed, gets rendered and then we have to still wait for
+
+95
+00:07:31,270 --> 00:07:34,000
+the JavaScript to load - let's say we had a cool animation.
+
+96
+00:07:34,000 --> 00:07:36,070
+I'll have to wait until that loads.
+
+97
+00:07:36,220 --> 00:07:43,090
+But to a user it appears like the website loads a lot faster because they might not click on a dropdown
+
+98
+00:07:43,090 --> 00:07:48,790
+menu, or see the animation right away and notice that there is a lag, but they will see a delay if they
+
+99
+00:07:48,790 --> 00:07:50,310
+don't see anything on the page.
+
+100
+00:07:50,350 --> 00:07:54,030
+So 'script' tags at the bottom.
+
+101
+00:07:54,110 --> 00:07:55,220
+One last thing.
+
+102
+00:07:56,370 --> 00:08:00,600
+How do we get that console to print stuff out?
+
+103
+00:08:01,440 --> 00:08:05,760
+It would be nice if, instead of alert all the time I can get something in the console.
+
+104
+00:08:05,910 --> 00:08:14,060
+Well, in JavaScript you can do something, called 'console.log'.
+
+105
+00:08:14,140 --> 00:08:18,710
+And here I can say "Helooooo".
+
+106
+00:08:18,820 --> 00:08:20,640
+So this syntax the little bit weird.
+
+107
+00:08:20,650 --> 00:08:29,580
+I'll explain later on what is going on here, but 'console.log' is a special little syntax, that we can use.
+
+108
+00:08:29,590 --> 00:08:39,420
+And now if I refresh the page, I get logging over here. So I can write as much as I want here.
+
+109
+00:08:39,430 --> 00:08:46,130
+Kind of like 'alert' but without getting that annoying pop up over and over and refresh.
+
+110
+00:08:46,310 --> 00:08:47,430
+And I get 'Hellooooo'.
+
+111
+00:08:47,480 --> 00:08:51,800
+And we'll be using 'console.log' a lot in the next couple of videos.
+
+112
+00:08:51,820 --> 00:08:59,170
+You can see here that it's a nice way for us to print something to the console, before we learn how to
+
+113
+00:08:59,530 --> 00:09:01,210
+change our HTML.
+
+114
+00:09:02,420 --> 00:09:03,380
+So I'll see in the next one. Bye-bye
+

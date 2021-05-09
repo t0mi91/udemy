@@ -1,0 +1,1192 @@
+1
+00:00:01,480 --> 00:00:08,170
+If there's one thing we have learned this entire time in this course is that there is nothing static
+
+2
+00:00:08,170 --> 00:00:17,260
+about being a web developer, improvements are constantly made all the time in ASML Success and JavaScript.
+
+3
+00:00:18,310 --> 00:00:21,250
+And even the browser's get constantly updated.
+
+4
+00:00:22,570 --> 00:00:25,180
+Libraries are also constantly being created.
+
+5
+00:00:25,420 --> 00:00:30,820
+If you remember, libraries are just pieces of code, they could be accessed, they could be HTML,
+
+6
+00:00:30,820 --> 00:00:37,120
+they could be JavaScript pieces of code written by somebody else so that we can use it so we don't have
+
+7
+00:00:37,120 --> 00:00:38,010
+to start from scratch.
+
+8
+00:00:39,950 --> 00:00:42,800
+Now it's human nature to want to constantly improve.
+
+9
+00:00:44,480 --> 00:00:50,580
+And in this video, we're going to learn the new features that everybody will be using.
+
+10
+00:00:51,320 --> 00:00:54,980
+But first, let's recap something from our previous videos.
+
+11
+00:00:56,470 --> 00:01:04,150
+If you remember, JavaScript was created by the Netscape browser and everybody else, all the other
+
+12
+00:01:04,150 --> 00:01:13,000
+browsers started using JavaScript, so Netscape submitted JavaScript to something called the FEMA International.
+
+13
+00:01:14,090 --> 00:01:20,570
+So that JavaScript could be standardized and they could say, hey, everybody use this version of JavaScript
+
+14
+00:01:20,720 --> 00:01:21,680
+on all browsers.
+
+15
+00:01:23,180 --> 00:01:25,640
+That's what ECMAScript.
+
+16
+00:01:26,700 --> 00:01:34,830
+Is ECMAScript is well, it's JavaScript, but it's just the standard way of calling it so that when
+
+17
+00:01:34,830 --> 00:01:41,820
+the browsers implement what JavaScript should do and how they read JavaScript, well, everybody agrees
+
+18
+00:01:41,820 --> 00:01:42,510
+on the standard.
+
+19
+00:01:43,540 --> 00:01:45,070
+Now, every time you see.
+
+20
+00:01:46,120 --> 00:01:50,380
+Something like this, like Essex, and you'll see that quite a lot.
+
+21
+00:01:50,840 --> 00:01:54,910
+Essex just stands for FEMA script.
+
+22
+00:01:59,080 --> 00:02:07,750
+So, yes, there was ECMAScript version one all the way through six, and we're currently it's version
+
+23
+00:02:07,750 --> 00:02:09,610
+seven, but it's still new.
+
+24
+00:02:09,610 --> 00:02:13,180
+So we're only learning version five and version six for now.
+
+25
+00:02:13,750 --> 00:02:20,140
+But version five and version six introduce some new features that are really, really powerful and make
+
+26
+00:02:20,410 --> 00:02:22,990
+coding in JavaScript really, really nice.
+
+27
+00:02:23,230 --> 00:02:29,740
+And most code bases that you'll see, we'll be using these features because they're very, very exciting
+
+28
+00:02:29,740 --> 00:02:30,580
+topic for me.
+
+29
+00:02:30,580 --> 00:02:37,660
+It's one of my favorite parts of JavaScript now, and I'm excited to show you some of these new features
+
+30
+00:02:37,660 --> 00:02:40,420
+that will make your life a whole lot easier.
+
+31
+00:02:41,170 --> 00:02:46,750
+Now, one thing you might be thinking, though, is, oh, Andre, I don't want to learn something if
+
+32
+00:02:46,750 --> 00:02:49,870
+browsers don't support them and I can't actually use them.
+
+33
+00:02:50,770 --> 00:02:55,990
+But don't worry, my friend, these are all features that are supported.
+
+34
+00:02:56,860 --> 00:02:57,470
+You know why?
+
+35
+00:02:58,150 --> 00:03:01,090
+Well, mainly because of something called Bable.
+
+36
+00:03:02,170 --> 00:03:08,590
+You see, a few years ago, Programer created Bable so that developers can start using new JavaScript
+
+37
+00:03:08,590 --> 00:03:10,300
+features as they come.
+
+38
+00:03:10,480 --> 00:03:17,050
+Remember, ECMAScript releases versions all the time now without having to wait for browsers to implement
+
+39
+00:03:17,050 --> 00:03:21,930
+these features, Bable allowed us to want to use them right away.
+
+40
+00:03:23,340 --> 00:03:25,150
+Now, how do they do that?
+
+41
+00:03:25,200 --> 00:03:25,970
+Let's have a look.
+
+42
+00:03:27,000 --> 00:03:28,830
+If I go in to try it out here.
+
+43
+00:03:30,020 --> 00:03:31,370
+You'll see that bable.
+
+44
+00:03:33,330 --> 00:03:38,340
+Shows me something I can write and we'll learn the syntax soon enough, don't worry, I can't write
+
+45
+00:03:38,340 --> 00:03:44,040
+something like this, which is the new way of writing JavaScript with ECMAScript six.
+
+46
+00:03:45,220 --> 00:03:47,770
+And it compiles.
+
+47
+00:03:48,730 --> 00:03:50,380
+Into this now, what does that mean?
+
+48
+00:03:50,590 --> 00:03:59,530
+It means that it reads a file line by line and then changes it to a version of JavaScript that all browsers
+
+49
+00:03:59,530 --> 00:04:06,880
+know, and it works on all browsers when we actually deploy our application or website, which means
+
+50
+00:04:06,880 --> 00:04:14,590
+putting it online after we're done with it, we can use Bable to say, hey, read our JavaScript file
+
+51
+00:04:14,950 --> 00:04:18,420
+and transform it into this so it works on all browsers.
+
+52
+00:04:19,360 --> 00:04:25,600
+So without even thinking about it, you can write all your code and the newest and best way of writing
+
+53
+00:04:25,600 --> 00:04:25,690
+it.
+
+54
+00:04:25,700 --> 00:04:33,400
+You can see how clean this is and BAPA will take care of changing everything for you so that browsers
+
+55
+00:04:33,400 --> 00:04:34,270
+can read it.
+
+56
+00:04:35,390 --> 00:04:40,220
+Isn't that awesome enough that let's learn some new syntaxes and don't be afraid?
+
+57
+00:04:40,250 --> 00:04:47,120
+Yes, five and six made JavaScript a whole lot easier and more fun to write from now on, will we take
+
+58
+00:04:47,120 --> 00:04:50,390
+what we learn in this video to write all our code?
+
+59
+00:04:50,390 --> 00:04:55,820
+Because it's what the industry is using right now, and this is why you will get asked during interviews.
+
+60
+00:04:56,180 --> 00:04:57,910
+So let's get started.
+
+61
+00:05:03,630 --> 00:05:07,320
+The first feature I'm going to show you is let and const.
+
+62
+00:05:08,860 --> 00:05:16,990
+These are actually very, very simple, these are new ways of declaring variables, so if you see over
+
+63
+00:05:16,990 --> 00:05:21,640
+here in our section online, you see that JavaScript Variables has now.
+
+64
+00:05:23,260 --> 00:05:25,600
+Two new ways of declaring a variable.
+
+65
+00:05:27,290 --> 00:05:32,750
+And as a matter of fact, variable that we've been using up to this point, we don't really need to
+
+66
+00:05:32,750 --> 00:05:33,700
+use it ever again.
+
+67
+00:05:34,910 --> 00:05:39,180
+We now have something called let to show you how both of these work.
+
+68
+00:05:39,650 --> 00:05:40,910
+Let's do a small example.
+
+69
+00:05:41,150 --> 00:05:46,340
+I'm going to say CONSED Player and Konstanz for constant.
+
+70
+00:05:47,920 --> 00:05:49,660
+We'll say, Bobby.
+
+71
+00:05:51,410 --> 00:05:59,420
+And we'll say let experience equals to one hundred and we'll say, let Wizzard.
+
+72
+00:06:01,240 --> 00:06:04,150
+Level equal to falls.
+
+73
+00:06:06,380 --> 00:06:08,300
+Now, if I do something like if.
+
+74
+00:06:09,940 --> 00:06:12,460
+Experience is greater than 90.
+
+75
+00:06:17,480 --> 00:06:18,500
+He calls the true.
+
+76
+00:06:20,800 --> 00:06:25,210
+OK, so these look like variables, nothing's different.
+
+77
+00:06:25,540 --> 00:06:28,680
+Let's run this through the council and see what happens.
+
+78
+00:06:30,280 --> 00:06:32,890
+OK, if I now check wizard level.
+
+79
+00:06:38,650 --> 00:06:44,440
+Fourth's, hmm, that's that's strange, right, because in the previous video where we talked about
+
+80
+00:06:44,440 --> 00:06:50,110
+the scope for had wizard level as a variable, I would have gotten through here.
+
+81
+00:06:50,320 --> 00:06:53,770
+So if this was variable and this was variable.
+
+82
+00:06:54,920 --> 00:06:57,830
+Wizard level, instead of being false, will be true.
+
+83
+00:06:58,370 --> 00:06:58,790
+Now.
+
+84
+00:06:59,980 --> 00:07:01,070
+That's confusing, right?
+
+85
+00:07:01,690 --> 00:07:04,540
+That's because it's not inside of a function.
+
+86
+00:07:04,690 --> 00:07:12,370
+This is a little bit tricky, but with variable, we only we're able to create a scope inside of a function,
+
+87
+00:07:12,730 --> 00:07:15,430
+but never if it had curly brackets.
+
+88
+00:07:15,640 --> 00:07:17,200
+But inside of if.
+
+89
+00:07:18,740 --> 00:07:19,610
+With LET.
+
+90
+00:07:21,100 --> 00:07:23,590
+When I say let and let.
+
+91
+00:07:25,290 --> 00:07:35,310
+Well, now I've created a wizard level variable inside of if so, the only way that I can access this
+
+92
+00:07:35,310 --> 00:07:41,130
+is inside the if if I do console dialogue wizard level here.
+
+93
+00:07:43,740 --> 00:07:45,990
+And console dialogue.
+
+94
+00:07:47,300 --> 00:07:52,760
+Wizard level outside and then let's put inside.
+
+95
+00:07:58,520 --> 00:07:59,690
+If I copy this.
+
+96
+00:08:04,720 --> 00:08:06,490
+I get true outside.
+
+97
+00:08:07,510 --> 00:08:16,240
+I get false because now with the lead, any time it's wrapped around a curly bracket, well, it creates
+
+98
+00:08:16,240 --> 00:08:17,560
+a new SCOP.
+
+99
+00:08:18,710 --> 00:08:22,370
+Versus with a variable, if I changes to a variable.
+
+100
+00:08:26,200 --> 00:08:28,840
+And I copy this again and refresh.
+
+101
+00:08:34,560 --> 00:08:35,880
+I get inside.
+
+102
+00:08:37,120 --> 00:08:40,050
+He calls the true and outside.
+
+103
+00:08:40,990 --> 00:08:45,470
+Equals to true, because wizard level has already been changed.
+
+104
+00:08:45,580 --> 00:08:51,400
+No new scope is created inside the curly brackets because this isn't a function.
+
+105
+00:08:52,950 --> 00:08:59,610
+Now, I know that's a really, really confusing, but the one big takeaway from this is just don't use
+
+106
+00:08:59,610 --> 00:09:00,570
+variable anymore.
+
+107
+00:09:00,570 --> 00:09:02,530
+Variable is actually quite confusing.
+
+108
+00:09:02,600 --> 00:09:07,350
+Now, think of that as the new variable.
+
+109
+00:09:07,800 --> 00:09:11,000
+So from now on, we're going to be using lot for variables.
+
+110
+00:09:11,760 --> 00:09:13,530
+But what is const?
+
+111
+00:09:14,220 --> 00:09:17,430
+Well, const is even cooler.
+
+112
+00:09:18,060 --> 00:09:18,710
+What's this?
+
+113
+00:09:19,410 --> 00:09:26,550
+If I want to change the experience level, I can say experience equals 80.
+
+114
+00:09:27,730 --> 00:09:33,490
+And now if I look at experience, well, experience equals 80, but if I want to change the player,
+
+115
+00:09:33,490 --> 00:09:35,110
+Bobby, to a new name.
+
+116
+00:09:36,690 --> 00:09:38,400
+He calls Sally.
+
+117
+00:09:39,470 --> 00:09:49,880
+I get an error assignment to constant variable, what that means is a constant you're not able to reassign
+
+118
+00:09:50,660 --> 00:09:53,570
+to the variable, so it cannot be updated.
+
+119
+00:09:53,720 --> 00:09:55,610
+Now, why would that be useful?
+
+120
+00:09:55,640 --> 00:10:01,520
+It's really, really useful because a lot of bugs happen when you're working in a team of people.
+
+121
+00:10:01,740 --> 00:10:06,500
+If you have something like a player and somebody changes the name of the player while you're working
+
+122
+00:10:06,500 --> 00:10:12,110
+on a program and you still think it's Bobbit and you keep getting errors because somebody else has touched
+
+123
+00:10:12,110 --> 00:10:12,270
+it.
+
+124
+00:10:12,440 --> 00:10:14,620
+Well, that's that's a bit of an issue, isn't it?
+
+125
+00:10:14,870 --> 00:10:22,100
+By using CONSED, you make sure that this player variable will always have the same value.
+
+126
+00:10:22,820 --> 00:10:25,190
+So this is actually very, very useful.
+
+127
+00:10:25,370 --> 00:10:32,360
+And my recommendation is that if you have anything that isn't going to change, it should be a constant.
+
+128
+00:10:32,600 --> 00:10:42,440
+So a function could be a constant because, well, if the function or if the assignment of A is not
+
+129
+00:10:42,440 --> 00:10:43,250
+going to change.
+
+130
+00:10:45,200 --> 00:10:51,590
+Then we feel a lot safer using CONSED than, let's say, LED, because we make sure that nobody assigns
+
+131
+00:10:51,710 --> 00:10:53,660
+something else to a.
+
+132
+00:10:54,910 --> 00:11:02,740
+So the rule from now on is use courts, if you're using a variable that doesn't change, most of the
+
+133
+00:11:02,740 --> 00:11:03,790
+time you'll use this.
+
+134
+00:11:04,430 --> 00:11:10,450
+And if you're using a variable that you assign something to like wizard level where it changes from
+
+135
+00:11:10,450 --> 00:11:11,290
+true to false.
+
+136
+00:11:11,290 --> 00:11:12,010
+False, true.
+
+137
+00:11:12,640 --> 00:11:13,930
+Well, then use let.
+
+138
+00:11:15,540 --> 00:11:25,050
+One thing with Consed that you have to keep in mind is that if you do, a const object equals.
+
+139
+00:11:28,780 --> 00:11:34,810
+Bobby experience one hundred and Wizzard level.
+
+140
+00:11:35,830 --> 00:11:37,280
+To false.
+
+141
+00:11:37,800 --> 00:11:39,850
+Well, if I copy this object.
+
+142
+00:11:41,190 --> 00:11:45,450
+And try to reassign this object to, let's say, a number.
+
+143
+00:11:46,640 --> 00:11:54,650
+I get an error because it's a constant, but if I try and change a property.
+
+144
+00:12:01,610 --> 00:12:03,210
+My wizard level is the true.
+
+145
+00:12:03,590 --> 00:12:14,270
+So one thing with consent is you can change the properties of the objects still you just can't reassign.
+
+146
+00:12:17,530 --> 00:12:19,420
+All right, onto more fun things.
+
+147
+00:12:22,150 --> 00:12:28,600
+Let's do the structuring and these ones that I'm going to show you are going to make your life a whole
+
+148
+00:12:28,600 --> 00:12:29,190
+lot easier.
+
+149
+00:12:30,840 --> 00:12:33,960
+Again, if we actually have our.
+
+150
+00:12:35,050 --> 00:12:44,200
+Object here, let's say that we wanted to grab these objects, so we'll have to do consed player equals
+
+151
+00:12:44,440 --> 00:12:45,820
+object player.
+
+152
+00:12:47,570 --> 00:13:01,970
+We'll do concerts, experience equals object dot experience and then let wizard level equals object
+
+153
+00:13:01,970 --> 00:13:03,620
+dot wizard level.
+
+154
+00:13:04,630 --> 00:13:10,210
+And that was a whole lot of typing to access these properties, well, with the structuring, you can
+
+155
+00:13:10,210 --> 00:13:11,680
+do this, you can say.
+
+156
+00:13:14,950 --> 00:13:17,380
+Player and experience.
+
+157
+00:13:22,380 --> 00:13:23,790
+So with this syntax.
+
+158
+00:13:24,950 --> 00:13:32,720
+It does the exact same thing as the first two lines over here, you just select the properties you want
+
+159
+00:13:32,720 --> 00:13:42,800
+from an object and now you have CONSED player and experience available to you so you can use player
+
+160
+00:13:42,800 --> 00:13:50,390
+anywhere you want in your code base and then forget we can do wizard level equals.
+
+161
+00:13:53,970 --> 00:13:55,080
+Much, much cleaner.
+
+162
+00:13:55,380 --> 00:13:58,990
+You just have to get used to it, but it's a lot nicer to look at.
+
+163
+00:13:59,330 --> 00:14:07,980
+All right, another thing, cool thing you can do with objects consed name equals John Snow.
+
+164
+00:14:09,520 --> 00:14:10,710
+We can just start a new.
+
+165
+00:14:12,020 --> 00:14:15,920
+Object here, and we can say now name.
+
+166
+00:14:19,300 --> 00:14:23,290
+Hello, and we can do Ray.
+
+167
+00:14:25,530 --> 00:14:27,270
+Smith High.
+
+168
+00:14:28,580 --> 00:14:35,660
+All right, so this is a silly object, but I wanted to show you some new ways of declaring object properties.
+
+169
+00:14:40,150 --> 00:14:49,900
+Now, in Essex, you can have instead of the old way of having just player or experience or wizard level,
+
+170
+00:14:50,080 --> 00:14:58,930
+we can have something dynamic that we can assign like John Snow, or we can do Ray plus Smith, or we
+
+171
+00:14:58,930 --> 00:15:05,710
+can do one plus two and have these dynamic property values.
+
+172
+00:15:06,280 --> 00:15:07,840
+Let me show you how they work.
+
+173
+00:15:10,780 --> 00:15:18,640
+If I access the object now, I have three equals high high and John Snow equals hello again, new ways
+
+174
+00:15:18,640 --> 00:15:25,150
+of declaring properties very useful if you need to calculate something for the property value.
+
+175
+00:15:26,160 --> 00:15:32,950
+But even cooler is being able to do something like this.
+
+176
+00:15:33,450 --> 00:15:38,280
+Imagine you had a cast a equals to Simon.
+
+177
+00:15:42,340 --> 00:15:45,310
+Can't equals to true.
+
+178
+00:15:46,730 --> 00:15:49,850
+And C is an empty object.
+
+179
+00:15:51,920 --> 00:16:02,690
+And if we wanted to add these to an object, we would have had to do A as A, B is B and C is C.
+
+180
+00:16:04,870 --> 00:16:12,070
+And sometimes you wanted the property to match the value again with the new JavaScript, if property
+
+181
+00:16:12,070 --> 00:16:22,690
+and value are the same, in that case, we can just say A, B, C, so we can remove we can remove the
+
+182
+00:16:22,690 --> 00:16:27,920
+declaration that we had with property and value if they're the same and just keep it like this.
+
+183
+00:16:28,510 --> 00:16:33,280
+Again, this is something that when we get to the Rijad section, it's going to become very, very useful.
+
+184
+00:16:34,550 --> 00:16:43,730
+All right, something even more fun, and this time it's template strengths, so template strengths.
+
+185
+00:16:44,860 --> 00:16:51,970
+Now, remember, when we have, let's say, a greeting, how knowing it was that we had to do hello?
+
+186
+00:16:54,430 --> 00:17:00,880
+Name plus, you seem to be doing.
+
+187
+00:17:04,010 --> 00:17:09,620
+Greeting and then let's say you had an exclamation mark and you also had to worry about backlash if
+
+188
+00:17:09,620 --> 00:17:13,950
+you had an apostrophe that was really tedious and annoying.
+
+189
+00:17:14,390 --> 00:17:19,190
+Now, you knew something really fun instead of doing it this way.
+
+190
+00:17:21,350 --> 00:17:30,230
+You can have greeting that equals something called template strings, and these are back sticks, so
+
+191
+00:17:30,230 --> 00:17:36,470
+the fact that this is right above your Tabqa, if you're on a Mac instead of using double quotes or
+
+192
+00:17:36,470 --> 00:17:37,250
+single quotes.
+
+193
+00:17:38,930 --> 00:17:48,680
+This means Templestowe drinks and now you can use double quotes or single quotes anywhere you want and
+
+194
+00:17:48,740 --> 00:17:55,100
+will be a string, but even cooler if you have name equals.
+
+195
+00:17:56,320 --> 00:18:03,970
+Sally and age equals 30 for pet is horse.
+
+196
+00:18:05,250 --> 00:18:07,140
+Now we can do hello.
+
+197
+00:18:09,860 --> 00:18:10,460
+Name.
+
+198
+00:18:11,120 --> 00:18:19,790
+You seem to be noticed the syntax and the coloring page, minus 10.
+
+199
+00:18:22,580 --> 00:18:24,260
+What a lovely.
+
+200
+00:18:26,610 --> 00:18:28,200
+Pat, you have.
+
+201
+00:18:31,410 --> 00:18:35,340
+So notice what we did here and I'm going to copy this just so we have it.
+
+202
+00:18:36,720 --> 00:18:41,250
+I'm going to comment this out now, if I look into the console, I'll refresh.
+
+203
+00:18:42,710 --> 00:18:51,770
+You see that now, instead of doing all that double quotes and plots and worrying about spacing within
+
+204
+00:18:52,010 --> 00:19:00,800
+these back decks, I can say a piece of string and then add dynamically by using the dollar sign, then
+
+205
+00:19:00,800 --> 00:19:03,170
+the curly brackets, a value that we want.
+
+206
+00:19:04,240 --> 00:19:08,750
+We can again do any sort of expression, so age minus 10.
+
+207
+00:19:09,400 --> 00:19:10,930
+What a lovely pair you have.
+
+208
+00:19:10,990 --> 00:19:14,500
+Let's see what happens if I do greeting best.
+
+209
+00:19:15,990 --> 00:19:17,290
+Look at that, hello, Sally.
+
+210
+00:19:17,340 --> 00:19:19,180
+You seem to be twenty four.
+
+211
+00:19:19,560 --> 00:19:21,240
+What a lovely horse you have.
+
+212
+00:19:22,590 --> 00:19:23,110
+Very cool.
+
+213
+00:19:23,310 --> 00:19:24,810
+So this is very, very useful.
+
+214
+00:19:24,840 --> 00:19:27,710
+We'll be definitely using this later on in the course.
+
+215
+00:19:28,940 --> 00:19:32,000
+Another thing I want to show you is default arguments.
+
+216
+00:19:33,460 --> 00:19:38,050
+I can do something like Great will say name equals.
+
+217
+00:19:39,290 --> 00:19:40,190
+Empty string.
+
+218
+00:19:41,600 --> 00:19:46,340
+Age equals 30 and we'll say, Pat.
+
+219
+00:19:48,570 --> 00:19:53,100
+Is cat, let's just copy what we had before.
+
+220
+00:19:54,370 --> 00:19:55,180
+With the greeting.
+
+221
+00:19:56,570 --> 00:19:57,820
+I'm going to comment this out.
+
+222
+00:20:00,610 --> 00:20:04,700
+And we'll return this so nothing's changed.
+
+223
+00:20:04,720 --> 00:20:07,300
+We just have a function that returns a greeting.
+
+224
+00:20:08,490 --> 00:20:10,950
+The only thing that's new is this.
+
+225
+00:20:12,440 --> 00:20:13,430
+Let me show you what it does.
+
+226
+00:20:14,520 --> 00:20:20,760
+If I comment this out, I copy this, put it into the console, and now I run Grete.
+
+227
+00:20:23,150 --> 00:20:23,610
+Hello.
+
+228
+00:20:23,630 --> 00:20:24,850
+You seem to be 20.
+
+229
+00:20:25,040 --> 00:20:26,600
+What a lovely cat you have.
+
+230
+00:20:28,410 --> 00:20:34,380
+Dickerson, even though our browser and let me just refresh, you know for sure that our browser has
+
+231
+00:20:34,380 --> 00:20:40,680
+no idea of what age or Pett is, but if I run this function.
+
+232
+00:20:45,100 --> 00:20:52,780
+Because of the way I made the parameters, I gave them default arguments, which says if I don't provide
+
+233
+00:20:52,780 --> 00:20:57,260
+a value for name, which I haven't, I haven't given any arguments.
+
+234
+00:20:57,730 --> 00:21:03,460
+Well, then make name empty shrink, make age 30 and make pet cat.
+
+235
+00:21:04,580 --> 00:21:15,740
+If I do now greet John 50 and we'll do monkey, now I get Hello John, you seem to be 40.
+
+236
+00:21:15,800 --> 00:21:16,880
+What a lovely monkey.
+
+237
+00:21:16,880 --> 00:21:18,200
+You have this.
+
+238
+00:21:19,550 --> 00:21:25,340
+Gets ignored because I've passed it parameters, but otherwise I can pass a default parameter so that
+
+239
+00:21:25,760 --> 00:21:30,320
+when somebody calls this function and they don't provide these arguments.
+
+240
+00:21:31,460 --> 00:21:35,750
+My function won't fail because, well, I have default arguments.
+
+241
+00:21:37,250 --> 00:21:37,750
+Very cool.
+
+242
+00:21:38,510 --> 00:21:40,550
+All right, what else do we have?
+
+243
+00:21:41,330 --> 00:21:42,440
+Let's refresh your.
+
+244
+00:21:43,630 --> 00:21:50,320
+If you remember, we had one more type to do, JavaScript types, and that is a symbol, it's actually
+
+245
+00:21:50,320 --> 00:21:55,320
+not used very often, but I wanted to show you just because well, it's a typo.
+
+246
+00:21:55,330 --> 00:21:58,090
+We want to complete the seven types of JavaScript.
+
+247
+00:21:58,990 --> 00:21:59,950
+And a symbol.
+
+248
+00:22:01,650 --> 00:22:03,750
+Is special because.
+
+249
+00:22:05,040 --> 00:22:14,460
+Five, Simbel one, I create a symbol by doing this index, and I could have a second symbol that is
+
+250
+00:22:14,910 --> 00:22:15,660
+symbol.
+
+251
+00:22:17,570 --> 00:22:21,500
+And within here, we can put anything we can put through.
+
+252
+00:22:22,930 --> 00:22:24,040
+And variable.
+
+253
+00:22:25,530 --> 00:22:37,140
+Symbol three equals symbol, and we'll say FU as well, what's so unique about symbols and we should
+
+254
+00:22:37,140 --> 00:22:38,940
+be using Polet here.
+
+255
+00:22:40,360 --> 00:22:41,470
+If I copy this.
+
+256
+00:22:43,780 --> 00:22:52,630
+And I access someone I get Simbel access to, I get food and SIM three, I get food.
+
+257
+00:22:53,650 --> 00:23:01,930
+But the unique thing is that if I do seem to equals same three.
+
+258
+00:23:03,360 --> 00:23:10,410
+I get false, even though, well, they look like they're the exact same thing and symbols are used
+
+259
+00:23:10,410 --> 00:23:17,850
+because they create these completely unique type so that you can make sure there's never going to be
+
+260
+00:23:17,850 --> 00:23:18,650
+any conflict.
+
+261
+00:23:19,530 --> 00:23:24,990
+And the symbol value is used as an indent fire, mostly for object properties.
+
+262
+00:23:25,230 --> 00:23:30,990
+It's pretty much the only purpose of that because sometimes you don't want object properties if you
+
+263
+00:23:30,990 --> 00:23:36,360
+have thousands of them to collide and be the same ones, because then you'll get bugs.
+
+264
+00:23:36,600 --> 00:23:38,220
+We won't see too much in the course.
+
+265
+00:23:38,220 --> 00:23:39,960
+You won't see it out in the wild too much.
+
+266
+00:23:39,960 --> 00:23:45,480
+But I wanted to show you it regardless because, well, we want to know all the JavaScript types.
+
+267
+00:23:47,760 --> 00:23:53,700
+All right, one last one, I know we've covered a lot, but this is the best one, and that is Arrow
+
+268
+00:23:54,090 --> 00:23:54,720
+functions.
+
+269
+00:23:56,720 --> 00:24:03,020
+Up to this point, if we wanted to do something like add, we had to do a B.
+
+270
+00:24:04,650 --> 00:24:13,860
+And we turn A plus B and you might have gotten sick and tired of constantly writing function over and
+
+271
+00:24:13,860 --> 00:24:14,820
+over and over.
+
+272
+00:24:16,000 --> 00:24:20,470
+Well, now you have our functions, so within our function, you can do.
+
+273
+00:24:30,850 --> 00:24:38,050
+So any time you see this syntax and I had to pass and be here as well, any time you see this syntax,
+
+274
+00:24:38,530 --> 00:24:40,780
+it's the same thing as saying function.
+
+275
+00:24:41,500 --> 00:24:45,450
+But now it is just the shorthand form so that you don't have to constantly write function.
+
+276
+00:24:46,210 --> 00:24:51,220
+And the beauty of it is that you could have done return.
+
+277
+00:24:53,510 --> 00:25:01,340
+And B, and that completely works, so the only difference is that we have a function expression that
+
+278
+00:25:01,340 --> 00:25:03,920
+accepts a parameter and we have this fat arrow.
+
+279
+00:25:05,100 --> 00:25:10,140
+But with an error function, if you have a single return.
+
+280
+00:25:12,720 --> 00:25:18,000
+You can just put it on one line and it assumes that you want to return this if I save this.
+
+281
+00:25:20,230 --> 00:25:21,640
+And copy it in here.
+
+282
+00:25:23,310 --> 00:25:25,260
+Oh, I don't need the syntax.
+
+283
+00:25:26,390 --> 00:25:27,890
+Let's copy that one more time.
+
+284
+00:25:29,610 --> 00:25:31,590
+Add four and two.
+
+285
+00:25:32,510 --> 00:25:37,010
+That's the first function and then the new way with the error function, add to.
+
+286
+00:25:40,470 --> 00:25:41,890
+Again, I get the same thing.
+
+287
+00:25:41,910 --> 00:25:46,560
+It returns automatically because everything well, it's on one line.
+
+288
+00:25:47,080 --> 00:25:50,700
+It looks very, very nice, a lot easier to write than the above.
+
+289
+00:25:52,030 --> 00:25:59,080
+And there you have it, I know that was a lot of information, make sure you do the exercises after
+
+290
+00:25:59,080 --> 00:26:04,450
+this video to get yourself familiar with the syntax is just new ways of doing things.
+
+291
+00:26:04,630 --> 00:26:09,130
+These are going to help you to write better, cleaner code.
+
+292
+00:26:10,120 --> 00:26:11,980
+And just to show you what we've covered.
+
+293
+00:26:12,910 --> 00:26:13,270
+Well.
+
+294
+00:26:14,220 --> 00:26:22,590
+You've managed to finish everything in the section outline from variables to conditionals to finally
+
+295
+00:26:22,830 --> 00:26:29,490
+the error function, we've covered everything that we've wanted to do for JavaScript and moving forward,
+
+296
+00:26:29,730 --> 00:26:33,780
+we're going to be using these new syntaxes to write our code.
+
+297
+00:26:36,390 --> 00:26:40,440
+I hope you're excited as I am to start using these, I'll see you in the next one.
+
+298
+00:26:41,160 --> 00:26:41,490
+Bye bye.
+

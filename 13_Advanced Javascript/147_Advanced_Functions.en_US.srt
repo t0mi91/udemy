@@ -1,0 +1,936 @@
+1
+00:00:01,300 --> 00:00:01,960
+Welcome back.
+
+2
+00:00:02,710 --> 00:00:10,690
+Now, what you'll learn in the next few videos is quite advanced, it does take some time to really
+
+3
+00:00:11,080 --> 00:00:17,150
+grasp the concepts and understand them, and the best way to do that is to do these yourselves.
+
+4
+00:00:17,590 --> 00:00:22,570
+So use these videos as a reference to come back to when you have questions.
+
+5
+00:00:22,720 --> 00:00:27,790
+I'm going to cover the main topics that you'll see out in the wild.
+
+6
+00:00:28,060 --> 00:00:31,570
+You can come back and reference these videos whenever you have questions.
+
+7
+00:00:32,980 --> 00:00:36,790
+And in this video, we're going to tackle advanced functions.
+
+8
+00:00:38,170 --> 00:00:44,410
+Now, I have a sample function for you here, but knowing what we learned about the new JavaScript syntax,
+
+9
+00:00:44,620 --> 00:00:50,050
+we're going to convert this first to how we should write JavaScript function.
+
+10
+00:00:50,080 --> 00:00:52,030
+Word is gone now.
+
+11
+00:00:52,510 --> 00:00:53,410
+We can just say.
+
+12
+00:00:54,800 --> 00:00:57,440
+Consed first equals.
+
+13
+00:01:03,230 --> 00:01:09,260
+And this error function has a greet, which can be a constant and a function.
+
+14
+00:01:10,540 --> 00:01:13,450
+Which again, can be consed second.
+
+15
+00:01:17,630 --> 00:01:19,940
+And finally, this.
+
+16
+00:01:21,320 --> 00:01:23,300
+Can be a concert as well.
+
+17
+00:01:23,630 --> 00:01:28,430
+We also learned about SCOP, an important property of function.
+
+18
+00:01:28,430 --> 00:01:31,460
+Is that the variables created inside of them?
+
+19
+00:01:32,520 --> 00:01:36,700
+Including the parameters are local to the function.
+
+20
+00:01:37,170 --> 00:01:45,990
+So that means that every time we run the first function, this block of code gets executed and the great
+
+21
+00:01:46,170 --> 00:01:49,170
+variable gets created every time.
+
+22
+00:01:49,620 --> 00:01:57,150
+Now, this is actually good for us because we make sure that if our program, every time we run first
+
+23
+00:01:57,150 --> 00:02:03,930
+remember to greet, well, it will have conflicts because it's a constant and we constantly reassign
+
+24
+00:02:03,930 --> 00:02:06,670
+the same thing to a variable that already exists.
+
+25
+00:02:07,350 --> 00:02:13,310
+So this way, within a function, we make sure that every time we run it, it's a clean slate.
+
+26
+00:02:14,040 --> 00:02:19,940
+You can name the variables however you like because there's nothing else that will collide with it.
+
+27
+00:02:20,490 --> 00:02:27,930
+Like I said, this behavior helps prevent accidental interferences between functions and as developers,
+
+28
+00:02:27,930 --> 00:02:31,470
+we want to minimize the number of bugs or errors in our code.
+
+29
+00:02:31,870 --> 00:02:38,310
+If all variables were shared by the whole program, it'd take a lot of effort to make sure no name is
+
+30
+00:02:38,310 --> 00:02:41,190
+ever used for two different purposes.
+
+31
+00:02:41,370 --> 00:02:47,740
+Imagine if grit was in another function and we had no idea and we can't use it.
+
+32
+00:02:47,760 --> 00:02:55,920
+Well, luckily, by having our own separate scope, we're able to make sure that we can use without
+
+33
+00:02:55,920 --> 00:02:57,720
+having to check the entire code base.
+
+34
+00:02:59,080 --> 00:03:05,350
+Now, by treating function local variables as existing alling within the function, the language makes
+
+35
+00:03:05,350 --> 00:03:13,810
+it possible to read and understand functions as small universes where whatever happens in that universe
+
+36
+00:03:13,810 --> 00:03:15,640
+only matters to itself.
+
+37
+00:03:17,230 --> 00:03:25,420
+But I also wanted to demonstrate an interesting concept with JavaScript, and that is closure's you
+
+38
+00:03:25,420 --> 00:03:29,870
+can think of it as this a function runs the function executed.
+
+39
+00:03:30,760 --> 00:03:32,710
+Now, it's never going to execute again.
+
+40
+00:03:33,040 --> 00:03:34,960
+Kind of like the first function.
+
+41
+00:03:34,990 --> 00:03:39,370
+We just executed it here and the result we put into new function.
+
+42
+00:03:40,790 --> 00:03:48,590
+It's going to remember that there are references to those variables alive in a memory first, however,
+
+43
+00:03:49,010 --> 00:03:50,150
+we see a problem here.
+
+44
+00:03:51,070 --> 00:03:58,690
+You see that when we load up this program on our website, the JavaScript engine will see this, I'll
+
+45
+00:03:58,690 --> 00:04:01,150
+say, OK, we have a variable first.
+
+46
+00:04:01,180 --> 00:04:02,200
+That's a function.
+
+47
+00:04:02,470 --> 00:04:02,820
+Great.
+
+48
+00:04:03,520 --> 00:04:10,930
+And then in the next line, we see, oh, we want to assign variable new function and we want to get
+
+49
+00:04:10,930 --> 00:04:12,210
+the result of first.
+
+50
+00:04:12,370 --> 00:04:17,830
+So the program runs first sees that we want to create a constant great high.
+
+51
+00:04:18,430 --> 00:04:25,390
+And then we also see that we have another function called second and we're returning that function.
+
+52
+00:04:25,930 --> 00:04:27,370
+But there is a problem here rate.
+
+53
+00:04:28,370 --> 00:04:33,350
+Second, we need to remember what greed is, although first.
+
+54
+00:04:34,430 --> 00:04:36,740
+Runs and returns second.
+
+55
+00:04:37,940 --> 00:04:44,120
+So you can think of this as once we do this, we will only have the second function.
+
+56
+00:04:47,380 --> 00:04:52,150
+Now, and I know this is this looks confusing, but just look at the highlighted here, that's what
+
+57
+00:04:52,870 --> 00:04:54,070
+calling first means.
+
+58
+00:04:54,760 --> 00:04:58,900
+But you see over here that the great variable second doesn't.
+
+59
+00:04:58,960 --> 00:05:01,960
+Well, it's not within the scope of second rate.
+
+60
+00:05:02,650 --> 00:05:12,490
+What closure's does, and this is a rule in JavaScript is that the child SCOP always has access to the
+
+61
+00:05:12,490 --> 00:05:13,480
+parent scope.
+
+62
+00:05:13,840 --> 00:05:15,610
+So it's almost as if it remembers.
+
+63
+00:05:16,180 --> 00:05:20,490
+They always remember that there's a reference to those variables a lot.
+
+64
+00:05:20,620 --> 00:05:27,820
+So inside the Web browser, the Web browser says, oh, this second function needs grid.
+
+65
+00:05:27,820 --> 00:05:28,840
+So I'm going to remember it.
+
+66
+00:05:29,270 --> 00:05:30,440
+Let me demonstrate that for you.
+
+67
+00:05:30,850 --> 00:05:32,140
+So if I do first here.
+
+68
+00:05:34,100 --> 00:05:36,950
+And I'm going to copy this into the console.
+
+69
+00:05:38,500 --> 00:05:43,750
+And now we have new function if I run new function.
+
+70
+00:05:46,080 --> 00:05:50,730
+I get high, even though first is never going to be Iran again.
+
+71
+00:05:51,990 --> 00:05:57,540
+The only thing that we have left is the second function, the Web browser remembers Grete.
+
+72
+00:05:58,690 --> 00:06:05,290
+Again, this is a confusing concept when you hear for the first time, but like I said, just remember
+
+73
+00:06:06,070 --> 00:06:06,820
+closure's.
+
+74
+00:06:07,800 --> 00:06:13,050
+Is just saying a function ran the function.
+
+75
+00:06:15,060 --> 00:06:15,870
+Executed.
+
+76
+00:06:18,610 --> 00:06:20,340
+It's never going to execute again.
+
+77
+00:06:25,480 --> 00:06:37,090
+But it's going to remember that there are references to those variables, so the child SCOP.
+
+78
+00:06:38,760 --> 00:06:43,230
+Always has access to the parents.
+
+79
+00:06:43,800 --> 00:06:52,140
+Now, you may be wondering if I did hear Consed name equals Bobby.
+
+80
+00:06:53,930 --> 00:06:58,400
+Will the first function have access to Bobby?
+
+81
+00:06:59,530 --> 00:07:00,370
+No, it wouldn't.
+
+82
+00:07:00,640 --> 00:07:05,110
+So think of it this way children always have access to their parents cope.
+
+83
+00:07:05,930 --> 00:07:06,950
+But parents go.
+
+84
+00:07:07,850 --> 00:07:09,850
+They don't have access to their children.
+
+85
+00:07:11,480 --> 00:07:14,420
+All right, let's get into a few more things.
+
+86
+00:07:15,590 --> 00:07:17,480
+Next, we're going to talk about currying.
+
+87
+00:07:19,040 --> 00:07:26,300
+And recurring is the process of converting a function that takes multiple arguments into a function
+
+88
+00:07:26,300 --> 00:07:28,650
+that takes them one at a time.
+
+89
+00:07:29,180 --> 00:07:29,880
+Let's see what I mean.
+
+90
+00:07:30,560 --> 00:07:32,530
+We have a function here.
+
+91
+00:07:32,540 --> 00:07:36,500
+We'll call it multiply and multiply.
+
+92
+00:07:36,890 --> 00:07:37,730
+It sets.
+
+93
+00:07:39,090 --> 00:07:40,590
+Two parameters.
+
+94
+00:07:42,850 --> 00:07:47,980
+And again, we're using our new functions, index will say A multiplies B.
+
+95
+00:07:50,690 --> 00:07:58,250
+Now, currying means we're changing this function to only accept one parameter at a time, so that means
+
+96
+00:07:58,250 --> 00:07:58,910
+we do.
+
+97
+00:08:00,620 --> 00:08:03,080
+Curried multiply.
+
+98
+00:08:04,350 --> 00:08:04,980
+Equals.
+
+99
+00:08:05,990 --> 00:08:07,670
+A, b.
+
+100
+00:08:11,150 --> 00:08:12,890
+A times B.
+
+101
+00:08:14,510 --> 00:08:16,970
+Whoa, whoa, whoa, whoa, what did we just do?
+
+102
+00:08:18,760 --> 00:08:23,950
+And again, this looks very confusing, but think of these arrows as functions.
+
+103
+00:08:24,460 --> 00:08:27,520
+So right now, if I do curried.
+
+104
+00:08:29,110 --> 00:08:35,500
+Multiply and I'll just say three, but let's see this in action, what happens?
+
+105
+00:08:38,410 --> 00:08:41,170
+I get a function that accepts be multiplied by.
+
+106
+00:08:41,380 --> 00:08:46,210
+So by running, this is saying that A is three.
+
+107
+00:08:48,820 --> 00:08:57,760
+And now we'll know that when you multiply a history, but because this has a function and another function,
+
+108
+00:08:57,760 --> 00:09:04,480
+so a function inside of a function, this just returns this part.
+
+109
+00:09:05,080 --> 00:09:06,340
+So it returns a function.
+
+110
+00:09:07,320 --> 00:09:08,280
+As you can see here.
+
+111
+00:09:09,410 --> 00:09:12,680
+So now, in order to make this work, let me put this back.
+
+112
+00:09:14,200 --> 00:09:18,190
+In order to make it work, we have to say curried.
+
+113
+00:09:19,850 --> 00:09:20,600
+Multiply.
+
+114
+00:09:21,850 --> 00:09:25,780
+We'll say three and then another bracket for.
+
+115
+00:09:30,830 --> 00:09:38,390
+If we look at this function compared to here, we see exactly what we did, we created a variable courage
+
+116
+00:09:38,390 --> 00:09:43,550
+multiplier that accepts a parameter.
+
+117
+00:09:43,550 --> 00:09:47,690
+So it's a function that accepts a in this case, it's three.
+
+118
+00:09:49,000 --> 00:09:58,720
+And once you call that function, once you've run it, it returns another function that accepts B and
+
+119
+00:09:58,720 --> 00:10:00,740
+that function multiplies A and B..
+
+120
+00:10:01,450 --> 00:10:04,660
+So what I'm doing here is saying create a multiplier.
+
+121
+00:10:04,690 --> 00:10:05,620
+A is three.
+
+122
+00:10:06,790 --> 00:10:10,540
+B is four and now multiply A times B.
+
+123
+00:10:12,250 --> 00:10:18,310
+And as you can see, as I said about couriering, it's the process of converting a function that takes
+
+124
+00:10:18,340 --> 00:10:24,700
+multiple arguments, like I said, into a function that takes them one at a time.
+
+125
+00:10:25,780 --> 00:10:31,750
+Now, why do we even need to do this, because now it's more extensive.
+
+126
+00:10:31,790 --> 00:10:37,240
+All I can do something like multiply by five equals.
+
+127
+00:10:39,080 --> 00:10:47,960
+And now I have this, so any time I want to multiply by five, I could just say, let me copy this.
+
+128
+00:10:49,100 --> 00:10:51,710
+Now, any time I want to multiply a number by five.
+
+129
+00:11:00,750 --> 00:11:05,670
+And now I have this function that was created that always multiply things by five.
+
+130
+00:11:06,860 --> 00:11:07,640
+Which is very cool.
+
+131
+00:11:08,330 --> 00:11:14,100
+All right, we're going to get into one more thing, and then I promise I'll make your head stop hurting.
+
+132
+00:11:15,140 --> 00:11:16,550
+It's called Campo's.
+
+133
+00:11:17,880 --> 00:11:26,250
+And Campo's is the act of putting two functions together to form a third function where the output of
+
+134
+00:11:26,250 --> 00:11:28,420
+one function is the input of the other.
+
+135
+00:11:29,400 --> 00:11:32,450
+Even me saying that, I'm like, what did I just say?
+
+136
+00:11:32,670 --> 00:11:35,910
+So let's write this down a compose.
+
+137
+00:11:40,010 --> 00:11:45,650
+Let's say f Anji parameters EFG return a function.
+
+138
+00:11:47,310 --> 00:11:53,460
+That takes parameter A. That returns a function that has.
+
+139
+00:11:54,560 --> 00:11:55,070
+This.
+
+140
+00:11:56,510 --> 00:11:57,270
+Holy moly.
+
+141
+00:11:57,590 --> 00:12:02,780
+And if you look at this and you have no idea what's going on, this is something that takes years for
+
+142
+00:12:02,780 --> 00:12:03,440
+some to get.
+
+143
+00:12:03,680 --> 00:12:05,410
+It is really, really advanced stuff.
+
+144
+00:12:05,690 --> 00:12:11,580
+But if you're able to understand the inner workings of this, you can pretty much do anything.
+
+145
+00:12:12,140 --> 00:12:14,090
+Let's let's give it a go.
+
+146
+00:12:16,120 --> 00:12:17,170
+What is happening here?
+
+147
+00:12:17,830 --> 00:12:18,190
+Well.
+
+148
+00:12:19,660 --> 00:12:26,440
+It looks like looking at F and G, it looks like F is a function because while we have the brackets,
+
+149
+00:12:26,440 --> 00:12:30,640
+it even highlighted in blue for you and G is also a function.
+
+150
+00:12:32,440 --> 00:12:40,510
+If I had a sum function that that, let's say, takes a number.
+
+151
+00:12:49,030 --> 00:12:58,450
+What we can do with Campos is I can say compose again, we have the function here some some so both
+
+152
+00:12:58,450 --> 00:13:00,670
+F and G are some.
+
+153
+00:13:02,690 --> 00:13:05,840
+And now, because it takes another bracket, I can say.
+
+154
+00:13:10,090 --> 00:13:14,800
+All right, so let's run this and then we can go step by step to show you what it does.
+
+155
+00:13:16,720 --> 00:13:19,330
+I get seven, so why is that?
+
+156
+00:13:19,780 --> 00:13:21,090
+Well, let's take it one by one.
+
+157
+00:13:22,620 --> 00:13:27,630
+If both F and G are some and A is five.
+
+158
+00:13:28,670 --> 00:13:35,450
+We look at what the function returns and because, again, we have two brackets, we're executing the
+
+159
+00:13:35,450 --> 00:13:40,730
+first part of the function which returns us another function, which is this.
+
+160
+00:13:41,330 --> 00:13:43,280
+And within it we give the A five.
+
+161
+00:13:43,760 --> 00:13:48,260
+So when this function runs, it says A is five.
+
+162
+00:13:48,530 --> 00:13:53,590
+OK, and then let's run the inner function G in this case, it's some.
+
+163
+00:13:54,230 --> 00:14:00,600
+So if you remember some is just saying give me five and then five plus one.
+
+164
+00:14:01,100 --> 00:14:04,520
+So now this changes to six.
+
+165
+00:14:05,180 --> 00:14:13,880
+And then finally the F function runs, which is again some and this says some is giving me six.
+
+166
+00:14:14,120 --> 00:14:15,380
+So six plus one.
+
+167
+00:14:16,760 --> 00:14:17,330
+Is seven.
+
+168
+00:14:18,190 --> 00:14:21,490
+And this whole thing returns seven.
+
+169
+00:14:25,510 --> 00:14:34,810
+Well, all right, that was a whole ton of stuff, but I want you to remember these three key words,
+
+170
+00:14:34,810 --> 00:14:42,340
+because when you get to advanced JavaScript functions are really, really important.
+
+171
+00:14:42,350 --> 00:14:51,070
+You'll hear words like closure's encouraging and compose a lot and you'll find tools and libraries that
+
+172
+00:14:51,070 --> 00:14:52,450
+use these heavily.
+
+173
+00:14:53,170 --> 00:14:56,370
+Now, you don't need to know the definition of them.
+
+174
+00:14:56,380 --> 00:15:00,660
+You just need to be able to read a piece of code and understand what's going on.
+
+175
+00:15:00,760 --> 00:15:09,430
+And this is why I like showing you this, although it's really advanced and very hard to to grasp by
+
+176
+00:15:09,430 --> 00:15:13,560
+understanding the step by step process of how a function works.
+
+177
+00:15:14,260 --> 00:15:20,440
+This is really useful because now when you encounter this in the wild, you'll understand how everything
+
+178
+00:15:20,680 --> 00:15:21,220
+works.
+
+179
+00:15:22,230 --> 00:15:28,380
+Now, to finish off this function section, I want to tell you the most important thing that you can
+
+180
+00:15:28,380 --> 00:15:30,630
+do as a web developer when creating code.
+
+181
+00:15:31,980 --> 00:15:37,200
+And that is the idea of avoiding side effects.
+
+182
+00:15:39,350 --> 00:15:41,300
+And functional purity.
+
+183
+00:15:42,790 --> 00:15:43,540
+What does that mean?
+
+184
+00:15:43,600 --> 00:15:47,100
+Well, let's go back to my diagram here.
+
+185
+00:15:47,380 --> 00:15:54,460
+You might remember this from the first part where we said a input is what we give, a function input
+
+186
+00:15:54,460 --> 00:15:55,060
+of some sort.
+
+187
+00:15:55,240 --> 00:15:59,320
+It could be an empty input or it could have parameters like five or ten.
+
+188
+00:15:59,620 --> 00:16:03,070
+A function does something that we define.
+
+189
+00:16:03,430 --> 00:16:04,590
+It has its own scope.
+
+190
+00:16:04,590 --> 00:16:06,450
+But remember, it's its own universe.
+
+191
+00:16:06,970 --> 00:16:09,490
+It could have a log, it could do a bunch of stuff.
+
+192
+00:16:09,790 --> 00:16:14,530
+And then it asks, am I returning anything you can?
+
+193
+00:16:15,400 --> 00:16:16,960
+This should be undefined.
+
+194
+00:16:18,460 --> 00:16:24,130
+So you can return a value or if it doesn't return anything, it just does on define.
+
+195
+00:16:25,600 --> 00:16:30,040
+Now, the two wars that I just said, side effects and functional purity.
+
+196
+00:16:31,240 --> 00:16:39,010
+Well, side effects are any of these things, any of actions that happen.
+
+197
+00:16:40,320 --> 00:16:47,730
+Inside of the function that we don't really know anything about, if it interacts or reads or writes
+
+198
+00:16:48,090 --> 00:16:55,170
+to an external variable, for example, or console logs, well, that's a side effect.
+
+199
+00:16:56,010 --> 00:17:01,260
+If we change here, a variable one equals one.
+
+200
+00:17:04,140 --> 00:17:06,930
+And then I have a function.
+
+201
+00:17:10,440 --> 00:17:12,930
+That changes a.
+
+202
+00:17:14,390 --> 00:17:21,170
+Well, that's a side effect, that's something that the functions doing to affect the outside world.
+
+203
+00:17:21,560 --> 00:17:25,070
+Remember, we want to think of functions as its own universe.
+
+204
+00:17:25,580 --> 00:17:30,370
+And if it starts affecting the outside world, I mean, it's not the end of the world.
+
+205
+00:17:30,380 --> 00:17:32,570
+We've done console long before we've done.
+
+206
+00:17:33,860 --> 00:17:34,970
+We've done this before.
+
+207
+00:17:36,040 --> 00:17:40,450
+But it is good practice to avoid these side effect.
+
+208
+00:17:41,630 --> 00:17:48,500
+And by avoiding these side effects, we have something called functional purity and functional purity.
+
+209
+00:17:49,620 --> 00:17:55,860
+Is a concept where we say in order for us to write really, really good programs, we want to avoid.
+
+210
+00:17:59,560 --> 00:18:01,090
+And we always wonder.
+
+211
+00:18:04,080 --> 00:18:06,800
+So that this and this are gone.
+
+212
+00:18:07,890 --> 00:18:11,280
+And we always return something.
+
+213
+00:18:12,850 --> 00:18:14,200
+And what's the power in this?
+
+214
+00:18:15,750 --> 00:18:17,280
+By avoiding side effects.
+
+215
+00:18:18,500 --> 00:18:29,420
+And always returning, we create something that we call deterministic and deterministic is a word that
+
+216
+00:18:29,420 --> 00:18:37,400
+you may have heard, it means that no matter what if my inputs, let's say five and 10, go through
+
+217
+00:18:37,400 --> 00:18:44,210
+this function, this little universe, the return value will be always the same.
+
+218
+00:18:45,530 --> 00:18:53,060
+Let me say that again, the input, whatever we put in the parameters, whether it's empty or it has
+
+219
+00:18:53,060 --> 00:18:55,400
+certain parameters, it always returns.
+
+220
+00:18:55,400 --> 00:18:58,790
+If we run this a thousand times, it always returns the same value.
+
+221
+00:19:00,270 --> 00:19:07,470
+That's determinism, it's a very important concept, and that's a key principle in avoiding bugs, because
+
+222
+00:19:07,650 --> 00:19:13,920
+if this function always does the same thing, well, then you know exactly what it does and you won't
+
+223
+00:19:13,920 --> 00:19:16,650
+have random errors popping out here and there.
+
+224
+00:19:17,880 --> 00:19:19,410
+That's what I want to leave you with.
+
+225
+00:19:21,620 --> 00:19:29,420
+Although this is not the law and you'll find code bases that will have a lot of side effects, there's
+
+226
+00:19:29,420 --> 00:19:34,850
+going to be a lot of things happening inside functions that maybe even affect variables that live outside
+
+227
+00:19:34,850 --> 00:19:35,510
+of a function.
+
+228
+00:19:35,850 --> 00:19:42,920
+It is really, really good practice to be a top performing developer, to have this in mind of creating
+
+229
+00:19:42,920 --> 00:19:46,540
+functions that minimize side effects.
+
+230
+00:19:47,670 --> 00:19:54,540
+And have functional purity, what we call determinism, where anything you put into the function, it
+
+231
+00:19:54,540 --> 00:19:56,460
+always returns the same thing.
+
+232
+00:19:58,300 --> 00:20:01,480
+All right, that's it for now, go try out some exercises.
+
+233
+00:20:01,810 --> 00:20:02,740
+I'll see you in the next one.
+
+234
+00:20:03,310 --> 00:20:03,640
+Bye bye.
+
